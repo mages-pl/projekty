@@ -1,0 +1,116 @@
+<html>
+
+<body>
+
+    <div style="background:yellow;">to jest div</div>
+    <div style="background:red;">to jest div</div>
+    <input type="text" class="input1" />
+    <input type="text" class="input2" />
+    <input type="text" class="input3" />
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    // Eventy 
+    window.addEventListener("load", function () {
+        alert("load");
+
+    });
+
+    document.querySelector("div").addEventListener("click", function () {
+        alert("click");
+    });
+    document.querySelector("div").addEventListener("mouseover", function () {
+        alert("hover");
+    });
+
+    document.querySelector(".input1").addEventListener("focus", function () {
+        alert("focus");
+    });
+
+    document.querySelector(".input2").addEventListener("keyup", function () {
+        alert("keyup");
+    });
+
+    document.querySelector(".input3").addEventListener("blur", function () {
+        alert("blur");
+    });
+    window.addEventListener("resize", function () {
+        alert("resize");
+    })
+    window.addEventListener("mousemove", function (e) {
+
+        var x = e.clientX;
+        var y = e.clientY;
+
+        var objekt = document.querySelector("div").innerHTML = "X:" + x + "Y:" + y;
+
+    });
+
+    /// Tablice 
+
+    var tablica1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    alert(tablica1[1]);
+
+    var tablic2 = [{
+
+        'imie': 'jeden'
+
+
+    },
+    {
+        'imie': 'bla'
+    }];
+
+    //sort()
+
+    //reverse()
+
+    // concat() 
+
+    // push()
+
+    // pop
+
+    // unshift
+
+    // shift
+
+    // Zmienne
+    alert(tablic2[1].imie);
+
+    var i = '1';
+
+    do {
+        let zmienna1 = '1';
+        var zmienna2 = '2';
+    } while (i == null)
+
+
+    alert("Pokazuje:" + zmienna2);
+
+    // Stale
+
+    const stalaWart = "blblblb";
+
+
+    //stalaWart = '1';
+
+
+    // alert(stalaWart);
+
+    // RegEX
+
+    var slowo = "blaba BlaaaBBB 123dsfds 423423";
+    var wzor = /\s/g; // g globalny
+    // /i - ingoruje wielkie / male litery
+    // /m - wyrazenia regularne dla ciagow wieloliniowych 
+    // /s	- znajduje biale znaki 
+    // /d - globalne wyszukiwanie cyfr
+
+    alert("RegEX" + slowo.match(wzor));
+
+</script>
