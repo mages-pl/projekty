@@ -2,9 +2,9 @@
 
 <body>
 
-    <div style="background:yellow;">to jest div</div>
-    <div style="background:red;">to jest div</div>
-    <input type="text" class="input1" />
+    <div style="background:yellow;font-size: 3rem;">to jest div</div>
+    <div id="costam" style="background:red;">to jest div</div>
+    <input type="text" onclik="func()" class="input1" />
     <input type="text" class="input2" />
     <input type="text" class="input3" />
 </body>
@@ -14,103 +14,167 @@
 <script type="text/javascript">
 
     // Eventy 
+
+    // O co chodzi ? 
+
+    //Obiekt.metoda("wlasnosc",funkcja() {
+    // instrukcje czyli co ma robic
+    //});
+    
+    // np.
+    // dla okna przegladarki wykryj zndarzenie load czyli załadowanie dla niego wykonaj funkcje w której
+    //  wyrzucany jest alert o nazwie load
     window.addEventListener("load", function () {
-        alert("load");
-
+        alert("load"); 
     });
 
+    // dla obiektu z selektorem div wykryj zdarzenie klik i wyrzuć alert klik 
     document.querySelector("div").addEventListener("click", function () {
-        alert("click");
-    });
-    document.querySelector("div").addEventListener("mouseover", function () {
-        alert("hover");
+      alert("click");
     });
 
+    // dla obiektu z selektorem o id="costam" wykryj zdarzenie mouseover 
+    //czyli nakierownie myszy  i wyrzuć alert hover 
+    document.querySelector("#costam").addEventListener("mouseover", function () {
+      alert("hover");
+    });
+
+    // dla obiektu z selektorem o class="input1" wykryj zdarzenie focus czyli skupienie sie na inpucie
+    // a dokladniej kiedy klikasz na inputa i widzisz ze mozesz juz cos tam do niego wpisac :)  
+    // wywoluj console log focus (to sprawdzasz w inspektorze google chrome / firefoxa)
     document.querySelector(".input1").addEventListener("focus", function () {
-        alert("focus");
+      console.log("focus");
     });
 
+    // analogicznie dla obiektu class="input2" kiedy wykryje ze piszesz w polu tekstowym wyrzuc 
+    // console log keyup
     document.querySelector(".input2").addEventListener("keyup", function () {
-        alert("keyup");
+        console.log('keyup');
     });
 
+    // kolejna sprawa podobna do focusa tylko odwrotna jak opuscisz inputa
+    // czyli jak juz nie mozesz w nim pisac to wywoluje zdarzenie 
+    // alert blur
     document.querySelector(".input3").addEventListener("blur", function () {
         alert("blur");
     });
+
+    // dla okna przegladarki wykryj przeskalowanie jak przeskaluje to alertuj o tym ze to wykrylo 
     window.addEventListener("resize", function () {
-        alert("resize");
+       //  alert("resize");
     })
+
+    // analogicznie dla okna jestli wykryje przesuniecie kursora
     window.addEventListener("mousemove", function (e) {
 
+     // tworzymy zmienna x ktora przechowuje wartosc pozycji x kursora
         var x = e.clientX;
+        // tworzymy zmienna y ktora przechowuje wartosc pozycji y kursora
         var y = e.clientY;
+
+    //  dla obiektu o selektorz div wrzucamy w niego wartosci zmiennych x i y i to sie potem wyswietla na ekranie 
 
         var objekt = document.querySelector("div").innerHTML = "X:" + x + "Y:" + y;
 
     });
 
     /// Tablice 
+    // Krotko mowiac jest to zbior uporzadkowanych elementow 
+    // do tablicy odwolujemy sie za pomoca kluczy (INDEKSOW) aby wyciagnac okreslona wartosc 
 
-    var tablica1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var tablica1 = ["fsdfsdfs", 2, "12334", 4, 5, 6, 7, 8, 9];
+    // np. z tej tablicy aby wyciagnac liczbe 2 bierzemy 
+    alert(tablica1[1]); 
+    // dlaczego 1? bo do elementow w tablicy odwolujemy sie odpowiednio tablica1[0] tablica1[1] tablica1[2]
+ 
 
-    alert(tablica1[1]);
-
-    var tablic2 = [{
-
+    var tablica2 = [{
         'imie': 'jeden'
-
-
+ 
     },
     {
         'imie': 'bla'
     }];
+    // tu wyciagamy z tablicy pierwszy indeks ktory tez jest tablica, klucz imie
+     // czyli krotko mowiac mamy tablice i wniej druga tablice ktora przechowuje odpowiednio  imie : jeden
 
+    alert(tablica2[0].imie);
+
+    //Mozemy odpowiednio porzadkowac dane zmieszczone w tablicy np. od 1-9 i od a-z
+ 
     //sort()
+    alert("Sortuje"+tablica1.sort());
+
 
     //reverse()
+    // odwrotnie porzadkuje dane w tablicy 
+    alert("Sortuje"+tablica1.reverse());
 
     // concat() 
 
     // push()
+    alert("Dodaje "+tablica1.push("TO OSTATATNIO DODALEM"));
+    alert("no i mam teraz po dodaniu"+tablica1);
 
     // pop
-
-    // unshift
-
-    // shift
+    alert("Usuwam "+tablica1.pop("TO OSTATATNIO DODALEM"));
+    alert("no i mam teraz po usunieciu"+tablica1);
 
     // Zmienne
-    alert(tablic2[1].imie);
+    //alert(tablic2[1].imie);
 
+
+    //Deklarowanie zmiennej i dla niej przypisuje wart 1
     var i = '1';
 
     do {
+        //Deklarowanie zmiennej ktora jest o zasiegu lokalnym tzn tylko w obrebie instrukcji i dla niej przypisuje wart 1  
         let zmienna1 = '1';
         var zmienna2 = '2';
     } while (i == null)
 
-
+    // Funkcja alert wyrzuca wam komunikat w postaci takiego okienka popup 
+    // w nia wrzucacie sobie jakis tekst liczbe cokoliwek aby polaczyc fraze tekstowa pisana na sztywno z zmienna dajecie plusik + 
+    // czyli np 
     alert("Pokazuje:" + zmienna2);
 
     // Stale
+    // Stale to typy danych ktore sa niezmienne tj takie ze tylko deklarujesz wartosc zmiennej ale juz jej nie mozesz obrobic 
 
     const stalaWart = "blblblb";
+    
 
-
+    // Jak sprobujesz cos takiego dac czyli przypisac cos do stalej to najzwyczajniej wywalisz blad logiczny gdyz 
+    // stala jak sama nazwa mowi nie moze byc zmieniana to jest cos tak abstrakcyjnego jak bys mial dzielic przez 0 
+    
     //stalaWart = '1';
 
+    // Wyrzucasz wartosc stalej na ekran 
+    // alert("Wartosc stalej to:"+stalaWart);
 
-    // alert(stalaWart);
+    // RegEX  -- sluza do determinacji okreslonego wzoru wg ktorego ma porownywac fraze  
 
-    // RegEX
-
+    // mamy okreslone slowo
     var slowo = "blaba BlaaaBBB 123dsfds 423423";
-    var wzor = /\s/g; // g globalny
+
+    // mamy okreslony wzor wg ktorego bedziemy potem przeszukiwac slowo
+
+    var wzor = /[A-z]/g; // tutaj globalnie wyszukuje wszystkie literki male i duze 
+    var wzor2 = /[0-9]/g; // no a tutaj globalnie wyszukuje wszystkie cyfry 0-9 
+    var wzor3 = /[a-z 0-9]/g; //  w tym przypadku  globalnie wyszukuje wszystkie cyfry 0-9  oraz oczywiscie litery male a-z
+    var wzor4 = /[a-z]{3}/g; // z kazdego wyrazu (przez wzglad na \g)  pobiera tylko 3 pierwsze znaki malych liter
+    var wzor5 = /[a-z]{3}/; // pobiera tylko 3 pierwsze znaki malych liter i uwaga  bez flagi globalnej (\g) czyli w ogole z calego ciagu 
+
+    ///\s/g;  // wyszukaj globalnie wszystkie biale znaki 
+    
+    // g globalny
     // /i - ingoruje wielkie / male litery
     // /m - wyrazenia regularne dla ciagow wieloliniowych 
     // /s	- znajduje biale znaki 
     // /d - globalne wyszukiwanie cyfr
 
-    alert("RegEX" + slowo.match(wzor));
+    // tutaj wyrzucamy na ekran przeszukiwanie slowa wg wzoru 
+
+   alert("RegEX" + slowo.match(wzor5));
 
 </script>
