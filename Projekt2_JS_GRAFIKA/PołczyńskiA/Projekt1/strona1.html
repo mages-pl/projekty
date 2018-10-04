@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+     
+  <title>Strona główna</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="global.css">
+ </head>
+    
+ <body>
+     
+<div id="baner"> 
+     
+     <a href="index.html"><img src="baner.jpg" alt="baner"></a>
+  </div>
+     
+     
+     
+     
+    
+     <div id="menu">
+     
+     Menu:
+          <br>
+         -<a href="strona1.html">
+         
+         proste działania </a>
+         <br>
+         -<a href="strona2.php">potęgowanie</a>
+     </div>
+     
+     <div id="tresc">
+     
+   <h1> PROSTE DZIAŁANIA</h1>
+         
+         
+ 
+         <label>Podaj pierwszą liczbę: </label>
+<input type="number" name="x"/>
+         <br>
+<label>Podaj drugą liczbę:   </label>
+<input type="number" name="y"/>
+         
+
+
+         <br>
+         <br>
+
+
+         <input type="button" onclick="dodaj()" value="DODAWANIE"> 
+         
+         <input type="button" onclick="odejmij()" value="ODEJMOWANIE"> 
+         
+         <input type="button" onclick="pomnóż()" value="MNOŻENIE"> 
+         
+         <input type="button" onclick="podziel()" value="DZIELENIE"> 
+
+    <br>
+    <br>
+    <br>
+   <div id="info">
+         </div>
+         
+         <div id="wynik">
+         </div>
+
+         <script type="text/javascript">
+
+
+var x = document.querySelector("input[name=x]");
+var y = document.querySelector("input[name=y]");
+
+
+var wynik = document.querySelector("#wynik");
+
+var info = document.querySelector("#info");
+
+function sprawdz() { 
+if((x.value == '')  || (y.value == '')) {  
+info.innerHTML = "Proszę uzupełnić obie liczby"; 
+}
+}
+
+function dodaj() {
+sprawdz();
+if((x.value != '')  || (y.value != '')) {
+	info.innerHTML = "Wynik: " ;
+    
+    wynik.innerHTML = (parseInt(x.value)+parseInt(y.value));
+ 
+ 
+ }
+ }
+ 
+ function odejmij() {
+sprawdz();
+if((x.value != '')  || (y.value != '')) {
+	info.innerHTML = "Wynik:"; 
+ 
+ wynik.innerHTML = (parseInt(x.value)-parseInt(y.value));
+ }
+ }
+             
+             
+              function pomnóż() {
+sprawdz();
+if((x.value != '')  || (y.value != '')) {
+	info.innerHTML = "Wynik:"; 
+ 
+ wynik.innerHTML = (parseInt(x.value)*parseInt(y.value));
+ }
+ }
+             
+                          function podziel() {
+sprawdz();
+if((x.value != '')  || (y.value != '')) {
+	info.innerHTML = "Wynik:"; 
+ 
+ wynik.innerHTML = (parseInt(x.value)/parseInt(y.value));
+ }
+ }
+             
+             
+             
+             
+
+             
+             
+</script>
+    
+
+         </div>
+    </body>
+    
+</html>
+
+
+  

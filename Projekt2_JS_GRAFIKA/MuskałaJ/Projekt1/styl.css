@@ -1,0 +1,21 @@
+html {
+height: auto;
+width: 800px;    
+}
+
+#baner {
+height: 100px;
+width: 800px;
+}
+
+#menu {
+height: 20%;
+width: 40%;
+float: left;
+}
+
+#tresc {
+height: 20%;
+width: 60%;
+float: left;   
+}

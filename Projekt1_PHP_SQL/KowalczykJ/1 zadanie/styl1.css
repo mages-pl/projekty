@@ -1,0 +1,63 @@
+body {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.baner {
+	background-color: #40271a;
+	color: #ffffff;
+	font-family: "Tahoma";
+	text-align: center;
+	height: 80px;
+}
+
+.baner h1 {
+	margin-top: 0;
+}
+
+.panel_lewy {
+	background-color: #dbb29c;
+	width: 40%;
+	height: 700px;
+	float: left;
+}
+
+.panel_prawy {
+	background-color: #ffe3d4;
+	width: 60%;
+	height: 700px;
+	float: right;
+}
+
+ol li {
+	list-style: upper-roman;
+}
+
+table, table tr td {
+	border: 1px dashed brown;
+}
+
+table {
+	width: 500px;
+	margin: 10px;
+	text-align: center;
+}
+
+#kolumna3 {
+	width: 190px;
+}
+
+img {
+	padding: 30px;
+}
+
+.stopka {
+	clear: both;
+	background-color: #40271a;
+	color: #ffffff;
+	text-align: right;
+}
