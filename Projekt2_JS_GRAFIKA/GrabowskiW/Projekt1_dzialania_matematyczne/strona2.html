@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>potęgowanie</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.new {
+			display: block;
+			font-size: 32px;
+		}
+		sup {
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<h1>POTĘGOWANIE</h1>
+	<input type="text" name="x" />
+	<input type="text" name="y" />
+	<input type="button" onclick="poteguj()" name="wynik" value="Oblicz" />
+	<div id="wynik"></div>
+	<script type="text/javascript">
+		var x = document.querySelector("input[name=x]");
+		var y = document.querySelector("input[name=y]");
+		var wynik_f = document.querySelector("#wynik");
+		function poteguj() {
+			var licznik = y.value.slice(0, y.value.indexOf("/"));
+			var mianownik = y.value.slice(y.value.indexOf("/") + 1, y.length);
+			if (y.value.indexOf("/") > 0) {
+				var wynik = (Math.pow(parseFloat(x.value), (licznik / mianownik)));
+			} else {
+				var wynik = (Math.pow(parseFloat(x.value), (y.value)));
+			}
+			wynik_f.className = "new";
+			wynik_f.innerHTML = x.value+"<sup>"+y.value+"</sup> = "+wynik.toFixed(2);
+		}
+	</script>
+</body>
+</html>

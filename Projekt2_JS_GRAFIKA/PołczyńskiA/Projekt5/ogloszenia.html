@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+<head>
+    <meta charset="utf-8">
+        </head>
+
+    <link rel="stylesheet" href="styl5.css">
+    <title>Portal ogłoszeniowy</title>
+    
+    <body>
+    
+        
+        
+        <div id="baner">
+        
+            <h1>Portal Ogłoszeniowy</h1>
+        
+        </div>
+        
+        
+      
+    
+        
+        
+<div id="pierwszy-panel">
+        <img src="images/logo-male.png">
+        </div>    
+        
+        <div id="drugi-panel">
+        
+            <h3>Adres</h3>
+            ul. Morska 45 Gdynia
+        </div>    
+    
+        
+        <div id="trzeci-panel">
+            
+        <h3>telefon</h3>
+            601601601
+        </div>    
+    
+        <div id="czwarty-panel">
+        <h3>e-mail</h3>
+            ogloszenia@poczta.pl
+        </div>    
+       
+         <div id="lewy-panel">
+        <h2>Ceny ogłoszeń</h2>
+             
+             <table>
+<tr>
+   <td>Liczba ogłoszeń</td>
+   <td>Cena ogłoszenia</td>
+   <td>Bonus</td>
+</tr>
+<tr>
+   <td>1-50</td>
+   <td><span id="cena_zwykla">2</span> PLN</td>
+   <td rowspan="2">Subskrypcja newslettera to upust <span id="rabat">0,20</span> PLN na ogłoszenie</td>
+   
+</tr>
+<tr>
+   <td>51-więcej</td>
+   <td><span id="cena_wiecej">1</span> PLN</td>
+   
+</tr>
+
+
+    </table>
+             
+        </div>    
+        
+    
+        
+         <div id="srodkowy-panel">
+        
+             
+             <h2>Witamy na stronie naszego portalu!</h2>
+             
+             <img src="images/logo-duze.png">
+             
+        </div>    
+        
+         <div id="prawy-panel">
+        <h2> Ile kosztuje ogłoszenie?</h2>
+             
+             <label>Podaj liczbę ogłoszeń</label>
+             <br>
+             <input type="number" name="input_var"/>
+             <br>
+             <input type="checkbox" name="nazwa" onchange="checkbox()" value="wartość" checked="checked" />
+             Policz upust na newsletter
+             
+             <br>
+             <input type="button" class="button" onclick="licz()" value="Oblicz">
+             <br>
+             <br>
+             Koszt ogłoszeń: 
+             <div id="wynik">
+             
+             
+             </div>
+             
+<script type="text/javascript">
+             
+   var x=document.querySelector("input[name=nazwa]")
+             
+             function licz(){
+                 
+              //   alert("cokolwiek");
+                 
+                 var podana_wartosc=document.querySelector("input[name=input_var]").value; //alert("cokolwiek3"+podana_wartosc);
+                
+                 if(parseInt(podana_wartosc)<50){
+                     
+                   //  alert("tak");
+                     
+                     var cena_ogloszenia=document.querySelector("#cena_zwykla").innerHTML;
+                     var wynik;
+                    
+
+                     
+                  // checkbox();
+                     if(x.checked==true){
+                          
+                         
+                         var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                         //wynikporabacie=(wynik-wynik*parseFloat(rabat)));
+                         wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                  
+
+                     }
+                     else{
+                         
+                      //   alert("bez rabatu");
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     }
+                 }
+             else {
+                 
+                  var cena_ogloszenia=document.querySelector("#cena_wiecej").innerHTML;
+                     var wynik;
+                 
+                  if(x.checked==true){ 
+                      
+                      var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                      
+                      wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                       //  alert("> 50 z rab");
+                             
+                             
+                             
+                         
+                      
+                      
+                  }
+                 else {
+                      
+                        
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     // alert("mniej niz  50 bez rab");
+            
+                 }
+                 
+             }
+                       //alert(wynik.toFixed(2)); 
+                 var wynik2=document.querySelector("#wynik");
+                 wynik2.innerHTML=wynik.toFixed(2);
+                 
+                 
+             }
+          
+     
+    function checkbox(){
+        
+     //   alert("cokolwiek2"+x.checked);
+        
+        
+  
+        
+        
+    }
+             
+             
+             </script>
+
+        </div>    
+        
+    <div id="stopka">
+        
+        Portal ogłoszeniowy opracował: Adrian Połczyński
+        </div>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
