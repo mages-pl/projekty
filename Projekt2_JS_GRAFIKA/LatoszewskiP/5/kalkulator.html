@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Wyremontuj mieszkanie</title>
+   
+<link rel="stylesheet" href="remont.css">
+    
+</head>
+    
+<body>
+    
+<div id="baner">
+<img src="1b.png"alt="logo">
+</div>        
+
+<div id="menu">
+<a href="index.html">O NAS</a>    
+</div>   
+    
+<div id="menu">
+<a href="kontakt.html">KONTAKT</a> 
+</div>
+    
+<div id="menu">
+<a href="kalkulator.html">KALKULATOR</a> 
+</div>
+        
+<div id="menu"> 
+<a href="http://www.jakremontowac.pl/"target="_blank">POLECANE STRONY</a>    
+</div> 
+    
+<div id="content">
+<h1>Malowanie pokoju: 8 zł za m2</h1>
+Wymiary pokoju w metrach: 
+<input type="number" name="wymiar1">
+<input type="number" name="wymiar2">  
+<br>    
+<input type="button" value="OBLICZ KOSZT">
+<div id="obliczenia"></div>  
+</div>
+    
+<div id="stopka"> 
+Autor strony: 000000000
+</div> 
+    
+<script type="text/javascript">
+document.querySelector('input[type=button').addEventListener("click", function() {
+var wartosc_1 = document.querySelector('input[name=wymiar1').value;
+var wartosc_2 = document.querySelector('input[name=wymiar2').value;
+var obliczenia = document.querySelector('#obliczenia');
+var wysokosc = 2.7;
+var cena = 8;
+var powierzchnia = (2*wartosc_1*wysokosc)+(2*wartosc_2*wysokosc);
+var koszt = cena*powierzchnia;
+obliczenia.innerHTML = "<p>Powierzchnia całkowita ścian: "+powierzchnia.toFixed(2)+" m<sup>2</sup></p><p>Koszt malowania: "+koszt.toFixed(2)+" zł</p>";
+});
+</script>
+
+</body>
+    
+</html>
+    
