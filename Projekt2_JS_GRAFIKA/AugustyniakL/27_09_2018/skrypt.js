@@ -12,13 +12,24 @@ document.querySelector("input[name=oblicz]").addEventListener("click", function(
 			var wynik = liczba*cena;
 			miejsce.innerHTML = "Koszt ogłoszeń: "+wynik+" PLN";
 		}
-	} else if(liczba>=51) {
+	} if(liczba>=51 && liczba<100) {
 		if(upust.checked==true) {
 			var cena = 0.80;
 			var wynik = liczba*cena;
 			miejsce.innerHTML = "Koszt ogłoszeń: "+wynik.toFixed(2)+" PLN";
 		} else if(upust.checked==false) {
 			var cena = 1;
+			var wynik = liczba*cena;
+			miejsce.innerHTML = "Koszt ogłoszeń: "+wynik+" PLN";
+		}
+	}
+	if(liczba>=100) {
+		if(upust.checked==true) {
+			var cena = 0.40;
+			var wynik = liczba*cena;
+			miejsce.innerHTML = "Koszt ogłoszeń: "+wynik.toFixed(2)+" PLN";
+		} else if(upust.checked==false) {
+			var cena = 0.60;
 			var wynik = liczba*cena;
 			miejsce.innerHTML = "Koszt ogłoszeń: "+wynik+" PLN";
 		}

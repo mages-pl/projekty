@@ -15,5 +15,6 @@
 		</form>
 		<div id="wynik"></div>
 		<script type="text/javascript" src="silnia.js"></script>
+		<div id="divek"></div>
 	</body>
 </html>
