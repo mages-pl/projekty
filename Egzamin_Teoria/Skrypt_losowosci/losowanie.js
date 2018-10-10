@@ -40,7 +40,6 @@ var punkty = [
 ];
 
 var randNumber;
-
 function getJSONFile() {
 
     var xmlhttp = new XMLHttpRequest();  // nawiązanie połączenia asynchronicznego
@@ -68,7 +67,7 @@ window.onload = initObjects;
 
 function nextLevel(level) {
 
-    var nextLevel = parseInt(level * 10);
+    var nextLevel = parseInt((level) * 10 * Math.PI / 2);
 
     //alert(level);
     return nextLevel;
@@ -76,7 +75,7 @@ function nextLevel(level) {
 
 function levelUp(uczen, level, punkty) {
 
-    if (punkty >= (level * 10)) {
+    if (punkty >= ((level) * 10 * Math.PI / 2)) {
         alert(uczniowie[uczen] + " Level UP!");
         level_status = true;
     }
@@ -117,13 +116,14 @@ function odpowiadanie(object) {
         }
 
         console.log(punkty[randNumber]);
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]);
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     } else {
         alert("Wybrales " + object.value + " jest to odpowiedz niepoprawna, popranwna odp " + myObj.pytania[x].odp);
         object.classList.add("bad");
         punkty[randNumber] = punkty[randNumber] - 5;
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]);
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     }
+    showStatystyki();
 
 }
 
@@ -131,8 +131,10 @@ function odpowiadanie(object) {
 // Losujemy które pytanie ma zadac
 
 function losujPytanie() {
+
     x = Math.floor((Math.random()) * 37);
     return x;
+    console.log(x);
 }
 
 function resetChoice() {
@@ -147,15 +149,7 @@ function resetChoice() {
         labele_odpowiedzi[j].classList.remove('is-checked');
     }
 }
-function showStatystyki() {
-    document.querySelector("#statystyki").innerHTML = "Statystyki";
-    var statystyka = '';
-    for (var z = 0; z < uczniowie.length; z++) {
-        statystyka += uczniowie[z] + " Level: " + level[z] + " Punkty " + punkty[z] + "<br/>";
-    }
-    document.querySelector("#statystyki").innerHTML = document.querySelector("#statystyki").innerHTML + statystyka;
 
-}
 // Wybieramy ucznia i pytanie dla niego
 function losowanie() {
 
@@ -183,5 +177,13 @@ function losowanie() {
     randNumber = Math.floor(Math.random() * uczniowie.length);
 
 
-    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + " </mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]);
+    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + " </mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+}
+function showStatystyki() {
+    var statystyka = '';
+    for (var z = 0; z < uczniowie.length; z++) {
+        statystyka += '<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-avatar">person</i>' + uczniowie[z] + "<br/> Level: " + level[z] + "<br/>Punkty " + punkty[z] + "</span></li>";
+    }
+    document.querySelector("#statystyki").innerHTML = statystyka;
+
 }

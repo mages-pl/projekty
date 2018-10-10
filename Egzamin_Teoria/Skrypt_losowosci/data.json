@@ -30,10 +30,10 @@
 			"odp2": "PNG",
 			"odp3": "GIF",
 			"odp4": "PCX",
-			"odp": "B"
+			"odp": "A"
 		},
 		{
-			"pytanie": "Atrybut ALT w znaczniku html &lt;img&gt; słuzy do ",
+			"pytanie": "Relacje słuza do ",
 			"odp1": "logicznym połączeniem tabel",
 			"odp2": "algebraicznym połączeniem tabel",
 			"odp3": "połączeniem dwóch pól jednej tabeli",
@@ -41,7 +41,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Relacja w bazach danych jest",
+			"pytanie": "Atrybut ALT w znaczniku html &lt;img&gt; słuzy do",
 			"odp1": "atrybutów grafiki, takich jak rozmiar, obramowanie, wyrównanie",
 			"odp2": "podpisu, który zostanie wyświetlony pod grafiką",
 			"odp3": "ścieżki i nazwy pliku źródłowego grafiki",
@@ -177,7 +177,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W języku PHP zapisano fragment kodu. Po zakończeniu pętli zmienna a przyjmie wartość <br/> <img src='http://egzamin-informatyk.pl/e14/401.jpg' />",
+			"pytanie": "W języku PHP zapisano fragment kodu. Po zakończeniu pętli zmienna a przyjmie wartość <br/> <a href='http://egzamin-informatyk.pl/e14/401.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/401.jpg'  /></a>",
 			"odp1": "0",
 			"odp2": "2",
 			"odp3": "10",
@@ -193,7 +193,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Aby przygotować szablon strony z trzema kolumnami ustawionymi obok siebie, można posłużyć się stylem CSS <br/> <img src='http://egzamin-informatyk.pl/e14/375.jpg' />",
+			"pytanie": "Aby przygotować szablon strony z trzema kolumnami ustawionymi obok siebie, można posłużyć się stylem CSS <br/> <a href='http://egzamin-informatyk.pl/e14/375.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/375.jpg' /></a>",
 			"odp1": "A",
 			"odp2": "B",
 			"odp3": "C",
@@ -209,7 +209,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Dla dowolnego a z przedziału (0,99) zadaniem funkcji zapisanej w języku Java Script jest: <br/> <img src='http://egzamin-informatyk.pl/e14/276.jpg' />",
+			"pytanie": "Dla dowolnego a z przedziału (0,99) zadaniem funkcji zapisanej w języku Java Script jest: <br/> <a href='http://egzamin-informatyk.pl/e14/276.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/276.jpg' /></a>",
 			"odp1": "zwrócenie liczb z przedziału a..99",
 			"odp2": "wypisanie liczb z przedziału a..99 i zwrócenie wartości 100",
 			"odp3": "wypisanie wartości zmiennej a oraz zwrócenie wartości zmiennej n",
@@ -225,7 +225,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji <br/> <img src='http://egzamin-informatyk.pl/e14/436.jpg' />",
+			"pytanie": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji <br/> <a href='http://egzamin-informatyk.pl/e14/436.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/436.jpg'/></a>",
 			"odp1": "A",
 			"odp2": "B",
 			"odp3": "C",
@@ -241,7 +241,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Warunek zapisany językiem PHP wypisze liczbę, gdy <br/> <img src='http://egzamin-informatyk.pl/e14/159.jpg' /> ",
+			"pytanie": "Warunek zapisany językiem PHP wypisze liczbę, gdy <br/> <a href='http://egzamin-informatyk.pl/e14/159.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/159.jpg' /></a> ",
 			"odp1": "jest ona parzysta",
 			"odp2": "jest liczbą pierwszą",
 			"odp3": "wynik dzielenia liczby przez 2 jest równy 0",
@@ -252,9 +252,9 @@
 			"pytanie": "Która z reguł walidacji strony internetowej jest błędna?",
 			"odp1": "Jeżeli w instrukcji używa się kilku atrybutów, ich kolejność powinna być zgodna z alfabetem, np. &lt;img alt='....'  src='....' /&gt;",
 			"odp2": "Wyłączanie znaczników musi następować w odwrotnej kolejności, niż były one włączane, np. &lt;p&gt;....&lt;big&gt;...&lt;/big&gt;&lt;/p&gt;",
-			"odp3": "Znaczniki, oprócz samozamykających się, działają do momentu ich wyłączenia znakiem '/', np. &lt;p&lt;...&lt;/p&gt;",
+			"odp3": "Znaczniki, oprócz samozamykających się, działają do momentu ich wyłączenia znakiem '/', np. &lt;p&gt;...&lt;/p&gt;",
 			"odp4": "W znacznikach nie są rozróżniane wielkie i małe litery, np. &lt;p&gt; i &lt;P&gt; to ten sam znacznik",
-			"odp": "A"
+			"odp": "D"
 		},
 		{
 			"pytanie": "Selektor CSS a:link {color:red} zawarty w kaskadowych arkuszach stylów definiuje",
@@ -265,7 +265,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W ramce przedstawiono kod JavaScript z błędem logicznym. Program powinien wypisywać informację, czy liczby są sobie równe czy nie, lecz nie wykonuje tego. Wskaż odpowiedź, która dotyczy błędu \n <img src='http://egzamin-informatyk.pl/e14/365.jpg' />",
+			"pytanie": "W ramce przedstawiono kod JavaScript z błędem logicznym. Program powinien wypisywać informację, czy liczby są sobie równe czy nie, lecz nie wykonuje tego. Wskaż odpowiedź, która dotyczy błędu \n <a href='http://egzamin-informatyk.pl/e14/365.jpg' data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/365.jpg'  /></a>",
 			"odp1": "Nieprawidłowo zadeklarowano zmienne",
 			"odp2": "Przed klauzulą else nie powinno być średnika",
 			"odp3": "W klauzuli if występuje przypisanie zamiast porównania",
