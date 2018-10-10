@@ -1,9 +1,167 @@
 /*
 Prosty skrypt losowania z tablicy indeksu reprezentującego ucznia
 */
+var myObj;
+var x;
+var uczniowie = [];
+var level_status;
 
+var level = [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+
+
+]
+var punkty = [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+];
+
+var randNumber;
+
+function getJSONFile() {
+
+    var xmlhttp = new XMLHttpRequest();  // nawiązanie połączenia asynchronicznego
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) { // stan połączenia 
+            myObj = JSON.parse(this.responseText);
+
+            //console.log("Json parsed data is: " + JSON.stringify(myObj.pytania[x].pytanie));
+            document.querySelector('#pytanie').innerHTML = "<h2>" + (myObj.pytania[x].pytanie) + "</h2>";
+            document.querySelector('#odp1').innerHTML = "<b>A:</b> " + (myObj.pytania[x].odp1);
+            document.querySelector('#odp2').innerHTML = "<b>B:</b> " + (myObj.pytania[x].odp2);
+            document.querySelector('#odp3').innerHTML = "<b>C:</b> " + (myObj.pytania[x].odp3);
+            document.querySelector('#odp4').innerHTML = "<b>D:</b> " + (myObj.pytania[x].odp4);
+        }
+    };
+
+    xmlhttp.open("GET", "data.json", true);
+
+    // wysyłamy połączenie
+    xmlhttp.send();
+
+}
+
+window.onload = initObjects;
+
+function nextLevel(level) {
+
+    var nextLevel = parseInt(level * 10);
+
+    //alert(level);
+    return nextLevel;
+}
+
+function levelUp(uczen, level, punkty) {
+
+    if (punkty >= (level * 10)) {
+        alert(uczniowie[uczen] + " Level UP!");
+        level_status = true;
+    }
+    else {
+        level_status = false;
+    }
+    return level_status;
+}
+function initObjects() {
+
+    losowanie();
+
+    var odpowiedz = document.querySelectorAll('input[type=radio]');
+
+
+
+    for (var j = 0; j < odpowiedz.length; j++) {
+        odpowiedz[j].addEventListener("click", function () {
+            odpowiadanie(this);
+        });
+    }
+}
+// Sprawdzamy odpowiedź
+function odpowiadanie(object) {
+
+    //alert("wybrales odpowiedz" + object.value);
+
+    getJSONFile();
+
+    if (object.value == myObj.pytania[x].odp) {
+        alert("Wybrales " + object.value + " jest to odpowiedz poprawna " + myObj.pytania[x].odp);
+        object.classList.add("success");
+
+        punkty[randNumber] = punkty[randNumber] + 10;
+        levelUp(randNumber, level[randNumber], punkty[randNumber]);
+        if (level_status == true) {
+            level[randNumber] = level[randNumber] + 1;
+        }
+
+        console.log(punkty[randNumber]);
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]);
+    } else {
+        alert("Wybrales " + object.value + " jest to odpowiedz niepoprawna, popranwna odp " + myObj.pytania[x].odp);
+        object.classList.add("bad");
+        punkty[randNumber] = punkty[randNumber] - 5;
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]);
+    }
+
+}
+
+
+// Losujemy które pytanie ma zadac
+
+function losujPytanie() {
+    x = Math.floor((Math.random()) * 37);
+    return x;
+}
+
+function resetChoice() {
+    var odpowiedz = document.querySelectorAll('input[type=radio]');
+    var labele_odpowiedzi = document.querySelectorAll('label');
+
+
+    for (var j = 0; j < odpowiedz.length; j++) {
+        odpowiedz[j].classList.remove("bad");
+        odpowiedz[j].classList.remove("success");
+        odpowiedz[j].checked = false;
+        labele_odpowiedzi[j].classList.remove('is-checked');
+    }
+}
+function showStatystyki() {
+    document.querySelector("#statystyki").innerHTML = "Statystyki";
+    var statystyka = '';
+    for (var z = 0; z < uczniowie.length; z++) {
+        statystyka += uczniowie[z] + " Level: " + level[z] + " Punkty " + punkty[z] + "<br/>";
+    }
+    document.querySelector("#statystyki").innerHTML = document.querySelector("#statystyki").innerHTML + statystyka;
+
+}
+// Wybieramy ucznia i pytanie dla niego
 function losowanie() {
-    var uczniowie = [
+
+    resetChoice();
+
+    uczniowie = [
         'Ł. Augustyniak',
         'E. Cierniak',
         'W. Grabowski',
@@ -19,49 +177,11 @@ function losowanie() {
         'T. Socha',
     ];
 
-    /* 
-    Nazwa właściwości	Opis
-status	status połączenia (np 200, 404, 301, 500)
-statusText	status w formie tekstowej
-timeout	Jak długo połączenie ma czekać na odpowiedź
-responseURL	adres odpowiedzi
-responseType	Typ odpowiedzi
-responseText	treść odpowiedzi
-readyState	stan połączenia
-    */
-    var d = new XMLHttpRequest();
+    losujPytanie();
+    getJSONFile();
 
-    //console.log(d);
-    var xmlhttp = new XMLHttpRequest();  // nawiązanie połączenia asynchronicznego
-    xmlhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) { // stan połączenia 
-			var myObj = JSON.parse(this.responseText);
-			var x = Math.floor((Math.random()) * 10);
-			//console.log("Json parsed data is: " + JSON.stringify(myObj.pytania[x].pytanie));
-			document.querySelector('#pytanie').innerHTML = "<h2>"+JSON.stringify(myObj.pytania[x].pytanie)+"</h2>";
-			document.querySelector('#odp1').innerHTML = "<b>A:</b> "+JSON.stringify(myObj.pytania[x].odp1);
-			document.querySelector('#odp2').innerHTML = "<b>B:</b> "+JSON.stringify(myObj.pytania[x].odp2);
-			document.querySelector('#odp3').innerHTML = "<b>C:</b> "+JSON.stringify(myObj.pytania[x].odp3);
-			document.querySelector('#odp4').innerHTML = "<b>D:</b> "+JSON.stringify(myObj.pytania[x].odp4);
-        }
-	};
+    randNumber = Math.floor(Math.random() * uczniowie.length);
 
-    /*
-    Wartość readyState	Opis
-    0	połączenie nie nawiązane
-    1	połączenie nawiązane
-    2	żądanie odebrane
-    3	przetwarzanie
-    4	dane zwrócone i gotowe do użycia
-    */
 
-    //typ połączenia, url, czy połączenie asynchroniczne
-    xmlhttp.open("GET", "data.json", true);
-
-    // wysyłamy połączenie
-    xmlhttp.send();
-
-    //console.log("odpowiedz " + xmlhttp.response);
-    var randNumber = Math.floor(Math.random() * uczniowie.length);
-    document.querySelector("#uczen").innerHTML = uczniowie[randNumber];
+    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + " </mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]);
 }

@@ -1,84 +1,276 @@
 {
 	"pytania": [
 		{
-			"pytanie": "<b>1.</b> W skład typowego frameworka wchodzą",
+			"pytanie": "W skład typowego frameworka wchodzą",
 			"odp1": "domena i obsługa błędów",
 			"odp2": "obsługa formularzy i wbudowany serwer",
 			"odp3": "zarządzanie komunikacją z bazą danych, mechanizm uruchamiania i przetwarzania akcji",
 			"odp4": "mechanizm uruchamiania i przetwarzania akcji, oraz certyfikat http",
-			"//": "poprawna: odp 3"
+			"odp": "C"
 		},
 		{
-			"pytanie": "<b>2.</b> Wskaż prawidłową kolejność tworzenia aplikacji",
+			"pytanie": "Wskaż prawidłową kolejność tworzenia aplikacji",
 			"odp1": "Tworzenie, analiza wymagań klienta, specyfikacja wymagań, wdrażanie, testy",
 			"odp2": "Analiza wymagań klienta, specyfikacja wymagań tworzenie, testy, wdrażanie",
 			"odp3": "Specyfikacja wymagań, analiza wymagań klienta, tworzenie, wdrażanie,testy",
 			"odp4": "Analiza wymagań klienta, specyfikacja wymagań, tworzenie, wdrażanie, testy",
-			"//": "poprawna: odp 2"
+			"odp": "B"
 		},
 		{
-			"pytanie": "<b>3.</b> W bazie danych, w celu uporządkowania listy uczniów według roku urodzenia, należy użyć polecenia",
+			"pytanie": "W bazie danych, w celu uporządkowania listy uczniów według roku urodzenia, należy użyć polecenia",
 			"odp1": "SELECT imie,nazwisko,klasa from uczniowie order by rok_urodzenia",
 			"odp2": "SELECT imie,nazwisko,klasa from uczniowie group by rok_urodzenia",
 			"odp3": "SELECT imie,nazwisko,klasa from uczniowie where rok_urodzenia = 1994",
 			"odp4": "SELECT imie,nazwisko,klasa from uczniowie order by nazwisko",
-			"//": "poprawna: odp 1"
+			"odp": "A"
 		},
 		{
-			"pytanie": "<b>4.</b> Jakiego formatu należy użyć do zapisu obrazu z kompresją stratną?",
+			"pytanie": "Jakiego formatu należy użyć do zapisu obrazu z kompresją stratną?",
 			"odp1": "JPEG",
 			"odp2": "PNG",
 			"odp3": "GIF",
 			"odp4": "PCX",
-			"//": "poprawna: PNG"
+			"odp": "B"
 		},
 		{
-			"pytanie": "<b>5.</b> Relacja w bazach danych jest",
+			"pytanie": "Atrybut ALT w znaczniku html &lt;img&gt; słuzy do ",
 			"odp1": "logicznym połączeniem tabel",
 			"odp2": "algebraicznym połączeniem tabel",
 			"odp3": "połączeniem dwóch pól jednej tabeli",
 			"odp4": "kluczem głównym w relacji tabel",
-			"//": "poprawna: odp 1"
+			"odp": "A"
 		},
 		{
-			"pytanie": "<b>6.</b> Relacja w bazach danych jest",
+			"pytanie": "Relacja w bazach danych jest",
 			"odp1": "atrybutów grafiki, takich jak rozmiar, obramowanie, wyrównanie",
 			"odp2": "podpisu, który zostanie wyświetlony pod grafiką",
 			"odp3": "ścieżki i nazwy pliku źródłowego grafiki",
 			"odp4": "tekstu, który będzie wyświetlony, jeśli nie może być wyświetlona grafika",
-			"//": "poprawna: odp 4"
+			"odp": "D"
 		},
 		{
-			"pytanie": "<b>7.</b> CMYK to zestaw czterech podstawowych kolorów farb drukarskich:",
+			"pytanie": "CMYK to zestaw czterech podstawowych kolorów farb drukarskich:",
 			"odp1": "turkusowego, purpurowego, żółtego, czarnego",
 			"odp2": "turkusowego, purpurowego, białego, czarnego",
 			"odp3": "turkusowego, błękitnego, białego, różowego",
 			"odp4": "czerwonego, purpurowego, żółtego, szarego",
-			"//": "poprawna: odp 1"
+			"odp": "A"
 		},
 		{
-			"pytanie": "<b>8.</b> W załączonym fragmencie kodu CSS kolor jest zapisany w postaci: #008000",
+			"pytanie": "W załączonym fragmencie kodu CSS kolor jest zapisany w postaci: #008000",
 			"odp1": "CMYK",
 			"odp2": "szesnastkowej",
 			"odp3": "dziesiętnej",
 			"odp4": "HSL",
-			"//": "poprawna: odp 2"
+			"odp": "B"
 		},
 		{
-			"pytanie": "<b>9.</b> W celu określenia wysokości obrazka wyświetlonego na stronie WWW należy wykorzystać właściwość CSS o nazwie",
+			"pytanie": "W celu określenia wysokości obrazka wyświetlonego na stronie WWW należy wykorzystać właściwość CSS o nazwie",
 			"odp1": "width",
 			"odp2": "padding",
 			"odp3": "height",
 			"odp4": "margin",
-			"//": "poprawna: odp 3"
+			"odp": "C"
 		},
 		{
-			"pytanie": "<b>10.</b> Model opisu przestrzeni barw o parametrach: odcień, nasycenie i jasność, to",
+			"pytanie": "Model opisu przestrzeni barw o parametrach: odcień, nasycenie i jasność, to",
 			"odp1": "HSV",
 			"odp2": "RGB",
 			"odp3": "CMYK",
 			"odp4": "CMY",
-			"//": "poprawna: odp 1"
+			"odp": "A"
+		},
+		{
+			"pytanie": "Językami programowania działającymi po stronie serwera są:",
+			"odp1": "Java, C#, AJAX, Ruby, PHP",
+			"odp2": "Java, C#, Python, Ruby, PHP",
+			"odp3": "C#, Python, Ruby, PHP, JavaScript",
+			"odp4": "Java, C#, Python, ActionScript, PHP",
+			"odp": "B"
+		},
+		{
+			"pytanie": "W folderze www znajdują się podfoldery html i style, w których zapisane są odpowiednio pliki z rozszerzeniem html i pliki z rozszerzeniem css. Chcąc dołączyć styl.css do pliku HTML należy użyć",
+			"odp1": " &lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/styl.css\" /&gt;",
+			"odp2": "&lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/style/styl.css\" /&gt;",
+			"odp3": "&lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/www/style/styl.css\" /&gt;",
+			"odp4": "&lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/../style/styl.css\" /&gt;",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Barwa zapisana w modelu RGB(255,0,0) jest",
+			"odp1": "żółta",
+			"odp2": "zielona",
+			"odp3": "niebieska",
+			"odp4": "czerwona",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Które z wymienionych osób odpowiadają za przygotowanie systemu bazy danych do pracy produkcyjnej w sposób ciągły, zarządzanie użytkownikami i instalowanie nowych wersji systemu bazodanowego?",
+			"odp1": "Projektanci narzędzi deweloperskich",
+			"odp2": "Administratorzy systemu bazy danych",
+			"odp3": "Administratorzy serwerów i sieci komputerowych",
+			"odp4": "Projektanci i programiści Systemu Zarządzania Bazą Danych.",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Aby policzyć wszystkie wiersze tabeli Koty należy użyć polecenia:",
+			"odp1": "SELECT COUNT(*) FROM Koty",
+			"odp2": "SELECT ROWNUM() FROM Koty",
+			"odp3": "SELECT COUNT(Koty) AS ROWNUM",
+			"odp4": "SELECT COUNT(ROWNUM) FROM Koty",
+			"odp": "A"
+		},
+		{
+			"pytanie": "Przy użyciu którego znacznika w języku HTML nie można umieścić na stronie grafiki dynamicznej?",
+			"odp1": "&lt;img&gt;",
+			"odp2": "&lt;strike&gt;",
+			"odp3": "&lt;embed&gt;",
+			"odp4": "&lt;object&gt;",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Kodowanie w standardzie ISO-8859-2 stosowane jest w celu poprawnego wyświetlenia",
+			"odp1": "symboli matematycznych",
+			"odp2": "polskich liter, takich jak: ś, ć, ń, ó, ą",
+			"odp3": "znaków specjalnych dla języka kodu strony",
+			"odp4": "znaków zarezerwowanych dla języka opisu strony",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Dana jest tabela ksiazki z polami: tytul, autor (typu tekstowego), cena (typu liczbowego). Aby kwerenda SELECT zwróciła tylko tytuły, dla których cena jest mniejsza od 50zł, należy zapisać:",
+			"odp1": "SELECT * FROM ksiazki WHERE cena < 50 ",
+			"odp2": "SELECT tytul FROM ksiazki WHERE cena < 50 ",
+			"odp3": "SELECT tytul FROM ksiazki WHERE cena > '50 zł' ",
+			"odp4": "SELECT ksiazki FROM tytul WHERE cena < '50 zł' ",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Funkcją języka PHP tworzącą ciasteczko jest",
+			"odp1": "createcookie()",
+			"odp2": "echocookie()",
+			"odp3": "addcookie()",
+			"odp4": " setcookie()",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Połączenie dwóch barw leżących po przeciwnych stronach w kole barw jest połączeniem",
+			"odp1": "trójkątnym",
+			"odp2": "sąsiadującym",
+			"odp3": "dopełniającym",
+			"odp4": "monochromatycznym",
+			"odp": "C"
+		},
+		{
+			"pytanie": "Baza danych MySQL uległa uszkodzeniu. Które z działań NIE pomoże przy jej naprawie?",
+			"odp1": "Wykonanie replikacji bazy danych",
+			"odp2": "Próba naprawy poleceniem REPAIR",
+			"odp3": "Odtworzenie bazy z kopii bezpieczeństwa",
+			"odp4": "Stworzenie nowej bazy i przeniesienie do niej tabel",
+			"odp": "A"
+		},
+		{
+			"pytanie": "W języku SQL, aby stworzyć tabelę, należy zastosować polecenie",
+			"odp1": "ADD TABLE",
+			"odp2": "ALTER TABLE",
+			"odp3": "INSERT TABLE",
+			"odp4": "CREATE TABLE",
+			"odp": "D"
+		},
+		{
+			"pytanie": "W języku PHP zapisano fragment kodu. Po zakończeniu pętli zmienna a przyjmie wartość <br/> <img src='http://egzamin-informatyk.pl/e14/401.jpg' />",
+			"odp1": "0",
+			"odp2": "2",
+			"odp3": "10",
+			"odp4": "20",
+			"odp": "D"
+		},
+		{
+			"pytanie": "W formularzu dokumentu PHP istnieje pole &lt;input name=\"im\" /&gt;. Po wprowadzeniu przez użytkownika ciągu znaków 'Janek', w celu dodania zawartości pola do bazy danych, w tablicy $_POST zawarty jest element",
+			"odp1": "im o indeksie Janek",
+			"odp2": "Janek o indeksie im",
+			"odp3": "im z kolejnym numerem indeksu",
+			"odp4": "Janek z kolejnym numerem indeksu",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Aby przygotować szablon strony z trzema kolumnami ustawionymi obok siebie, można posłużyć się stylem CSS <br/> <img src='http://egzamin-informatyk.pl/e14/375.jpg' />",
+			"odp1": "A",
+			"odp2": "B",
+			"odp3": "C",
+			"odp4": "D",
+			"odp": "A"
+		},
+		{
+			"pytanie": "W celu dodania rekordu do tabeli Pracownicy należy użyć polecenia SQL",
+			"odp1": "INSERT INTO Pracownicy VALUES ('Jan', 'Kowalski');",
+			"odp2": "INSERT VALUES (Jan; Kowalski) INTO Pracownicy;",
+			"odp3": "INSERT VALUES Pracownicy INTO (Jan, Kowalski);",
+			"odp4": "INSERT (Jan), (Kowalski) INTO TABLE Pracownicy;",
+			"odp": "A"
+		},
+		{
+			"pytanie": "Dla dowolnego a z przedziału (0,99) zadaniem funkcji zapisanej w języku Java Script jest: <br/> <img src='http://egzamin-informatyk.pl/e14/276.jpg' />",
+			"odp1": "zwrócenie liczb z przedziału a..99",
+			"odp2": "wypisanie liczb z przedziału a..99 i zwrócenie wartości 100",
+			"odp3": "wypisanie wartości zmiennej a oraz zwrócenie wartości zmiennej n",
+			"odp4": "wypisanie liczb z przedziału a...100 i zwrócenie wartości zmiennej n",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Aby stronę WWW można było przesłać do przeglądarki internetowej w postaci zaszyfrowanej, należy użyć protokołu",
+			"odp1": "HTTPS",
+			"odp2": "HTTP",
+			"odp3": "SFTP",
+			"odp4": "SSH",
+			"odp": "A"
+		},
+		{
+			"pytanie": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji <br/> <img src='http://egzamin-informatyk.pl/e14/436.jpg' />",
+			"odp1": "A",
+			"odp2": "B",
+			"odp3": "C",
+			"odp4": "D",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
+			"odp1": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
+			"odp2": "wybór bazy danych, nawiązanie połączenia z serwerem baz danych, zapytanie do bazy, wyświetlenie na stronie WWW, zamknięcie połączenia",
+			"odp3": "wybór bazy, zapytanie do bazy, nawiązanie połączenia z serwerem baz danych, wyświetlenie na stronie WWW, zamknięcie połączenia",
+			"odp4": "nawiązanie połączenia z serwerem baz danych, wybór bazy, zapytanie do bazy - wyświetlane na stronie WWW, zamknięcie połączenia",
+			"odp": "D"
+		},
+		{
+			"pytanie": "Warunek zapisany językiem PHP wypisze liczbę, gdy <br/> <img src='http://egzamin-informatyk.pl/e14/159.jpg' /> ",
+			"odp1": "jest ona parzysta",
+			"odp2": "jest liczbą pierwszą",
+			"odp3": "wynik dzielenia liczby przez 2 jest równy 0",
+			"odp4": "jest ona dodatnia",
+			"odp": "A"
+		},
+		{
+			"pytanie": "Która z reguł walidacji strony internetowej jest błędna?",
+			"odp1": "Jeżeli w instrukcji używa się kilku atrybutów, ich kolejność powinna być zgodna z alfabetem, np. &lt;img alt='....'  src='....' /&gt;",
+			"odp2": "Wyłączanie znaczników musi następować w odwrotnej kolejności, niż były one włączane, np. &lt;p&gt;....&lt;big&gt;...&lt;/big&gt;&lt;/p&gt;",
+			"odp3": "Znaczniki, oprócz samozamykających się, działają do momentu ich wyłączenia znakiem '/', np. &lt;p&lt;...&lt;/p&gt;",
+			"odp4": "W znacznikach nie są rozróżniane wielkie i małe litery, np. &lt;p&gt; i &lt;P&gt; to ten sam znacznik",
+			"odp": "A"
+		},
+		{
+			"pytanie": "Selektor CSS a:link {color:red} zawarty w kaskadowych arkuszach stylów definiuje",
+			"odp1": "klasę",
+			"odp2": "pseudoklasę",
+			"odp3": "identyfikator",
+			"odp4": "pseudoelement",
+			"odp": "B"
+		},
+		{
+			"pytanie": "W ramce przedstawiono kod JavaScript z błędem logicznym. Program powinien wypisywać informację, czy liczby są sobie równe czy nie, lecz nie wykonuje tego. Wskaż odpowiedź, która dotyczy błędu \n <img src='http://egzamin-informatyk.pl/e14/365.jpg' />",
+			"odp1": "Nieprawidłowo zadeklarowano zmienne",
+			"odp2": "Przed klauzulą else nie powinno być średnika",
+			"odp3": "W klauzuli if występuje przypisanie zamiast porównania",
+			"odp4": "Instrukcje wewnątrz sekcji if oraz else powinny być zamienione miejscami",
+			"odp": "C"
 		}
 	]
 }
