@@ -148,12 +148,13 @@ function odpowiadanie(object) {
 
 }
 
+// $(".trescE").each(function () { console.log('{ "pytanie" : "' + $(this).html() + '"' + "\n" + '"odp1" : "' + $(this).next().html() + '"' + "\n" + '"odp2": "' + $(this).next().next().html() + '"' + "\n" + '"odp3" : "' + $(this).next().next().next().html() + '"' + "\n" + '"odp4" : "' + $(this).next().next().next().next().html() + '" }'); });
 
 // Losujemy które pytanie ma zadac
 
 function losujPytanie() {
 
-    x = Math.floor((Math.random()) * 37);
+    x = Math.floor((Math.random()) * 38);
     return x;
     console.log(x);
 }
