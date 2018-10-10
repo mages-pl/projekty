@@ -5,6 +5,21 @@ var myObj;
 var x;
 var uczniowie = [];
 var level_status;
+var oceny = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+]
 
 var level = [
     1,
@@ -69,10 +84,13 @@ function nextLevel(level) {
 
     var nextLevel = parseInt((level) * 10 * Math.PI / 2);
 
-    //alert(level);
     return nextLevel;
 }
 
+function ocena(uczen) {
+    alert("Masz 5tkę");
+    oceny[uczen] = oceny[uczen] + "5, ";
+}
 function levelUp(uczen, level, punkty) {
 
     if (punkty >= ((level) * 10 * Math.PI / 2)) {
@@ -113,15 +131,18 @@ function odpowiadanie(object) {
         levelUp(randNumber, level[randNumber], punkty[randNumber]);
         if (level_status == true) {
             level[randNumber] = level[randNumber] + 1;
+            if (level[randNumber] % 10 == 0) {
+                ocena(randNumber);
+            }
         }
 
         console.log(punkty[randNumber]);
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> EXP: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     } else {
         alert("Wybrales " + object.value + " jest to odpowiedz niepoprawna, popranwna odp " + myObj.pytania[x].odp);
         object.classList.add("bad");
         punkty[randNumber] = punkty[randNumber] - 5;
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> EXP: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     }
     showStatystyki();
 
@@ -177,12 +198,12 @@ function losowanie() {
     randNumber = Math.floor(Math.random() * uczniowie.length);
 
 
-    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i> LEVEL: " + level[randNumber] + " </mark> Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i> LEVEL: " + level[randNumber] + " </mark> EXP: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
 }
 function showStatystyki() {
     var statystyka = '';
     for (var z = 0; z < uczniowie.length; z++) {
-        statystyka += '<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-avatar">person</i>' + uczniowie[z] + "<br/> Level: " + level[z] + "<br/>Punkty " + punkty[z] + "</span></li>";
+        statystyka += '<li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-avatar">person</i>' + uczniowie[z] + "<br/> Level: " + level[z] + "<br/>EXP " + punkty[z] + "<br/>Nagrody: " + oceny[z] + "</span></li>";
     }
     document.querySelector("#statystyki").innerHTML = statystyka;
 
