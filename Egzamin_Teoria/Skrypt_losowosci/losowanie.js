@@ -116,12 +116,12 @@ function odpowiadanie(object) {
         }
 
         console.log(punkty[randNumber]);
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     } else {
         alert("Wybrales " + object.value + " jest to odpowiedz niepoprawna, popranwna odp " + myObj.pytania[x].odp);
         object.classList.add("bad");
         punkty[randNumber] = punkty[randNumber] - 5;
-        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + "</mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+        document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> Punkty: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
     }
     showStatystyki();
 
@@ -177,7 +177,7 @@ function losowanie() {
     randNumber = Math.floor(Math.random() * uczniowie.length);
 
 
-    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark>LEVEL: " + level[randNumber] + " </mark> <i class='material-icons'>star_border</i > Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
+    document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i> LEVEL: " + level[randNumber] + " </mark> Punkty: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
 }
 function showStatystyki() {
     var statystyka = '';

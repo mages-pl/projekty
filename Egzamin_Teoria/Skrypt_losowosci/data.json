@@ -14,7 +14,7 @@
 			"odp2": "Analiza wymagań klienta, specyfikacja wymagań tworzenie, testy, wdrażanie",
 			"odp3": "Specyfikacja wymagań, analiza wymagań klienta, tworzenie, wdrażanie,testy",
 			"odp4": "Analiza wymagań klienta, specyfikacja wymagań, tworzenie, wdrażanie, testy",
-			"odp": "B"
+			"odp": "C"
 		},
 		{
 			"pytanie": "W bazie danych, w celu uporządkowania listy uczniów według roku urodzenia, należy użyć polecenia",
@@ -33,7 +33,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Relacje słuza do ",
+			"pytanie": "Relacje w bazie danych są: ",
 			"odp1": "logicznym połączeniem tabel",
 			"odp2": "algebraicznym połączeniem tabel",
 			"odp3": "połączeniem dwóch pól jednej tabeli",
@@ -95,6 +95,38 @@
 			"odp3": "&lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/www/style/styl.css\" /&gt;",
 			"odp4": "&lt;link rel=\"Stylesheet\" type=\"text/css\" href=\"/../style/styl.css\" /&gt;",
 			"odp": "D"
+		},
+		{
+			"pytanie": "Barwa zapisana w modelu RGB(0,255,0) jest",
+			"odp1": "żółta",
+			"odp2": "zielona",
+			"odp3": "niebieska",
+			"odp4": "czerwona",
+			"odp": "B"
+		},
+		{
+			"pytanie": "Barwa zapisana w modelu RGB(0,0,255) jest",
+			"odp1": "żółta",
+			"odp2": "zielona",
+			"odp3": "niebieska",
+			"odp4": "czerwona",
+			"odp": "C"
+		},
+		{
+			"pytanie": "Barwa zapisana w modelu RGB(0,0,0) jest",
+			"odp1": "biała",
+			"odp2": "zielona",
+			"odp3": "czarna",
+			"odp4": "czerwona",
+			"odp": "C"
+		},
+		{
+			"pytanie": "Barwa zapisana w modelu RGB(255,255,255) jest",
+			"odp1": "biała",
+			"odp2": "zielona",
+			"odp3": "niebieska",
+			"odp4": "czerwona",
+			"odp": "A"
 		},
 		{
 			"pytanie": "Barwa zapisana w modelu RGB(255,0,0) jest",
@@ -234,7 +266,7 @@
 		},
 		{
 			"pytanie": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
-			"odp1": "Właściwym zestawem kroków według kolejności, które należy wykonać w celu nawiązania współpracy między aplikacją internetową po stronie serwera a bazą SQL, jest",
+			"odp1": "nawiązanie połączenia z serwerem baz danych, zapytanie do bazy - wyświetlane na stronie WWW, wybór bazy, zamknięcie połączenia",
 			"odp2": "wybór bazy danych, nawiązanie połączenia z serwerem baz danych, zapytanie do bazy, wyświetlenie na stronie WWW, zamknięcie połączenia",
 			"odp3": "wybór bazy, zapytanie do bazy, nawiązanie połączenia z serwerem baz danych, wyświetlenie na stronie WWW, zamknięcie połączenia",
 			"odp4": "nawiązanie połączenia z serwerem baz danych, wybór bazy, zapytanie do bazy - wyświetlane na stronie WWW, zamknięcie połączenia",
