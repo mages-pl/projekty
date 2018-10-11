@@ -310,15 +310,15 @@
 			"odp2": "SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 OR obrot &gt; 4000;",
 			"odp3": "SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 AND obrot &gt; 4000;",
 			"odp4": "SELECT sprzedaz FROM kontrahent WHERE grupa_cenowa = 2 AND obrot &gt; 4000;",
-			"odp": ""
+			"odp": "C"
 		},
 		{
-			"pytanie": "2. W kodzie JavaScript pętla zostanie wykonana",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/442.jpg' >",
+			"pytanie": "2. W kodzie JavaScript pętla zostanie wykonana <img  src='http://egzamin-informatyk.pl/e14/442.jpg' >",
+			"odp1": "27 razy",
 			"odp2": "2 razy",
 			"odp3": "3 razy",
 			"odp4": "26 razy",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "3. W języku PHP instrukcja foreach jest instrukcją",
@@ -326,7 +326,7 @@
 			"odp2": "Pętli, niezależnie od typu zmiennej",
 			"odp3": "Pętli, wyłącznie dla elementów tablicy",
 			"odp4": "Warunkową, niezależnie od typu zmiennej",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "4. Model opisu przestrzeni barw o parametrach: odcień, nasycenie i jasność, to ",
@@ -334,7 +334,7 @@
 			"odp2": "RGB",
 			"odp3": "CMY",
 			"odp4": "CMYK",
-			"odp": ""
+			"odp": "A"
 		},
 		{
 			"pytanie": "5. Jakiego typu specjalizowane oprogramowanie narzędziowe należy zainstalować, aby umożliwić wykonywanie jego użytkownikowi operacji na zgromadzonych danych?",
@@ -342,7 +342,7 @@
 			"odp2": "System Zarządzania Bazą Danych (SZBD)",
 			"odp3": "Obiektowy System Zarządzania Bazą Danych",
 			"odp4": "Otwarty mechanizm komunikacji bazy danych",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "6. Aby zobaczyć wyniki działania skryptu napisanego w języku PHP, będącego elementem strony WWW, musi być on",
@@ -350,7 +350,7 @@
 			"odp2": "skompilowany po stronie klienta",
 			"odp3": "skompilowany po stronie serwera",
 			"odp4": "zinterpretowany po stronie klienta",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "7. Odwoływanie funkcji do samej siebie to",
@@ -358,15 +358,15 @@
 			"odp2": "rekurencja",
 			"odp3": "hermetyzacja",
 			"odp4": "dziedziczenie",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "8. Które polecenie wydane z konsoli systemowej dokona przywrócenia bazy danych?",
-			"odp1": "mysqldump -u root -p baza &gt; kopia.sql",
-			"odp2": "mysqldump -u root -p baza &lt; kopia.sql",
-			"odp3": "mysql -u root -p baza &lt; kopia.sql",
-			"odp4": "mysql -u root -p baza &gt; kopia.sql",
-			"odp": ""
+			"odp1": "mysql -u root -p baza &lt; kopia.sql",
+			"odp2": "mysql -u root -p baza &gt; kopia.sql",
+			"odp3": "mysqldump -u root -p baza &gt; kopia.sql",
+			"odp4": "mysqldump -u root -p baza &lt; kopia.sql",
+			"odp": "A"
 		},
 		{
 			"pytanie": "9. W języku HTML atrybut alt znacznika img jest wykorzystywany w celu zdefiniowania",
@@ -374,7 +374,7 @@
 			"odp2": "tekstu, który będzie wyświetlony, jeśli nie może być wyświetlona grafika",
 			"odp3": "podpisu, który zostanie wyświetlony pod grafiką",
 			"odp4": "atrybutów grafiki, takich jak rozmiar, obramowanie, wyrównanie",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "10. Znacznik meta języka HTML należy umieścić",
@@ -382,7 +382,7 @@
 			"odp2": "w części nagłówkowej witryny internetowej",
 			"odp3": "pomiędzy znacznikami paragrafu",
 			"odp4": "w stopce witryny internetowej",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "11. Model barw oparty na 3 parametrach: odcień, nasycenie i jasność to",
@@ -390,7 +390,7 @@
 			"odp2": "HSV",
 			"odp3": "CMY",
 			"odp4": "CMYK",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "12. W języku JavaScript należy zapisać warunek, który będzie spełniony, gdy zmienna a będzie dowolną liczbą naturalną dodatnią (bez 0) lub gdy zmienna b będzie dowolną liczbą z przedziału domkniętego od 10 do 100. Użyte w tym warunku wyrażenie logiczne będzie miało postać",
@@ -398,7 +398,7 @@
 			"odp2": "(a&gt;0) &amp;&amp; ((b&gt;=10) || (b&lt;=100))",
 			"odp3": "(a&gt;0) || ((b&gt;=10) &amp;&amp; (b&lt;=100))",
 			"odp4": "(a&gt;0) &amp;&amp; ((b&gt;=10) &amp;&amp; (b&lt;=100))",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "13. Kod: SELECT imie, pesel, wiek FROM dane WHERE wiek IN (18,30) spowoduje wybranie:",
@@ -406,7 +406,7 @@
 			"odp2": "imion, numerów PESEL i wieku osób z przedziału od 18 do 30 lat",
 			"odp3": "imion, numerów PESEL i wieku osób posiadających powyżej 30 lat",
 			"odp4": "imion, numerów PESEL i wieku osób w wieku równym 18 lub 30 lat",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "14. W standardzie HDTV jest stosowana rozdzielczość",
@@ -414,7 +414,7 @@
 			"odp2": "720 x 480 px",
 			"odp3": "1280 x 1024 px",
 			"odp4": "1920 x 1080 px",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "15. Interpreter PHP wygeneruje błąd i nie wykona kodu, jeżeli programista:",
@@ -422,7 +422,7 @@
 			"odp2": "nie postawi średnika po wyrażeniu w instrukcji if, jeśli po nim nastąpiła sekcja else",
 			"odp3": "będzie deklarował zmienne wewnątrz warunku",
 			"odp4": "pobierze wartość z formularza, w którym pole input nie było wypełnione",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "16. W MS SQL Server polecenie RESTORE DATABASE służy do",
@@ -430,7 +430,7 @@
 			"odp2": "odświeżenia bazy danych z kontrolą więzów integralności",
 			"odp3": "przebudowania bazy danych w oparciu o buforowane dane",
 			"odp4": "usunięcia bazy danych z serwera centralnego subskrybenta",
-			"odp": ""
+			"odp": "A"
 		},
 		{
 			"pytanie": "17. Częstotliwość próbkowania ma wpływ na ",
@@ -438,7 +438,7 @@
 			"odp2": "jakość analogowego dzwięku",
 			"odp3": "amplitudę fali dźwiękowej utworu",
 			"odp4": "skalę głośności zapisanego utworu",
-			"odp": ""
+			"odp": "A"
 		},
 		{
 			"pytanie": "18. Modelem barw opisującym kolor z użyciem stożka przestrzeni barw jest",
@@ -446,15 +446,15 @@
 			"odp2": "HSV",
 			"odp3": "CMY",
 			"odp4": "CMYK",
-			"odp": ""
+			"odp": "B"
 		},
 		{
-			"pytanie": "19. Zamieszczony w ramce kod wyświetla tabelę składajacą się z",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/85.jpg' >",
+			"pytanie": "19. Zamieszczony w ramce kod wyświetla tabelę składajacą się z <img  src='http://egzamin-informatyk.pl/e14/85.jpg' >",
+			"odp1": "jednego wiersza i jednej kolumny",
 			"odp2": "dwóch wierszy i dwóch kolumn",
 			"odp3": "dwóch wierszy i jednej kolumny",
 			"odp4": "jednego wiersza i dwóch kolumn",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "20. Platforma wspierająca programowanie w technologii .NET to",
@@ -462,7 +462,7 @@
 			"odp2": "eclipse",
 			"odp3": "framework",
 			"odp4": "middleware",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "21. Która z zasad tworzenia części &lt;head&gt; języka HTML jest poprawna?",
@@ -470,15 +470,15 @@
 			"odp2": "W części &lt;head&gt; mogą wystąpić znaczniki &lt;meta&gt;, &lt;title&gt;, &lt;link&gt;",
 			"odp3": "W części &lt;head&gt; można definiować szablon strony znacznikami &lt;div&gt;",
 			"odp4": "W części &lt;head&gt; nie można umieszczać kodu CSS, a jedynie odwołanie do pliku CSS",
-			"odp": ""
+			"odp": "B"
 		},
 		{
-			"pytanie": "22. Zamieszczony w ramce fragment skryptu w języku JavaScript",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/118.jpg' >",
+			"pytanie": "22. Zamieszczony w ramce fragment skryptu w języku JavaScript <img  src='http://egzamin-informatyk.pl/e14/118.jpg' >",
+			"odp1": "przypisze zmiennej s fragment napisu ze zmiennej t, o określonej przez zmienną length długości.",
 			"odp2": "przypisze zmienniej s zmienną t",
 			"odp3": "wyświetli długość napisu ze zmiennej t ",
 			"odp4": "przypisze zmiennej s długość napisu ze zmiennej t",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "23. Aby poprawnie zdefiniować hierarchiczną strukturę tekstu witryny internetowej, należy zastosować",
@@ -486,23 +486,23 @@
 			"odp2": "znaczniki &lt;frame&gt; i &lt;table&gt;",
 			"odp3": "znacznik &lt;p&gt; z formatowaniem",
 			"odp4": "znaczniki &lt;h1&gt;, &lt;h2&gt; oraz &lt;p&gt;",
-			"odp": ""
+			"odp": "D"
 		},
 		{
-			"pytanie": "24. Funkcja zapisana językiem PHP służy do",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/125.jpg' >",
+			"pytanie": "24. Funkcja zapisana językiem PHP służy do <img  src='http://egzamin-informatyk.pl/e14/125.jpg' >",
+			"odp1": "pobrania danych z bazy danych.",
 			"odp2": "połączenia z bazą danych",
 			"odp3": "ustawienia hasła do bazy danych",
 			"odp4": "zabezpieczenia bazy danych",
-			"odp": ""
+			"odp": "A"
 		},
 		{
-			"pytanie": "25. Przedstawione formatowanie CSS sprawi, że dla prezentowanego nagłówka trzeciego stopnia",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/455.jpg' >",
+			"pytanie": "25. Przedstawione formatowanie CSS sprawi, że dla prezentowanego nagłówka trzeciego stopnia <img  src='http://egzamin-informatyk.pl/e14/455.jpg' >",
+			"odp1": "kolor czcionki bedzie pomarańczowy",
 			"odp2": "tło będzie szare",
 			"odp3": "tło będzie pomarańczowe",
 			"odp4": "kolor czcionki będzie  szary",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "26. Kod strony WWW napisanej w języku PHP",
@@ -510,15 +510,15 @@
 			"odp2": "jest wykonywany po stronie serwera",
 			"odp3": "może być uruchomiony bez obsługi serwera WWW",
 			"odp4": "jest przetwarzany na tych samych zasadach co JavaScript",
-			"odp": ""
+			"odp": "B"
 		},
 		{
-			"pytanie": "27. W języku CSS zdefiniowano następujące formatowanie. Oznacza to, że kolorem niebieskim zostanie zapisany",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/292.jpg' >",
+			"pytanie": "27. W języku CSS zdefiniowano następujące formatowanie. Oznacza to, że kolorem niebieskim zostanie zapisany <img  src='http://egzamin-informatyk.pl/e14/292.jpg' >",
+			"odp1": "pochylony tekst",
 			"odp2": "cały tekst paragrafu niezależnie od jego formatowania",
 			"odp3": "pochylony tekst paragrafu",
 			"odp4": "cały tekst nagłówków niezależnie od ich formatowania",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "28. Konstruktor w języku PHP jest metodą o nazwie",
@@ -526,7 +526,7 @@
 			"odp2": "_open",
 			"odp3": "_create",
 			"odp4": "_construct",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "29. Zdefiniowano bazę danych z tabelą sklepy o polach: nazwa, ulica, miasto, branza. Aby wyszukać wszystkie nazwy sklepów spożywczych zlokalizowanych wyłącznie we Wrocławiu, należy posłużyć się kwerendą:",
@@ -534,15 +534,15 @@
 			"odp2": "SELECT sklepy FROM branza='spożywczy' WHERE miasto='Wrocław';",
 			"odp3": "SELECT nazwa FROM sklepy WHERE branza='spozywczy' OR miasto='Wrocław';",
 			"odp4": "SELECT nazwa FROM sklepy WHERE branza='spozywczy' AND miasto='Wrocław';",
-			"odp": ""
+			"odp": "D"
 		},
 		{
-			"pytanie": "30. Dana jest tablica n-elementowa o nazwie t[n]. Zadaniem algorytmu zapisanego w postaci listy kroków jest wypisania sumy",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/235.jpg' >",
+			"pytanie": "30. Dana jest tablica n-elementowa o nazwie t[n]. Zadaniem algorytmu zapisanego w postaci listy kroków jest wypisania sumy <img  src='http://egzamin-informatyk.pl/e14/235.jpg' >",
+			"odp1": "sumy tych elementów tablicy, których wartości są nieparzyste.",
 			"odp2": "n-elementów tablicy",
 			"odp3": "co drugiego elementu tablicy",
 			"odp4": "sumy wszystkich elementów tablicy",
-			"odp": ""
+			"odp": "C"
 		},
 		{
 			"pytanie": "31. W bazie danych sklepu istnieje tabela artykuly zawierająca pole o nazwie nowy. Aby to pole wypełnić wartościami TRUE dla każdego rekordu, należy zastosować kwerendę",
@@ -550,7 +550,7 @@
 			"odp2": "INSERT INTO artykuly VALUE nowy=TRUE;",
 			"odp3": "UPDATE nowy FROM artykuly VALUE TRUE;",
 			"odp4": "INSERT INTO nowy FROM artykuly SET TRUE;",
-			"odp": ""
+			"odp": "A"
 		},
 		{
 			"pytanie": "32. Kaskadowe arkusze stylów tworzy się w celu",
@@ -558,15 +558,15 @@
 			"odp2": "uzupełnienia strony internetowej o treści tekstowe",
 			"odp3": "przyspieszenia wyświetlania grafiki na stronie internetowej",
 			"odp4": "definiowania sposobu formatowania elementów strony internetowej",
-			"odp": ""
+			"odp": "D"
 		},
 		{
-			"pytanie": "33. W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/293.jpg' >",
+			"pytanie": "33. W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie <img  src='http://egzamin-informatyk.pl/e14/293.jpg' >",
+			"odp1": "pierwsza litera nagłówka pierwszego stopnia.",
 			"odp2": "pierwsza linia paragrafu",
 			"odp3": "tekst nagłówka pierwszego stopnia",
 			"odp4": "pierwsza litera nagłówka drugiego stopnia",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "34. W bazie danych MYSQL dana jest tabela programów komputerowych o polach: nazwa, producent, rokWydania. Aby kwerenda SELECT zwróciła wszystkie nazwy producentów tak, by nazwy te nie powtarzały się, należy zapisać:",
@@ -574,23 +574,23 @@
 			"odp2": "SELECT DISTINCT producent FROM programy;",
 			"odp3": "SELECT producent FROM programy WHERE UNIQUE;",
 			"odp4": "SELECT producent FROM programy WHERE producent NOT DUPLICATE;",
-			"odp": ""
+			"odp": "B"
 		},
 		{
-			"pytanie": "35. W języku JavaScript zapis w ramce oznacza, że",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/359.jpg' >",
+			"pytanie": "35. W języku JavaScript zapis w ramce oznacza, że <img  src='http://egzamin-informatyk.pl/e14/359.jpg' >",
+			"odp1": "zmienna x będzie przechowywać wynik działania funkcji przedmiot.",
 			"odp2": "nazwa jest polem klasy przedmiot",
 			"odp3": "nazwa jest właściwością obiektu przedmiot",
 			"odp4": "zmienna x będzie przechowywać wynik działania metody nazwa",
-			"odp": ""
+			"odp": "D"
 		},
 		{
-			"pytanie": "36. Przedstawiony kod źródłowy ma za zadanie wyświetlić",
-			"odp1": "<img  src='http://egzamin-informatyk.pl/e14/478.jpg' >",
+			"pytanie": "36. Przedstawiony kod źródłowy ma za zadanie wyświetlić <img  src='http://egzamin-informatyk.pl/e14/478.jpg' >",
+			"odp1": "wypisanie losowych liczb tak długo aż nie zostanie wylosowana wartość 0",
 			"odp2": "wylosowane liczby od 1 do 99",
 			"odp3": "kolejne liczby od 1 do 100",
 			"odp4": "wczytane z klawiatury liczby tak długo, aż nie zostanie wczytana wartość 0",
-			"odp": ""
+			"odp": "A"
 		},
 		{
 			"pytanie": "37. Wskaż PRAWDZIWE stwierdzenie dla polecenia: CREATE TABLE IF NOT EXISTS ADRES(ulica VARCHAR(70) CHARACTER SET utf8);",
@@ -598,7 +598,7 @@
 			"odp2": "Klauzula CHARACTER SET utf8 jest obowiązkowa",
 			"odp3": "Do tabeli nie można wprowadzać ulic zawierających w nazwie polskie znaki",
 			"odp4": "IF NOT EXISTS stosuje się opcjonalnie, aby upewnić się, że brak w bazie danych takiej tabeli",
-			"odp": ""
+			"odp": "D"
 		},
 		{
 			"pytanie": "38. Parametr face znacznika &lt;font&gt; służy do określenia",
@@ -606,7 +606,7 @@
 			"odp2": "nazwy czcionki",
 			"odp3": "efektów czcionki",
 			"odp4": "wielkości czcionki",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "39. Jak nazywa się edytor wspomagający tworzenie stron internetowych, którego sposób działania można w polskim tłumaczeniu określić jako: otrzymujesz to, co widzisz?",
@@ -614,7 +614,7 @@
 			"odp2": "WYSIWYG",
 			"odp3": "WEB STUDIO",
 			"odp4": "VISUAL EDITOR",
-			"odp": ""
+			"odp": "B"
 		},
 		{
 			"pytanie": "40. Obiekt typu array w języku Javascript służy do przechowywania ",
@@ -622,7 +622,7 @@
 			"odp2": "wielu wartości dowolnego typu",
 			"odp3": "wielu wartości wyłącznie liczbowych",
 			"odp4": "wielu wartości wyłącznie tekstowych ",
-			"odp": ""
+			"odp": "B"
 		}
 	]
 }
