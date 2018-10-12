@@ -350,7 +350,7 @@
 			"odp2": "skompilowany po stronie klienta",
 			"odp3": "skompilowany po stronie serwera",
 			"odp4": "zinterpretowany po stronie klienta",
-			"odp": "D"
+			"odp": "A"
 		},
 		{
 			"pytanie": "7. Odwoływanie funkcji do samej siebie to",
@@ -566,7 +566,7 @@
 			"odp2": "pierwsza linia paragrafu",
 			"odp3": "tekst nagłówka pierwszego stopnia",
 			"odp4": "pierwsza litera nagłówka drugiego stopnia",
-			"odp": "B"
+			"odp": "A"
 		},
 		{
 			"pytanie": "34. W bazie danych MYSQL dana jest tabela programów komputerowych o polach: nazwa, producent, rokWydania. Aby kwerenda SELECT zwróciła wszystkie nazwy producentów tak, by nazwy te nie powtarzały się, należy zapisać:",

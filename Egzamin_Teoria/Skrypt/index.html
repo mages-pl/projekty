@@ -9,6 +9,43 @@
         overflow: hidden;
     }
 
+    .mdl-dialog {
+        max-width: 650px !important;
+        width: auto;
+    }
+
+    .mdl-dialog .mdl-button {
+        width: 56px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        height: 56px;
+    }
+
+    .mdl-dialog p {
+        text-align: center;
+    }
+
+    .mdl-dialog .uczen {
+        font-weight: 300;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .mdl-dialog p {
+        text-align: center;
+    }
+
+    .mdl-dialog p big {
+        display: block;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .mdl-dialog p big>i {
+        font-size: 5rem;
+    }
+
     .mdl-grid {
         padding: 0;
     }
@@ -60,12 +97,48 @@
         clear: both !important;
     }
 
+    progress {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        display: inline-block;
+        transition: .5s all ease-in-out;
+        color: black;
+        background-color: black;
+        width: 200px;
+        height: 6px;
+        margin: 12px 0;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #eee;
+    }
+
+    progress::-moz-progress-bar {
+        background-color: #eee;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: rgb(68, 138, 255);
+    }
+
+    progress::-moz-progress-value {
+        background-color: rgb(68, 138, 255);
+    }
+
+
     .bad+div {
         background: #f39595;
+        width: 100%;
+        padding: 0px 30px;
+        margin-left: -30px;
     }
 
     .success+div {
         background: #95f3a7;
+        width: 100%;
+        padding: 0px 30px;
+        margin-left: -30px;
     }
 
     .bad+div:after {
@@ -111,7 +184,9 @@
                             style="justify-content:center;">
                             <div>
                                 <i class="material-icons mdl-list__item-avatar">person</i>
-                                <div id="uczen"></div>
+                                <div id="uczen">
+                                    <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                                </div>
                             </div>
                             <div id="pytanie"></div>
                             <div class="clearfix"></div>
@@ -137,24 +212,34 @@
                             </label>
 
                             <div class="clearfix"></div>
-                            <button onclick="losowanie();" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                                <i class="material-icons">
-                                    repeat
-                                </i>
-                                Losuj pytanie
-                            </button>
-                            <button onclick="showStatystyki();" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                <i class="material-icons">
-                                    show_chart
-                                </i>
-                                Pokaz statystyki
-                            </button>
-                            <button onclick="saveStatystyki();" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                <i class="material-icons">
-                                    show_chart
-                                </i>
-                               Zapisz statystyki
-                            </button>
+                            <div><button onclick="showStatystyki();" class="mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    data-upgraded=",MaterialButton,MaterialRipple">
+                                    <i class="material-icons">
+                                        show_chart
+                                    </i>
+                                    Pokaz statystyki
+                                    <span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating"
+                                            style="width: 2303.13px; height: 2303.13px; transform: translate(-50%, -50%) translate(259px, 31px);"></span></span></button><button
+                                    onclick="saveStatystyki();" class="mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    data-upgraded=",MaterialButton,MaterialRipple" style="
+                                background: #243e4f;
+                                color: #fff;
+                            ">
+                                    <i class="material-icons">
+                                        show_chart
+                                    </i>
+                                    Ukryj statystyki
+                                    <span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating"
+                                            style="width: 2303.13px; height: 2303.13px; transform: translate(-50%, -50%) translate(286px, 10px);"></span></span></button>
+                                <button onclick="losowanie();" class="mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                    data-upgraded=",MaterialButton,MaterialRipple">
+                                    <i class="material-icons">
+                                        repeat
+                                    </i>
+                                    Losuj pytanie
+                                    <span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating"
+                                            style="width: 2303.13px; height: 2303.13px; transform: translate(-50%, -50%) translate(518px, 27px);"></span></span></button>
+                            </div>
 
 
                         </div>
@@ -162,8 +247,14 @@
                         <div class="mdl-card mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone"
                             style="background:#fafafa;">
                             <h3>Statystyki</h3>
+                            <form action="#">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" onkeyup="findPlayer(this);" id="sample3">
+                                    <label class="mdl-textfield__label" for="sample3">Znajdź gracza</label>
+                                </div>
+                            </form>
                             <ul id="statystyki" class="demo-list-icon mdl-list">
-
+                                <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
                             </ul>
                         </div>
                     </section>
@@ -171,6 +262,23 @@
             </div>
         </div>
     </div>
+    <dialog id="dialog" class="mdl-dialog">
+        <h3 class="mdl-dialog__title"><i class="material-icons">
+                notifications_none
+            </i>Nowe Zdarzenie</h3>
+        <div class="mdl-dialog__content">
+            <p>
+                This is an example of the Material Design Lite dialog component.
+                Please use responsibly.
+            </p>
+        </div>
+        <div class="mdl-dialog__actions">
+            <button type="button" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+                onclick="closeModal();"><i class="material-icons">
+                    play_arrow
+                </i></button>
+        </div>
+    </dialog>
     </main>
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 

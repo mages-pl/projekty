@@ -21,12 +21,12 @@ for ($i = 0; $i < count($dataFromJson->uczniowie); ++$i) {
     if ($i == $_POST['uczen']) {
         $data .= '"level": "'.$_POST['level'].'",
             "punkty": "'.$_POST['punkty'].'",
-            "oceny": ""
+            "oceny": "'.$_POST['oceny'].'"
             ';
     } else {
         $data .= '"level": "'.$dataFromJson->uczniowie[$i]->level.'",
             "punkty": "'.$dataFromJson->uczniowie[$i]->punkty.'",
-            "oceny": ""
+            "oceny": "'.$dataFromJson->uczniowie[$i]->oceny.'"
             ';
     }
 
