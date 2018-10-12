@@ -122,20 +122,18 @@ function randomEvent(event, szansa, nr_ucznia) {
             dialog.showModal();
         }
         if (event == 'next_player') {
-            alert('Typuje innego gracza ');
             document.querySelector("#dialog p").innerHTML = "<big><i class='material-icons'>person_add</i ></big><span class='uczen'>" + uczniowie[nr_ucznia] + "</span> losuje innego gracza do tegp pytania";
             dialog.showModal();
 
         }
         if (event == 'repeat_question') {
-            alert('Dostajesz jeszcze jedno pytanie');
+
             document.querySelector("#dialog p").innerHTML = "<big><i class='material-icons'>playlist_add</i ></big><span class='uczen'>" + uczniowie[nr_ucznia] + "</span> kolejne pytanie dla Ciebie";
             dialog.showModal();
 
         }
 
         if (event == '2x_exp') {
-            //alert('2x wiecej expa za pytanie');
 
             document.querySelector("#dialog p").innerHTML = "<big><i class='material-icons'>school</i ></big><span class='uczen'>" + uczniowie[nr_ucznia] + "</span> otrzymujesz boosta +20 expa w prezencie";
             dialog.showModal();
@@ -153,7 +151,6 @@ function odpowiadanie(object) {
 
     if (object.value == myObj.pytania[x].odp) {
 
-        // alert("Wybrales " + object.value + " jest to odpowiedz poprawna " + myObj.pytania[x].odp);
         document.querySelector("#dialog p").innerHTML = "<big><i class='material-icons'>mood</i ></big>Wybrales <big>" + object.value + "</big> jest to odpowiedz poprawna";
 
 
@@ -176,7 +173,6 @@ function odpowiadanie(object) {
         document.querySelector("#dialog p").innerHTML = "<big><i class='material-icons'>mood_bad</i ></big>Wybrales <big>" + object.value + "</big> Niestety odpowiedź jest błędna, poprawna odpowiedź to <big>" + myObj.pytania[x].odp + "</big>";
         dialog.showModal();
 
-        //alert("Wybrales " + object.value + " jest to odpowiedz niepoprawna, popranwna odp " + myObj.pytania[x].odp);
         object.classList.add("bad");
         punkty[randNumber] = punkty[randNumber] - 5;
         document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i > LEVEL: " + level[randNumber] + "</mark> EXP: " + punkty[randNumber] + ' / ' + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
@@ -235,7 +231,6 @@ function losowanie() {
     document.querySelector("#uczen").innerHTML = uczniowie[randNumber] + " <mark><i class='material-icons'>star_border</i> LEVEL: " + level[randNumber] + " </mark> EXP: " + punkty[randNumber] + " / " + nextLevel(level[randNumber]) + " <progress value='" + punkty[randNumber] + "' max='" + nextLevel(level[randNumber]) + "'></progress></progress>";
 }
 function findPlayer(objekt) {
-    // console.log(objekt.value);
 
     document.querySelectorAll('#statystyki li').forEach(function (i) {
 
@@ -245,7 +240,6 @@ function findPlayer(objekt) {
             i.style.display = "block";
         }
     });
-
 
 }
 function saveStatystyki() {
@@ -266,9 +260,7 @@ function saveStatystyki() {
     xhr.send("uczen=" + randNumber + "&punkty=" + punkty[randNumber] + "&level=" + level[randNumber] + "&oceny=" + oceny[randNumber]);
 
     //    alert("Aktualne punkty:" + punkty[randNumber]);
-    //alert("Aktualne levele:" + level[randNumber]);
 
-    //alert("Aktualne punkty:"+punkty);
 
 }
 function showStatystyki() {
