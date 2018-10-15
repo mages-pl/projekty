@@ -187,8 +187,7 @@ function odpowiadanie(object) {
 
 }
 
-// $(".trescE").each(function () { console.log('{ "pytanie" : "' + $(this).html() + '"' + "\n" + '"odp1" : "' + $(this).next().html() + '"' + "\n" + '"odp2": "' + $(this).next().next().html() + '"' + "\n" + '"odp3" : "' + $(this).next().next().next().html() + '"' + "\n" + '"odp4" : "' + $(this).next().next().next().next().html() + '" }'); });
-
+//$(".question").each(function () { console.log('{ "pytanie" : "' + $.trim($(this).children('.title').text())+$.trim($(this).children('.image').html()) + '",' + "\n" + '"odp1" : "' + $.trim($(this).children('.answer:eq(0)').text()) + '"' + ",\n" + '"odp2": "' + $.trim($(this).children('.answer:eq(1)').text()) + '"' + ",\n" + '"odp3" : "' + $.trim($(this).children('.answer:eq(2)').text()) + '"' + ",\n" + '"odp4" : "' + $.trim($(this).children('.answer:eq(3)').text()) + '",\n "odp" :"'+$.trim($(this).children('.answer.correct').text())+'" }'); });
 // Losujemy które pytanie ma zadac
 
 function losujPytanie() {
