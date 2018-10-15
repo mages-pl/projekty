@@ -25,7 +25,7 @@ function getJSONFile(dataFile) {
 
             if (dataFile == 'data.json') {
                 //console.log("Json parsed data is: " + JSON.stringify(myObj.pytania[x].pytanie));
-                document.querySelector('#pytanie').innerHTML = "<h2>" + (myObj.pytania[x].pytanie) + "</h2>";
+                document.querySelector('#pytanie').innerHTML = "<h2>" + x + ". " + (myObj.pytania[x].pytanie) + "</h2>";
                 document.querySelector('#odp1').innerHTML = "<b>A:</b> " + (myObj.pytania[x].odp1);
                 document.querySelector('#odp2').innerHTML = "<b>B:</b> " + (myObj.pytania[x].odp2);
                 document.querySelector('#odp3').innerHTML = "<b>C:</b> " + (myObj.pytania[x].odp3);
@@ -193,7 +193,7 @@ function odpowiadanie(object) {
 
 function losujPytanie() {
 
-    x = Math.floor((Math.random()) * 80);
+    x = Math.floor((Math.random()) * 466);
     //console.log(x);
     return x;
 

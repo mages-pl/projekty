@@ -1,102 +1,73 @@
 {
-    "uczniowie": [
-        {
+    "uczniowie": [{
             "nr_dziennika": "1",
-            "imie": "Ł. Augustyniak",
-            "level": "1",
-            "punkty": "20",
+            "imie": "Ł. Augustyniak","level": "5",
+            "punkty": "230",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "2",
-            "imie": "E. Cierniak",
-            "level": "2",
-            "punkty": "25",
+            "imie": "E. Cierniak","level": "5",
+            "punkty": "205",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "3",
-            "imie": "W. Grabowski",
-            "level": "3",
-            "punkty": "60",
+            "imie": "W. Grabowski","level": "8",
+            "punkty": "493",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "4",
-            "imie": "Kłonowski",
-            "level": "3",
-            "punkty": "45",
-            "oceny": ""
-        },
-        {
+            "imie": "Kłonowski","level": "6",
+            "punkty": "310",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "5",
-            "imie": "J. Knapiński",
-            "level": "4",
-            "punkty": "50",
-            "oceny": ""
-        },
-        {
+            "imie": "J. Knapiński","level": "6",
+            "punkty": "280",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "6",
-            "imie": "P. Korylak",
-            "level": "2",
-            "punkty": "20",
+            "imie": "P. Korylak","level": "5",
+            "punkty": "194",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "7",
-            "imie": "F. Kowalczyk",
-            "level": "2",
-            "punkty": "35",
+            "imie": "F. Kowalczyk","level": "7",
+            "punkty": "367",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "8",
-            "imie": "J.  Kowalczyk",
-            "level": "2",
-            "punkty": "5",
-            "oceny": ""
-        },
-        {
+            "imie": "J.  Kowalczyk","level": "6",
+            "punkty": "288",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "9",
-            "imie": "P. Latoszewski",
-            "level": "2",
-            "punkty": "35",
+            "imie": "P. Latoszewski","level": "3",
+            "punkty": "55",
             "oceny": ""
-        },
-        {
+            },{
             "nr_dziennika": "10",
-            "imie": "J. Muskała",
-            "level": "3",
-            "punkty": "35",
-            "oceny": ""
-        },
-        {
+            "imie": "J. Muskała","level": "6",
+            "punkty": "261",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "11",
-            "imie": "B. Niewiadomski",
-            "level": "3",
-            "punkty": "50",
-            "oceny": ""
-        },
-        {
+            "imie": "B. Niewiadomski","level": "11",
+            "punkty": "1262",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "12",
-            "imie": "N. Panasiuk",
-            "level": "2",
-            "punkty": "20",
-            "oceny": ""
-        },
-        {
+            "imie": "N. Panasiuk","level": "6",
+            "punkty": "277",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "13",
-            "imie": "A. Połczyński",
-            "level": "4",
-            "punkty": "45",
-            "oceny": ""
-        },
-        {
+            "imie": "A. Połczyński","level": "6",
+            "punkty": "327",
+            "oceny": "5, "
+            },{
             "nr_dziennika": "14",
-            "imie": "T. Socha",
-            "level": "7",
-            "punkty": "95",
+            "imie": "T. Socha","level": "7",
+            "punkty": "285",
             "oceny": ""
-        }
-    ]
+            }   ]
 }
