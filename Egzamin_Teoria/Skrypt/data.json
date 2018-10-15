@@ -2,10 +2,10 @@
 	"pytania": [
 		{
 			"pytanie": "Którego polecenia nalezy użyć, aby wyraz TEKST został wyświetleny w kolorze czarnym w oknie przeglądarki internetowej?",
-			"odp1": "A. <body color='black'>TEKST</font>",
-			"odp2": "B. <font color='czarny'>TEKST</font>",
-			"odp3": "C. <font color='#000000'>TEKST</font>",
-			"odp4": "D. <body bgcolor='black'>TEKST</body>",
+			"odp1": "A. &lt;body color='black'&gt;TEKST&lt;/font&gt;",
+			"odp2": "B. &lt;font color='czarny'&gt;TEKST&lt;/font&gt;",
+			"odp3": "C. &lt;font color='#000000'&gt;TEKST&lt;/font&gt;",
+			"odp4": "D. &lt;body bgcolor='black'&gt;TEKST&lt;/body&gt;",
 			"odp": "C"
 		},
 		{
@@ -13,15 +13,15 @@
 			"odp1": "A. loop='10'",
 			"odp2": "B. balance='-10'",
 			"odp3": "C. volume='-100'",
-			"odp4": "D. href='C:/100.wav'>",
+			"odp4": "D. href='C:/100.wav'&gt;",
 			"odp": "D"
 		},
 		{
 			"pytanie": "Jakiego znacznika należy użyć, aby przejść do kolejnej linii tekstu, nie tworząc akapitu na stronie interenetowej ?",
-			"odp1": "A. <p>",
-			"odp2": "B. </b>",
-			"odp3": "C. <br>",
-			"odp4": "D. </br>",
+			"odp1": "A. &lt;p&gt;",
+			"odp2": "B. &lt;/b&gt;",
+			"odp3": "C. &lt;br&gt;",
+			"odp4": "D. &lt;/br&gt;",
 			"odp": "C"
 		},
 		{
@@ -97,7 +97,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Najprostszy sposób zamiany obiektu oznaczonego cyfrą 1 na obiekt oznaczony cyfrą 2 polega na<a href='http://egzamin-informatyk.pl/e14/13.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/13.jpg' /></a>",
+			"pytanie": "Najprostszy sposób zamiany obiektu oznaczonego cyfrą 1 na obiekt oznaczony cyfrą 2 polega na<a href='http://egzamin-informatyk.pl/e14/13.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/13.jpg'  /></a>",
 			"odp1": "A. animowaniu obiektu",
 			"odp2": "B. zmianie warstwy obiektu",
 			"odp3": "C. narysowaniu docelowego obiektu",
@@ -137,7 +137,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Jak posortowana będzie lista, utworzona ze wszystkich kolumn tabeli uczniowie i zawierająca uczniów ze średnią większą od 5, która zostanie zwrócona jako wynik przedstawionego zapytania?<a href='http://egzamin-informatyk.pl/e14/18.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/18.jpg' /></a>",
+			"pytanie": "Jak posortowana będzie lista, utworzona ze wszystkich kolumn tabeli uczniowie i zawierająca uczniów ze średnią większą od 5, która zostanie zwrócona jako wynik przedstawionego zapytania?<a href='http://egzamin-informatyk.pl/e14/18.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/18.jpg'  /></a>",
 			"odp1": "A. Rosnąca według parametru klasa",
 			"odp2": "B. Malejąco według parametru klasa",
 			"odp3": "C. Rosnaco według parametru srednia",
@@ -145,7 +145,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Według którego parametru oraz dla ilu tabel zostaną zwrócone wiersze na liście w wyniku przedstawionego zapytania?<a href='http://egzamin-informatyk.pl/e14/19.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/19.jpg' /></a>",
+			"pytanie": "Według którego parametru oraz dla ilu tabel zostaną zwrócone wiersze na liście w wyniku przedstawionego zapytania?<a href='http://egzamin-informatyk.pl/e14/19.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/19.jpg'  /></a>",
 			"odp1": "A. Według parametru wyrob_id wyłącznie dla trzech tabel",
 			"odp2": "B. Według parametru wyrob_id dla wyłącznie dla trzech tabel",
 			"odp3": "C. Według parametru nr_id wyłącznie dla trzech tabel",
@@ -241,7 +241,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Co definiuje w języku C++ przedstawiony fragment kodu?<a href='http://egzamin-informatyk.pl/e14/31.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/31.jpg' /></a>",
+			"pytanie": "Co definiuje w języku C++ przedstawiony fragment kodu?<a href='http://egzamin-informatyk.pl/e14/31.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/31.jpg'  /></a>",
 			"odp1": "A. Hierarchię zmiennych",
 			"odp2": "B. Trzy zmienne niepowiązane ze sobą",
 			"odp3": "C. Typ strukturalny składający się z trzech pól",
@@ -257,7 +257,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Które wartości będą kolejno wypisane w wyniku działania przedstawionego skryptu<a href='http://egzamin-informatyk.pl/e14/33.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/33.jpg' /></a>",
+			"pytanie": "Które wartości będą kolejno wypisane w wyniku działania przedstawionego skryptu<a href='http://egzamin-informatyk.pl/e14/33.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/33.jpg'  /></a>",
 			"odp1": "A. 2 2 1",
 			"odp2": "B. 2 1 1",
 			"odp3": "C. 1 2 1",
@@ -265,7 +265,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Fragment kodu prezentuje składnię języka<a href='http://egzamin-informatyk.pl/e14/34.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/34.jpg' /></a>",
+			"pytanie": "Fragment kodu prezentuje składnię języka<a href='http://egzamin-informatyk.pl/e14/34.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/34.jpg'  /></a>",
 			"odp1": "A. C",
 			"odp2": "B. C#",
 			"odp3": "C. PHP",
@@ -305,7 +305,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Jak nazywa się element oznaczony znakiem zapytania w strukturze platformy .NET, który umożliwia tworzenie własnych aplikacji z użyciem frameworków i zamianę kompilowanego kodu pośredniego na kod maszynowy procesora zainstalowanego w komputerze?<a href='http://egzamin-informatyk.pl/e14/39.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/39.jpg' /></a>",
+			"pytanie": "Jak nazywa się element oznaczony znakiem zapytania w strukturze platformy .NET, który umożliwia tworzenie własnych aplikacji z użyciem frameworków i zamianę kompilowanego kodu pośredniego na kod maszynowy procesora zainstalowanego w komputerze?<a href='http://egzamin-informatyk.pl/e14/39.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/39.jpg'  /></a>",
 			"odp1": "A. Infrastruktura językowa (CLI)",
 			"odp2": "B. Biblioteka klas bazowych (BCL)",
 			"odp3": "C. Wspólne środowisko programistyczne (CLP)",
@@ -330,14 +330,14 @@
 		},
 		{
 			"pytanie": "Który z odsyłaczy posiada poprawną konstrukcję?",
-			"odp1": "A. <a href='mailto:adres'> tekst </a>",
-			"odp2": "B. <a href='http://adres'> tekst </a>",
-			"odp3": "C. <a href='http://adres'> tekst <a>",
-			"odp4": "D. <a href='mailto:adres'> tekst </a>",
+			"odp1": "A. <a href='mailto:adres'&gt; tekst </a>",
+			"odp2": "B. <a href='http://adres'&gt; tekst </a>",
+			"odp3": "C. &lt;a href='http://adres'&gt; tekst &lt;a&gt;",
+			"odp4": "D. <a href='mailto:adres'&gt; tekst </a>",
 			"odp": "D"
 		},
 		{
-			"pytanie": "Fragment kodu napisany w języku HTML zamieszczony w ramce przedstawia listę<a href='http://egzamin-informatyk.pl/e14/43.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/43.jpg' /></a>",
+			"pytanie": "Fragment kodu napisany w języku HTML zamieszczony w ramce przedstawia listę<a href='http://egzamin-informatyk.pl/e14/43.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/43.jpg'  /></a>",
 			"odp1": "A. wypunktowaną",
 			"odp2": "B. numerowaną",
 			"odp3": "C. odnośników",
@@ -345,7 +345,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Polecenie colspan służy do łączenia komórek tabeli w poziomie, natomiast rowspan w pionie. Którą z tabel wyświetli fragment kodu napisany w języku HTML?<a href='http://egzamin-informatyk.pl/e14/44.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/44.jpg' /></a>",
+			"pytanie": "Polecenie colspan służy do łączenia komórek tabeli w poziomie, natomiast rowspan w pionie. Którą z tabel wyświetli fragment kodu napisany w języku HTML?<a href='http://egzamin-informatyk.pl/e14/44.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/44.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -353,7 +353,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W znaczniku <head> (w części <meta ... >) strony www NIE umieszcza się informacji dotyczącej",
+			"pytanie": "W znaczniku &lt;head&gt; (w części &lt;meta ... &gt;) strony www NIE umieszcza się informacji dotyczącej",
 			"odp1": "A. autora",
 			"odp2": "B. kodowania",
 			"odp3": "C. typu dokumentu",
@@ -361,15 +361,15 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Wskaż sposób, w jaki należy odwołać się do pliku default.css, jeśli index.html znajduje się bezpośrednio w katalogu ?<a href='http://egzamin-informatyk.pl/e14/46.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/46.jpg' /></a>",
-			"odp1": "A. <link rel='stylesheet' type='text/css' href='./style/default.css' />",
-			"odp2": "B. <link rel='stylesheet' type='text/css' href='C:/style/default.css' />",
-			"odp3": "C. <link rel='stylesheet' type='text/css' href='...styledefault.css' />",
-			"odp4": "D. <link rel='stylesheet' type='text/css' href='c:style/default.css' />",
+			"pytanie": "Wskaż sposób, w jaki należy odwołać się do pliku default.css, jeśli index.html znajduje się bezpośrednio w katalogu ?<a href='http://egzamin-informatyk.pl/e14/46.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/46.jpg'  /></a>",
+			"odp1": "A. &lt;link rel='stylesheet' type='text/css' href='./style/default.css' /&gt;",
+			"odp2": "B. &lt;link rel='stylesheet' type='text/css' href='C:/style/default.css' /&gt;",
+			"odp3": "C. &lt;link rel='stylesheet' type='text/css' href='...styledefault.css' /&gt;",
+			"odp4": "D. &lt;link rel='stylesheet' type='text/css' href='c:style/default.css' /&gt;",
 			"odp": "A"
 		},
 		{
-			"pytanie": "Wskaż stwierdzenie, które jest prawdziwe dla następującej definicji stylu:<a href='http://egzamin-informatyk.pl/e14/47.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/47.jpg' /></a>",
+			"pytanie": "Wskaż stwierdzenie, które jest prawdziwe dla następującej definicji stylu:<a href='http://egzamin-informatyk.pl/e14/47.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/47.jpg'  /></a>",
 			"odp1": "A. Jest to styl lokalny",
 			"odp2": "B. Zdefiniowano dwie klasy",
 			"odp3": "C. Akapit będzie transponowany na małe litery",
@@ -433,7 +433,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Wskaż typ relacji pomiędzy tabelami: Tabela1 i Tabela3<a href='http://egzamin-informatyk.pl/e14/55.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/55.jpg' /></a>",
+			"pytanie": "Wskaż typ relacji pomiędzy tabelami: Tabela1 i Tabela3<a href='http://egzamin-informatyk.pl/e14/55.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/55.jpg'  /></a>",
 			"odp1": "A. Jeden do jednego",
 			"odp2": "B. Wiele do jednego",
 			"odp3": "C. Jeden do wielu",
@@ -441,7 +441,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Które z pól są umieszczone w formularzu?<a href='http://egzamin-informatyk.pl/e14/56.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/56.jpg' /></a>",
+			"pytanie": "Które z pól są umieszczone w formularzu?<a href='http://egzamin-informatyk.pl/e14/56.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/56.jpg'  /></a>",
 			"odp1": "A. Textarea, Option, Input(Chechbox), Input(Checkbox), Input(Submit) Input(Reset)",
 			"odp2": "B. Input(Text), Select, Input(Radio), Input(Radio), Input(Submit), Input(Reset)",
 			"odp3": "C. Textarea, Select, Input(Radio), Input(Radio), Input(Reset), Input(Submit)",
@@ -449,7 +449,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Którą z właściwości pola tabeli należy zdefiniować, aby pole przyjmowało dane składające się wyłącznie z cyfr?<a href='http://egzamin-informatyk.pl/e14/57.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/57.jpg' /></a>",
+			"pytanie": "Którą z właściwości pola tabeli należy zdefiniować, aby pole przyjmowało dane składające się wyłącznie z cyfr?<a href='http://egzamin-informatyk.pl/e14/57.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/57.jpg'  /></a>",
 			"odp1": "A. Tagi inteligentne",
 			"odp2": "B. Wartość domyślną",
 			"odp3": "C. Maskę wprowadzania",
@@ -490,10 +490,10 @@
 		},
 		{
 			"pytanie": "Które polecenie wydane z konsoli systemowej dokona przywrócenia bazy danych?",
-			"odp1": "A. mysqldump -u root -p baza > kopia.sql",
-			"odp2": "B. mysqldump -u root -p baza < kopia.sql",
-			"odp3": "C. mysql -u root -p baza < kopia.sql",
-			"odp4": "D. mysql -u root -p baza > kopia.sql",
+			"odp1": "A. mysqldump -u root -p baza &gt; kopia.sql",
+			"odp2": "B. mysqldump -u root -p baza &lt; kopia.sql",
+			"odp3": "C. mysql -u root -p baza &lt; kopia.sql",
+			"odp4": "D. mysql -u root -p baza &gt; kopia.sql",
 			"odp": "C"
 		},
 		{
@@ -537,7 +537,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Instrukcja języka PHP tworząca obiekt dla zdefiniowanej w ramce klasy ma postać<a href='http://egzamin-informatyk.pl/e14/68.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/68.jpg' /></a>",
+			"pytanie": "Instrukcja języka PHP tworząca obiekt dla zdefiniowanej w ramce klasy ma postać<a href='http://egzamin-informatyk.pl/e14/68.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/68.jpg'  /></a>",
 			"odp1": "A. pkt Punkt;",
 			"odp2": "B. pkt = new Punkt();",
 			"odp3": "C. pkt Punkt();",
@@ -545,7 +545,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Wskaż wynik wykonania skryptu napisanego w języku PHP<a href='http://egzamin-informatyk.pl/e14/69.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/69.jpg' /></a>",
+			"pytanie": "Wskaż wynik wykonania skryptu napisanego w języku PHP<a href='http://egzamin-informatyk.pl/e14/69.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/69.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -561,7 +561,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Jaka wartość zostanie wypisana na standardowym wyjściu dla zamieszczonego w ramce fragmentu programu napisanego w języku C++<a href='http://egzamin-informatyk.pl/e14/71.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/71.jpg' /></a>",
+			"pytanie": "Jaka wartość zostanie wypisana na standardowym wyjściu dla zamieszczonego w ramce fragmentu programu napisanego w języku C++<a href='http://egzamin-informatyk.pl/e14/71.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/71.jpg'  /></a>",
 			"odp1": "A. 0",
 			"odp2": "B. 2",
 			"odp3": "C. 3",
@@ -569,7 +569,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Wskaż stwierdzenie, które nie jest prawdziwe dla następującej definicji funkcji w języku C++?<a href='http://egzamin-informatyk.pl/e14/72.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/72.jpg' /></a>",
+			"pytanie": "Wskaż stwierdzenie, które nie jest prawdziwe dla następującej definicji funkcji w języku C++?<a href='http://egzamin-informatyk.pl/e14/72.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/72.jpg'  /></a>",
 			"odp1": "A. Funkcja zwraca wartość",
 			"odp2": "B. Funkcja nie zwraca wartości",
 			"odp3": "C. Funkcja posiada dwa parametry",
@@ -593,7 +593,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Jaką wartość zwróci funkcja zao zdefiniowana w języku C++, wywołana z aktualnym parametrem 3.55<a href='http://egzamin-informatyk.pl/e14/75.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/75.jpg' /></a>",
+			"pytanie": "Jaką wartość zwróci funkcja zao zdefiniowana w języku C++, wywołana z aktualnym parametrem 3.55<a href='http://egzamin-informatyk.pl/e14/75.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/75.jpg'  /></a>",
 			"odp1": "A. 3",
 			"odp2": "B. 4",
 			"odp3": "C. 3.5",
@@ -609,7 +609,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Które ze stwierdzeń, w odniesieniu do zamieszczonej w ramce definicji funkcji, jest poprawne?<a href='http://egzamin-informatyk.pl/e14/77.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/77.jpg' /></a>",
+			"pytanie": "Które ze stwierdzeń, w odniesieniu do zamieszczonej w ramce definicji funkcji, jest poprawne?<a href='http://egzamin-informatyk.pl/e14/77.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/77.jpg'  /></a>",
 			"odp1": "A. Pętla wykona się tylko raz",
 			"odp2": "B. Funkcja posiada pętlę powtarzającą się 3 razy",
 			"odp3": "C. Tekst będzie wczytywany do momentu podania liczby większej niż 3",
@@ -617,7 +617,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Po wykonaniu zamieszczonego w ramce skryptu napisanego w języku JavaScript w przeglądarce zostanie wypisana wartość<a href='http://egzamin-informatyk.pl/e14/78.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/78.jpg' /></a>",
+			"pytanie": "Po wykonaniu zamieszczonego w ramce skryptu napisanego w języku JavaScript w przeglądarce zostanie wypisana wartość<a href='http://egzamin-informatyk.pl/e14/78.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/78.jpg'  /></a>",
 			"odp1": "A. 12,4",
 			"odp2": "B. 12,5",
 			"odp3": "C. 15,4",
@@ -650,14 +650,14 @@
 		},
 		{
 			"pytanie": "Aby ustawić tło na stronie www należy użyć polecenia",
-			"odp1": "A. <background=''></background>",
-			"odp2": "B. <body bgcolor=''></body>",
-			"odp3": "C. <bgcolor=''></bgcolor>",
-			"odp4": "D. <body background=''></body>",
+			"odp1": "A. &lt;background=''&gt;&lt;/background&gt;",
+			"odp2": "B. &lt;body bgcolor=''&gt;&lt;/body&gt;",
+			"odp3": "C. &lt;bgcolor=''&gt;&lt;/bgcolor&gt;",
+			"odp4": "D. &lt;body background=''&gt;&lt;/body&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Parametr face znacznika <font> służy do określenia",
+			"pytanie": "Parametr face znacznika &lt;font&gt; służy do określenia",
 			"odp1": "A. barwy czcionki",
 			"odp2": "B. nazwy czcionki",
 			"odp3": "C. efektów czcionki",
@@ -673,7 +673,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Zamieszczony w ramce kod wyświetla tabelę składajacą się z<a href='http://egzamin-informatyk.pl/e14/85.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/85.jpg' /></a>",
+			"pytanie": "Zamieszczony w ramce kod wyświetla tabelę składajacą się z<a href='http://egzamin-informatyk.pl/e14/85.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/85.jpg'  /></a>",
 			"odp1": "A. dwóch wierszy i dwóch kolumn",
 			"odp2": "B. dwóch wierszy i jednej kolumny",
 			"odp3": "C. jednego wiersza i dwóch kolumn",
@@ -921,7 +921,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Kod zamieszczony w ramce spowoduje wypisanie liczb<a href='http://egzamin-informatyk.pl/e14/116.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/116.jpg' /></a>",
+			"pytanie": "Kod zamieszczony w ramce spowoduje wypisanie liczb<a href='http://egzamin-informatyk.pl/e14/116.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/116.jpg'  /></a>",
 			"odp1": "A. 2 4 6 8",
 			"odp2": "B. 1 3 5 7 9",
 			"odp3": "C. 2 4 6 8 10",
@@ -929,7 +929,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Który kod jest alternatywny do kodu zamieszczonego w ramce?<a href='http://egzamin-informatyk.pl/e14/117.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/117.jpg' /></a>",
+			"pytanie": "Który kod jest alternatywny do kodu zamieszczonego w ramce?<a href='http://egzamin-informatyk.pl/e14/117.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/117.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -937,7 +937,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Zamieszczony w ramce fragment skryptu w języku JavaScript<a href='http://egzamin-informatyk.pl/e14/118.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/118.jpg' /></a>",
+			"pytanie": "Zamieszczony w ramce fragment skryptu w języku JavaScript<a href='http://egzamin-informatyk.pl/e14/118.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/118.jpg'  /></a>",
 			"odp1": "A. przypisze zmienniej s zmienną t",
 			"odp2": "B. wyświetli długość napisu ze zmiennej t",
 			"odp3": "C. przypisze zmiennej s długość napisu ze zmiennej t",
@@ -945,7 +945,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Zamieszczony w ramce fragment kodu w JavaScript wypisze<a href='http://egzamin-informatyk.pl/e14/119.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/119.jpg' /></a>",
+			"pytanie": "Zamieszczony w ramce fragment kodu w JavaScript wypisze<a href='http://egzamin-informatyk.pl/e14/119.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/119.jpg'  /></a>",
 			"odp1": "A. 'ze'",
 			"odp2": "B. 'wo'",
 			"odp3": "C. 'owodzeni'",
@@ -954,10 +954,10 @@
 		},
 		{
 			"pytanie": "Który fragment kodu JavaScript zwróci wartość true?",
-			"odp1": "A. 'a' > 'b'",
-			"odp2": "B. 'ab' > 'c'",
-			"odp3": "C. 'abc' > 'def'",
-			"odp4": "D. 'def' > 'abc'",
+			"odp1": "A. 'a' &gt; 'b'",
+			"odp2": "B. 'ab' &gt; 'c'",
+			"odp3": "C. 'abc' &gt; 'def'",
+			"odp4": "D. 'def' &gt; 'abc'",
 			"odp": "D"
 		},
 		{
@@ -993,7 +993,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Funkcja zapisana językiem PHP służy do<a href='http://egzamin-informatyk.pl/e14/125.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/125.jpg' /></a>",
+			"pytanie": "Funkcja zapisana językiem PHP służy do<a href='http://egzamin-informatyk.pl/e14/125.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/125.jpg'  /></a>",
 			"odp1": "A. połączenia z bazą danych",
 			"odp2": "B. ustawienia hasła do bazy danych",
 			"odp3": "C. zabezpieczenia bazy danych",
@@ -1009,7 +1009,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Wskaż rezultat działania fragmentu kodu JavaScript<a href='http://egzamin-informatyk.pl/e14/127.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/127.jpg' /></a>",
+			"pytanie": "Wskaż rezultat działania fragmentu kodu JavaScript<a href='http://egzamin-informatyk.pl/e14/127.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/127.jpg'  /></a>",
 			"odp1": "A. Usunięcie akapitu ze strony",
 			"odp2": "B. Dodanie akapitu na koniec strony",
 			"odp3": "C. Wyświetlenie okna dialogowego z napisem akapit",
@@ -1017,7 +1017,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Fizyczny model replikacji bazy danych przedstawiony na rysunku jest modelem<a href='http://egzamin-informatyk.pl/e14/128.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/128.jpg' /></a>",
+			"pytanie": "Fizyczny model replikacji bazy danych przedstawiony na rysunku jest modelem<a href='http://egzamin-informatyk.pl/e14/128.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/128.jpg'  /></a>",
 			"odp1": "A. rozproszonym",
 			"odp2": "B. centralnego subskrybenta",
 			"odp3": "C. równorzędnym",
@@ -1033,7 +1033,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Wynikiem działania zamieszczonej pętli zapisanej językiem PHP jest wypisanie kolejnych liczb<a href='http://egzamin-informatyk.pl/e14/130.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/130.jpg' /></a>",
+			"pytanie": "Wynikiem działania zamieszczonej pętli zapisanej językiem PHP jest wypisanie kolejnych liczb<a href='http://egzamin-informatyk.pl/e14/130.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/130.jpg'  /></a>",
 			"odp1": "A. od 10 do 1",
 			"odp2": "B. od 1 do 10",
 			"odp3": "C. od 10 do 2",
@@ -1177,7 +1177,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W załączonym fragmencie kodu CSS kolor jest zapisany w postaci<a href='http://egzamin-informatyk.pl/e14/148.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/148.jpg' /></a>",
+			"pytanie": "W załączonym fragmencie kodu CSS kolor jest zapisany w postaci<a href='http://egzamin-informatyk.pl/e14/148.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/148.jpg'  /></a>",
 			"odp1": "A. HSL",
 			"odp2": "B. dziesiętnej",
 			"odp3": "C. CMYK",
@@ -1233,7 +1233,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W zamieszczonym przykładzie pseudoklasa hover sprawi, że styl pogrubiony będzie przypisany<a href='http://egzamin-informatyk.pl/e14/155.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/155.jpg' /></a>",
+			"pytanie": "W zamieszczonym przykładzie pseudoklasa hover sprawi, że styl pogrubiony będzie przypisany<a href='http://egzamin-informatyk.pl/e14/155.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/155.jpg'  /></a>",
 			"odp1": "A. odnośnikowi, w momencie kiedy najechał na niego kursor myszy",
 			"odp2": "B. wszystkim odnośnikom nieodwiedzonym",
 			"odp3": "C. każdemu odnośnikowi niezależnie od aktualnego stanu",
@@ -1265,7 +1265,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Warunek zapisany językiem PHP wypisze liczbę, gdy<a href='http://egzamin-informatyk.pl/e14/159.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/159.jpg' /></a>",
+			"pytanie": "Warunek zapisany językiem PHP wypisze liczbę, gdy<a href='http://egzamin-informatyk.pl/e14/159.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/159.jpg'  /></a>",
 			"odp1": "A. jest ona parzysta",
 			"odp2": "B. jest ona liczbą pierwszą",
 			"odp3": "C. wynik dzielenia liczby przez 2 jest równy 0",
@@ -1273,7 +1273,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Analizując przedstawiony kod zapisany w języku HTML, można stwierdzić, że w przeglądarce<a href='http://egzamin-informatyk.pl/e14/160.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/160.jpg' /></a>",
+			"pytanie": "Analizując przedstawiony kod zapisany w języku HTML, można stwierdzić, że w przeglądarce<a href='http://egzamin-informatyk.pl/e14/160.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/160.jpg'  /></a>",
 			"odp1": "A. zostanie ustawiony dolny margines dla bloku B",
 			"odp2": "B. blok B będzie oddalony od bloku A o 20 px",
 			"odp3": "C. blok A będzie przesunięty w lewo o 20 px",
@@ -1322,18 +1322,18 @@
 		},
 		{
 			"pytanie": "Który z wymienionych znaczników języka HTML nie jest stosowany w celu formatowania tekstu?",
-			"odp1": "A. <em>",
-			"odp2": "B. <sub>",
-			"odp3": "C. <div>",
-			"odp4": "D. <strong>",
+			"odp1": "A. &lt;em&gt;",
+			"odp2": "B. &lt;sub&gt;",
+			"odp3": "C. &lt;div&gt;",
+			"odp4": "D. &lt;strong&gt;",
 			"odp": "C"
 		},
 		{
 			"pytanie": "Aby zdefiniować w języku HTML listę nienumerowaną, należy użyć znacznika",
-			"odp1": "A. <dd>",
-			"odp2": "B. <dt>",
-			"odp3": "C. <ol>",
-			"odp4": "D. <ul>",
+			"odp1": "A. &lt;dd&gt;",
+			"odp2": "B. &lt;dt&gt;",
+			"odp3": "C. &lt;ol&gt;",
+			"odp4": "D. &lt;ul&gt;",
 			"odp": "D"
 		},
 		{
@@ -1378,10 +1378,10 @@
 		},
 		{
 			"pytanie": "Prawidłowy, zgodny ze standardem języka XHTML, zapis samozamykającego się znacznika odpowiadającego za łamanie linii ma postać",
-			"odp1": "A. </ br>",
-			"odp2": "B. <br />",
-			"odp3": "C. </br/>",
-			"odp4": "D. <br> </br>",
+			"odp1": "A. &lt;/ br&gt;",
+			"odp2": "B. &lt;br /&gt;",
+			"odp3": "C. &lt;/br/&gt;",
+			"odp4": "D. &lt;br&gt; &lt;/br&gt;",
 			"odp": "B"
 		},
 		{
@@ -1482,10 +1482,10 @@
 		},
 		{
 			"pytanie": "Baza danych 6-letniej szkoły podstawowej zawiera tabelę z polami: . Wszyscy uczniowie klas 1-5 zdali do następnej klasy. Aby zwiększyć wartość w polu klasa o 1 należy użyć polecenia",
-			"odp1": "A. SELECT szkola FROM klasa=klasa+1 WHERE klasa >=1 AND klasa <=5;",
-			"odp2": "B. SELECT nazwisko, imie FROM klasa=klasa+1 WHERE klasa>1 OR klasa <5;",
-			"odp3": "C. UPDATE szkola SET klasa=klasa+1 WHERE klasa>=1 AND klasa <=5;",
-			"odp4": "D. UPDATE nazwisko, imie SET klasa=klasa+1 WHERE klasa>1 OR klasa<5;",
+			"odp1": "A. SELECT szkola FROM klasa=klasa+1 WHERE klasa &gt;=1 AND klasa &lt;=5;",
+			"odp2": "B. SELECT nazwisko, imie FROM klasa=klasa+1 WHERE klasa&gt;1 OR klasa &lt;5;",
+			"odp3": "C. UPDATE szkola SET klasa=klasa+1 WHERE klasa&gt;=1 AND klasa &lt;=5;",
+			"odp4": "D. UPDATE nazwisko, imie SET klasa=klasa+1 WHERE klasa&gt;1 OR klasa&lt;5;",
 			"odp": "C"
 		},
 		{
@@ -1521,7 +1521,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Dany jest fragment kodu PHP z zdeklarowaną zmienną typu tablicowego. W wyniku wykonania kodu zostanie wpisane imię<a href='http://egzamin-informatyk.pl/e14/191.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/191.jpg' /></a>",
+			"pytanie": "Dany jest fragment kodu PHP z zdeklarowaną zmienną typu tablicowego. W wyniku wykonania kodu zostanie wpisane imię<a href='http://egzamin-informatyk.pl/e14/191.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/191.jpg'  /></a>",
 			"odp1": "A. Anna",
 			"odp2": "B. Tomasz",
 			"odp3": "C. Krzysztof",
@@ -1529,8 +1529,8 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Przedstawiony kod języka PHP<a href='http://egzamin-informatyk.pl/e14/192.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/192.jpg' /></a>",
-			"odp1": "A. jest błędny, nieznany operator =>",
+			"pytanie": "Przedstawiony kod języka PHP<a href='http://egzamin-informatyk.pl/e14/192.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/192.jpg'  /></a>",
+			"odp1": "A. jest błędny, nieznany operator =&gt;",
 			"odp2": "B. definiuje tablicę z trzema wartościami",
 			"odp3": "C. definiuje tablicę z sześcioma wartościami",
 			"odp4": "D. jest błędny, indeksami tablicy mogą być tylko liczby całkowite",
@@ -1545,7 +1545,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Zakładając, że zmienne: a, b, c przechowują wartości numeryczne, wynikiem działania warunku będzie wypisanie liczby<a href='http://egzamin-informatyk.pl/e14/194.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/194.jpg' /></a>",
+			"pytanie": "Zakładając, że zmienne: a, b, c przechowują wartości numeryczne, wynikiem działania warunku będzie wypisanie liczby<a href='http://egzamin-informatyk.pl/e14/194.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/194.jpg'  /></a>",
 			"odp1": "A. najmniejszej",
 			"odp2": "B. największej",
 			"odp3": "C. nieparzystej",
@@ -1553,7 +1553,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Fragment kodu języku PHP ma następującą postać. Wynikiem działania pętli będzie wypisanie liczb:<a href='http://egzamin-informatyk.pl/e14/195.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/195.jpg' /></a>",
+			"pytanie": "Fragment kodu języku PHP ma następującą postać. Wynikiem działania pętli będzie wypisanie liczb:<a href='http://egzamin-informatyk.pl/e14/195.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/195.jpg'  /></a>",
 			"odp1": "A. 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
 			"odp2": "B. 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
 			"odp3": "C. 0,4,8,12,16,20",
@@ -1561,7 +1561,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Zadaniem funkcji zapisanej w języku PHP jest<a href='http://egzamin-informatyk.pl/e14/196.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/196.jpg' /></a>",
+			"pytanie": "Zadaniem funkcji zapisanej w języku PHP jest<a href='http://egzamin-informatyk.pl/e14/196.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/196.jpg'  /></a>",
 			"odp1": "A. Wypisanie liczby parzystej",
 			"odp2": "B. Wypisanie liczby nieparzystej",
 			"odp3": "C. Zwrócenie wartości 1, gdy liczba jest parzysta",
@@ -1585,7 +1585,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Zakładając, że zmienna tablicowa $tab jest wypełniona liczbami naturalnymi, wynikiem programu będzie wypisanie<a href='http://egzamin-informatyk.pl/e14/199.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/199.jpg' /></a>",
+			"pytanie": "Zakładając, że zmienna tablicowa $tab jest wypełniona liczbami naturalnymi, wynikiem programu będzie wypisanie<a href='http://egzamin-informatyk.pl/e14/199.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/199.jpg'  /></a>",
 			"odp1": "A. największego elementu tablicy",
 			"odp2": "B. najmniejszego elementu tablicy",
 			"odp3": "C. elementu tablicy, który jest równy wartości $tab[0]",
@@ -1593,17 +1593,17 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Fragment kodu w języku JavaScript realizujący dodawanie dwóch liczb ma następującą postać. Aby dodawanie wykonane było po kliknięciu przycisku o nazwie , należy w wykropkowane miejsce wstawić<a href='http://egzamin-informatyk.pl/e14/200.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/200.jpg' /></a>",
-			"odp1": "A. <button onselect='return dodaj()'>dodaj</button>",
-			"odp2": "B. <button onselect='return dodaj()'>oblicz</button>",
-			"odp3": "C. <button onclick='return oblicz()'>dodaj</button>",
-			"odp4": "D. <button onclick='return dodaj()'>dodaj</button>",
+			"pytanie": "Fragment kodu w języku JavaScript realizujący dodawanie dwóch liczb ma następującą postać. Aby dodawanie wykonane było po kliknięciu przycisku o nazwie , należy w wykropkowane miejsce wstawić<a href='http://egzamin-informatyk.pl/e14/200.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/200.jpg'  /></a>",
+			"odp1": "A. &lt;button onselect='return dodaj()'&gt;dodaj&lt;/button&gt;",
+			"odp2": "B. &lt;button onselect='return dodaj()'&gt;oblicz&lt;/button&gt;",
+			"odp3": "C. &lt;button onclick='return oblicz()'&gt;dodaj&lt;/button&gt;",
+			"odp4": "D. &lt;button onclick='return dodaj()'&gt;dodaj&lt;/button&gt;",
 			"odp": "D"
 		},
 		{
 			"pytanie": "Komentarz w języku JavaScript rozpoczyna się od znaku lub znaków",
-			"odp1": "A. <!--",
-			"odp2": "B. <?",
+			"odp1": "A. &lt;!--",
+			"odp2": "B. &lt;?",
 			"odp3": "C. //",
 			"odp4": "D. #",
 			"odp": "C"
@@ -1642,14 +1642,14 @@
 		},
 		{
 			"pytanie": "Do grupowania obszarów na poziomie bloków, które będą formatowane za pośrednictwem znaczników, należy użyć",
-			"odp1": "A. <p>",
-			"odp2": "B. <div>",
-			"odp3": "C. <span>",
-			"odp4": "D. <param>",
+			"odp1": "A. &lt;p&gt;",
+			"odp2": "B. &lt;div&gt;",
+			"odp3": "C. &lt;span&gt;",
+			"odp4": "D. &lt;param&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Znacznik <i> języka HTML służy do",
+			"pytanie": "Znacznik &lt;i&gt; języka HTML służy do",
 			"odp1": "A. umieszczenia obrazka",
 			"odp2": "B. zdefiniowania formularza",
 			"odp3": "C. zmiany kroju pisma na pochylony",
@@ -1657,7 +1657,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Poniżej przedstawiono fragment kodu języka HTML. Jest on definicją listy:<a href='http://egzamin-informatyk.pl/e14/208.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/208.jpg' /></a>",
+			"pytanie": "Poniżej przedstawiono fragment kodu języka HTML. Jest on definicją listy:<a href='http://egzamin-informatyk.pl/e14/208.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/208.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -1666,10 +1666,10 @@
 		},
 		{
 			"pytanie": "Kod języka CSS można umieścić wewnątrz kodu HTML, posługując się znacznikiem",
-			"odp1": "A. <head>",
-			"odp2": "B. <style>",
-			"odp3": "C. <meta>",
-			"odp4": "D. <body>",
+			"odp1": "A. &lt;head&gt;",
+			"odp2": "B. &lt;style&gt;",
+			"odp3": "C. &lt;meta&gt;",
+			"odp4": "D. &lt;body&gt;",
 			"odp": "B"
 		},
 		{
@@ -1706,10 +1706,10 @@
 		},
 		{
 			"pytanie": "Aby poprawnie zdefiniować hierarchiczną strukturę tekstu witryny internetowej, należy zastosować",
-			"odp1": "A. znacznik <div>",
-			"odp2": "B. znaczniki <frame> i <table>",
-			"odp3": "C. znacznik <p> z formatowaniem",
-			"odp4": "D. znaczniki <h1>, <h2> oraz <p>",
+			"odp1": "A. znacznik &lt;div&gt;",
+			"odp2": "B. znaczniki &lt;frame&gt; i &lt;table&gt;",
+			"odp3": "C. znacznik &lt;p&gt; z formatowaniem",
+			"odp4": "D. znaczniki &lt;h1&gt;, &lt;h2&gt; oraz &lt;p&gt;",
 			"odp": "D"
 		},
 		{
@@ -1865,7 +1865,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Dana jest tablica n-elementowa o nazwie t[n]. Zadaniem algorytmu zapisanego w postaci listy kroków jest wypisania sumy<a href='http://egzamin-informatyk.pl/e14/235.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/235.jpg' /></a>",
+			"pytanie": "Dana jest tablica n-elementowa o nazwie t[n]. Zadaniem algorytmu zapisanego w postaci listy kroków jest wypisania sumy<a href='http://egzamin-informatyk.pl/e14/235.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/235.jpg'  /></a>",
 			"odp1": "A. n-elementów tablicy",
 			"odp2": "B. co drugiego elementu tablicy",
 			"odp3": "C. sumy wszystkich elementów tablicy",
@@ -1881,7 +1881,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Dana jest tablica o nazwie tab wypełniona liczbami całkowitymi różnymi od zera. Przedstawiony kod zapisany w języku PHP ma za zadanie:<a href='http://egzamin-informatyk.pl/e14/237.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/237.jpg' /></a>",
+			"pytanie": "Dana jest tablica o nazwie tab wypełniona liczbami całkowitymi różnymi od zera. Przedstawiony kod zapisany w języku PHP ma za zadanie:<a href='http://egzamin-informatyk.pl/e14/237.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/237.jpg'  /></a>",
 			"odp1": "A. obliczyć iloczyn wszystkich liczb w tablicy",
 			"odp2": "B. obliczyć wartość bezwzględną elementów tablicy",
 			"odp3": "C. zamienić wszystkie elementy tablicy na liczby z przeciwnym znakiem",
@@ -1889,7 +1889,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Warunek zapisany w JavaScript jest prawdziwy, gdy zmienna x przechowuje<a href='http://egzamin-informatyk.pl/e14/238.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/238.jpg' /></a>",
+			"pytanie": "Warunek zapisany w JavaScript jest prawdziwy, gdy zmienna x przechowuje<a href='http://egzamin-informatyk.pl/e14/238.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/238.jpg'  /></a>",
 			"odp1": "A. pusty napis",
 			"odp2": "B. wartość nie liczbową",
 			"odp3": "C. dowolną całkowitą wartość liczbową",
@@ -1897,7 +1897,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Przedstawiona funkcja zapisana kodem JavaScript ma za zadanie:<a href='http://egzamin-informatyk.pl/e14/239.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/239.jpg' /></a>",
+			"pytanie": "Przedstawiona funkcja zapisana kodem JavaScript ma za zadanie:<a href='http://egzamin-informatyk.pl/e14/239.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/239.jpg'  /></a>",
 			"odp1": "A. zwrócić wynik potęgowania a^n",
 			"odp2": "B. wpisać kolejne liczby od a do n",
 			"odp3": "C. wpisać wyniki mnożenia a przez n",
@@ -1954,38 +1954,38 @@
 		},
 		{
 			"pytanie": "W języku HTML, aby uzyskać następujący efekt pogrubienia, pochylenia lub zapisania w górnym indeksie należy zapisać kod:",
-			"odp1": "A. <i>pogrubiony <b>pochylony lub w </i><sup>górnym indeksie</sup>",
-			"odp2": "B. <i>pogrubiony </i><b>pochylony</b> lub w <sub>górnym indeksie</sub>",
-			"odp3": "C. <b>pogrubiony </b><i>pochylony</i> lub w <sup>górnym indeksie</sup>",
-			"odp4": "D. <b>pogrubiony <i>pochylony</i></b> lub w <sub>górnym indeksie</sub>",
+			"odp1": "A. &lt;i&gt;pogrubiony &lt;b&gt;pochylony lub w &lt;/i&gt;&lt;sup&gt;górnym indeksie&lt;/sup&gt;",
+			"odp2": "B. &lt;i&gt;pogrubiony &lt;/i&gt;&lt;b&gt;pochylony&lt;/b&gt; lub w &lt;sub&gt;górnym indeksie&lt;/sub&gt;",
+			"odp3": "C. &lt;b&gt;pogrubiony &lt;/b&gt;&lt;i&gt;pochylony&lt;/i&gt; lub w &lt;sup&gt;górnym indeksie&lt;/sup&gt;",
+			"odp4": "D. &lt;b&gt;pogrubiony &lt;i&gt;pochylony&lt;/i&gt;&lt;/b&gt; lub w &lt;sub&gt;górnym indeksie&lt;/sub&gt;",
 			"odp": "C"
 		},
 		{
 			"pytanie": "W kodzie HTML zapisano w bloku tekst formatowany pewnym stylem. Aby wtrącić wewnątrz tekstu kilka słów formatowanych innym stylem, należy zastosować znacznik",
-			"odp1": "A. <hr>",
-			"odp2": "B. <span>",
-			"odp3": "C. <table>",
-			"odp4": "D. <section>",
+			"odp1": "A. &lt;hr&gt;",
+			"odp2": "B. &lt;span&gt;",
+			"odp3": "C. &lt;table&gt;",
+			"odp4": "D. &lt;section&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Który z zapisów znacznika <meta> jest prawidłowy ze względu na wykorzystane atrybuty?",
-			"odp1": "A. <meta background = blue>",
-			"odp2": "B. <meta name = '!DOCTYPE'>",
-			"odp3": "C. <meta title = 'Strona dla hobbystów'>",
-			"odp4": "D. <meta name = 'description' content = 'Masz jakieś hobby? To jest strona dla Ciebie!'>",
+			"pytanie": "Który z zapisów znacznika &lt;meta&gt; jest prawidłowy ze względu na wykorzystane atrybuty?",
+			"odp1": "A. &lt;meta background = blue&gt;",
+			"odp2": "B. &lt;meta name = '!DOCTYPE'&gt;",
+			"odp3": "C. &lt;meta title = 'Strona dla hobbystów'&gt;",
+			"odp4": "D. &lt;meta name = 'description' content = 'Masz jakieś hobby? To jest strona dla Ciebie!'&gt;",
 			"odp": "D"
 		},
 		{
-			"pytanie": "Który z wymienionych znaczników należy do części <head> dokumentu HTML?",
-			"odp1": "A. <img>",
-			"odp2": "B. <title>",
-			"odp3": "C. <span>",
-			"odp4": "D. <section>",
+			"pytanie": "Który z wymienionych znaczników należy do części &lt;head&gt; dokumentu HTML?",
+			"odp1": "A. <img&gt;",
+			"odp2": "B. &lt;title&gt;",
+			"odp3": "C. &lt;span&gt;",
+			"odp4": "D. &lt;section&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku CSS poniższy zapis sprawi, że koloru zielonego będzie<a href='http://egzamin-informatyk.pl/e14/250.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/250.jpg' /></a>",
+			"pytanie": "W języku CSS poniższy zapis sprawi, że koloru zielonego będzie<a href='http://egzamin-informatyk.pl/e14/250.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/250.jpg'  /></a>",
 			"odp1": "A. tło całej strony",
 			"odp2": "B. czcionka nagłówka drugiego stopnia",
 			"odp3": "C. tło tekstu nagłówka drugiego stopnia",
@@ -2001,7 +2001,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W języku CSS poniższy zapis sprawi, że kolor żółty przyjmie czcionka<a href='http://egzamin-informatyk.pl/e14/252.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/252.jpg' /></a>",
+			"pytanie": "W języku CSS poniższy zapis sprawi, że kolor żółty przyjmie czcionka<a href='http://egzamin-informatyk.pl/e14/252.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/252.jpg'  /></a>",
 			"odp1": "A. tekstu paragrafu",
 			"odp2": "B. każdego odnośnika",
 			"odp3": "C. odnośników, które otwierają sie w osobnej karcie",
@@ -2009,7 +2009,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku CSS poniższy zapis użyty na stronie, na której jest kilka paragrafów, a każdy z nich ma po kilka linii sprawi, że<a href='http://egzamin-informatyk.pl/e14/253.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/253.jpg' /></a>",
+			"pytanie": "W języku CSS poniższy zapis użyty na stronie, na której jest kilka paragrafów, a każdy z nich ma po kilka linii sprawi, że<a href='http://egzamin-informatyk.pl/e14/253.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/253.jpg'  /></a>",
 			"odp1": "A. pierwsza linia każdego paragrafu będzie miała mniejszą czcionkę niż następne linie",
 			"odp2": "B. pierwsza linia każdego paragrafu będzie miała większą czcionkę niż następne linie",
 			"odp3": "C. pierwszy paragraf na stronie będzie w całości miał powiększoną czcionkę",
@@ -2018,14 +2018,14 @@
 		},
 		{
 			"pytanie": "Który znacznik lub grupa znaczników nie są stosowane do definiowania struktury strony HTML?",
-			"odp1": "A. <header>, <footer>",
-			"odp2": "B. <i>, <b>, <u>",
-			"odp3": "C. <section>",
-			"odp4": "D. <div>",
+			"odp1": "A. &lt;header&gt;, &lt;footer&gt;",
+			"odp2": "B. &lt;i&gt;, &lt;b&gt;, &lt;u&gt;",
+			"odp3": "C. &lt;section&gt;",
+			"odp4": "D. &lt;div&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Który z przedstawionych kodów HTML sformatuje tekst według wzoru? (uwaga: słowo 'stacji' jest zapisane większą czcionką niż reszta słów w tej linii)<a href='http://egzamin-informatyk.pl/e14/255.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/255.jpg' /></a>",
+			"pytanie": "Który z przedstawionych kodów HTML sformatuje tekst według wzoru? (uwaga: słowo 'stacji' jest zapisane większą czcionką niż reszta słów w tej linii)<a href='http://egzamin-informatyk.pl/e14/255.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/255.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -2082,14 +2082,14 @@
 		},
 		{
 			"pytanie": "Dana jest tabela psy o polach: imie, rasa, telefon_wlasciciela, rok_szczepienia. Aby wyszukać telefony właścicieli, których psy były szczepione przed 2015 rokiem, należy użyć polecenia SQL",
-			"odp1": "A. SELECT psy FROM rok_szczepienia < 2015",
-			"odp2": "B. SELECT imie, rasa FROM psy WHERE rok_szczepienia > 2015",
-			"odp3": "C. SELECT telefon_wlasciciela FROM psy WHERE rok_szczepienia < 2015",
-			"odp4": "D. SELECT telefon_wlasciciela FROM psy WHERE rok_szczepienia > 2015",
+			"odp1": "A. SELECT psy FROM rok_szczepienia &lt; 2015",
+			"odp2": "B. SELECT imie, rasa FROM psy WHERE rok_szczepienia &gt; 2015",
+			"odp3": "C. SELECT telefon_wlasciciela FROM psy WHERE rok_szczepienia &lt; 2015",
+			"odp4": "D. SELECT telefon_wlasciciela FROM psy WHERE rok_szczepienia &gt; 2015",
 			"odp": "C"
 		},
 		{
-			"pytanie": "Na rysunku została przedstawiona relacja jeden do wielu. Łączy ona<a href='http://egzamin-informatyk.pl/e14/263.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/263.jpg' /></a>",
+			"pytanie": "Na rysunku została przedstawiona relacja jeden do wielu. Łączy ona<a href='http://egzamin-informatyk.pl/e14/263.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/263.jpg'  /></a>",
 			"odp1": "A. klucz obcy rezyserzy_id tabeli filmy z kluczem obcym id tabeli rezyserzy",
 			"odp2": "B. klucz podstawowy id tabeli filmy z kluczem podstawowym id tabeli rezyserzy",
 			"odp3": "C. klucz obcy rezyserzy_id tabeli filmy z kluczem podstawowym id tabeli rezyserzy",
@@ -2113,7 +2113,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Polecenie serwera MySQL przedstawione poniżej sprawi, że użytkownikowi tkowal zostaną<a href='http://egzamin-informatyk.pl/e14/266.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/266.jpg' /></a>",
+			"pytanie": "Polecenie serwera MySQL przedstawione poniżej sprawi, że użytkownikowi tkowal zostaną<a href='http://egzamin-informatyk.pl/e14/266.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/266.jpg'  /></a>",
 			"odp1": "A. przydzielone prawa do usuwania i aktualizowania danych w tabeli pracownicy",
 			"odp2": "B. odebrane prawa usuwania i modyfikowania danych w tabeli pracownicy",
 			"odp3": "C. odebrane prawa usuwanie i dodawania rekordów w tabeli pracownicy",
@@ -2129,7 +2129,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W bazie danych wykonano następujące polecenie dotyczące praw użytkownika adam. Po wykonaniu poleceń użytkownik adam będzie miał prawa do<a href='http://egzamin-informatyk.pl/e14/268.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/268.jpg' /></a>",
+			"pytanie": "W bazie danych wykonano następujące polecenie dotyczące praw użytkownika adam. Po wykonaniu poleceń użytkownik adam będzie miał prawa do<a href='http://egzamin-informatyk.pl/e14/268.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/268.jpg'  /></a>",
 			"odp1": "A. usunięcia tabeli lub jej rekordów",
 			"odp2": "B. aktualizowania danych i przeglądania tabeli klienci",
 			"odp3": "C. tworzenia tabeli klienci i aktualizowania w niej danych",
@@ -2153,7 +2153,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W formularzu dane z pola input o typie number zostały zapisane do zmiennej a, a następnie przetworzone w skrypcie JavaScript w następujący sposób. Zmienna z będzie typu<a href='http://egzamin-informatyk.pl/e14/271.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/271.jpg' /></a>",
+			"pytanie": "W formularzu dane z pola input o typie number zostały zapisane do zmiennej a, a następnie przetworzone w skrypcie JavaScript w następujący sposób. Zmienna z będzie typu<a href='http://egzamin-informatyk.pl/e14/271.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/271.jpg'  /></a>",
 			"odp1": "A. NaN",
 			"odp2": "B. napisowego",
 			"odp3": "C. zmiennoprzecinkowego",
@@ -2162,14 +2162,14 @@
 		},
 		{
 			"pytanie": "Aby w pliku z rozszerzeniem php umieścić kod w języku PHP należy użyć znaczników",
-			"odp1": "A. <php .......... />",
-			"odp2": "B. <?php .......... ?>",
-			"odp3": "C. <php> ......... </php>",
-			"odp4": "D. <?php> ........ <php?>",
+			"odp1": "A. &lt;php .......... /&gt;",
+			"odp2": "B. &lt;?php .......... ?&gt;",
+			"odp3": "C. &lt;php&gt; ......... &lt;/php&gt;",
+			"odp4": "D. &lt;?php&gt; ........ &lt;php?&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Ile iteracji będzie miała pętla zapisana w języku PHP, zakładając, że zmienna sterująca nie jest modyfikowana we wnętrzu pętli?<a href='http://egzamin-informatyk.pl/e14/273.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/273.jpg' /></a>",
+			"pytanie": "Ile iteracji będzie miała pętla zapisana w języku PHP, zakładając, że zmienna sterująca nie jest modyfikowana we wnętrzu pętli?<a href='http://egzamin-informatyk.pl/e14/273.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/273.jpg'  /></a>",
 			"odp1": "A. 0",
 			"odp2": "B. 5",
 			"odp3": "C. 6",
@@ -2186,14 +2186,14 @@
 		},
 		{
 			"pytanie": "W instrukcji warunkowej języka JavaScript należy sprawdzić przypadek, gdy wartość zmiennej a jest z przedziału (0, 100), natomiast wartość zmiennej b jest większa od zera. Warunek taki jest prawidłowo zapisany w nastepujący sposób",
-			"odp1": "A. if (a>0 || a<100 || b<0)",
-			"odp2": "B. if (a>0 && a<100 && b>0)",
-			"odp3": "C. if ((a>0 || a<100) && b>0)",
-			"odp4": "D. if ((a>0 && a<100) || b<0)",
+			"odp1": "A. if (a&gt;0 || a&lt;100 || b&lt;0)",
+			"odp2": "B. if (a&gt;0 && a&lt;100 && b&gt;0)",
+			"odp3": "C. if ((a&gt;0 || a&lt;100) && b&gt;0)",
+			"odp4": "D. if ((a&gt;0 && a&lt;100) || b&lt;0)",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Dla dowolnego a z przedziału (0,99) zadaniem funkcji zapisanej w języku Java Script jest:<a href='http://egzamin-informatyk.pl/e14/276.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/276.jpg' /></a>",
+			"pytanie": "Dla dowolnego a z przedziału (0,99) zadaniem funkcji zapisanej w języku Java Script jest:<a href='http://egzamin-informatyk.pl/e14/276.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/276.jpg'  /></a>",
 			"odp1": "A. zwrócenie liczb z przedziału a..99",
 			"odp2": "B. wypisanie liczb z przedziału a..99 i zwrócenie wartości 100",
 			"odp3": "C. wypisanie wartości zmiennej a oraz zwrócenie wartości zmiennej n",
@@ -2201,7 +2201,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Zapis w języku JavaScript ma za zadanie<a href='http://egzamin-informatyk.pl/e14/277.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/277.jpg' /></a>",
+			"pytanie": "Zapis w języku JavaScript ma za zadanie<a href='http://egzamin-informatyk.pl/e14/277.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/277.jpg'  /></a>",
 			"odp1": "A. utworzenie nowej klasy napis1.",
 			"odp2": "B. wywołanie metody obiektu napisy",
 			"odp3": "C. utworzenie obiektu napis1 klasy napisy",
@@ -2217,7 +2217,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Pętla zapisana w języku PHP wstawi do tablicy liczby<a href='http://egzamin-informatyk.pl/e14/279.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/279.jpg' /></a>",
+			"pytanie": "Pętla zapisana w języku PHP wstawi do tablicy liczby<a href='http://egzamin-informatyk.pl/e14/279.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/279.jpg'  /></a>",
 			"odp1": "A. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
 			"odp2": "B. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
 			"odp3": "C. 0, 10, 20, 30, 40, 50, 60, 70, 80, 90",
@@ -2241,7 +2241,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Jaka treść komunikatu powinna być wstawiona w przedstawionym kodzie PHP zamiast znaków zapytania?<a href='http://egzamin-informatyk.pl/e14/282.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/282.jpg' /></a>",
+			"pytanie": "Jaka treść komunikatu powinna być wstawiona w przedstawionym kodzie PHP zamiast znaków zapytania?<a href='http://egzamin-informatyk.pl/e14/282.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/282.jpg'  /></a>",
 			"odp1": "A. Wybrana baza nie istnieje",
 			"odp2": "B. Błąd połączenia z serwerem SQL",
 			"odp3": "C. Pomyślnie dodano rekord do bazy",
@@ -2257,7 +2257,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Aby prawidłowo udokumentować linię kodu języka Java Script, należy po znakach // wpisać komentarz<a href='http://egzamin-informatyk.pl/e14/284.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/284.jpg' /></a>",
+			"pytanie": "Aby prawidłowo udokumentować linię kodu języka Java Script, należy po znakach // wpisać komentarz<a href='http://egzamin-informatyk.pl/e14/284.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/284.jpg'  /></a>",
 			"odp1": "A. nieprawidłowe dane",
 			"odp2": "B. wybór losowej wartości ze zmiennych a, b i c",
 			"odp3": "C. w zmiennej x minimalna wartość ze zmiennych a, b, c",
@@ -2273,15 +2273,15 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W języku HTML, aby uzyskać efekt jak na przykładzie, należy zastosować konstrukcję<a href='http://egzamin-informatyk.pl/e14/286.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/286.jpg' /></a>",
-			"odp1": "A. <p><big>Duży tekst</p> zwykły tekst",
-			"odp2": "B. <p><strike>Duży tekst zwykły tekst</p>",
-			"odp3": "C. <p><big>Duży tekst</big> zwykły tekst</p>",
-			"odp4": "D. <p><strike>Duży tekst</strike> zwykły tekst</p>",
+			"pytanie": "W języku HTML, aby uzyskać efekt jak na przykładzie, należy zastosować konstrukcję<a href='http://egzamin-informatyk.pl/e14/286.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/286.jpg'  /></a>",
+			"odp1": "A. &lt;p&gt;&lt;big&gt;Duży tekst&lt;/p&gt; zwykły tekst",
+			"odp2": "B. &lt;p&gt;&lt;strike&gt;Duży tekst zwykły tekst&lt;/p&gt;",
+			"odp3": "C. &lt;p&gt;&lt;big&gt;Duży tekst&lt;/big&gt; zwykły tekst&lt;/p&gt;",
+			"odp4": "D. &lt;p&gt;&lt;strike&gt;Duży tekst&lt;/strike&gt; zwykły tekst&lt;/p&gt;",
 			"odp": "C"
 		},
 		{
-			"pytanie": "Zapis znacznika HTML w postaci<a href='http://egzamin-informatyk.pl/e14/287.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/287.jpg' /></a>",
+			"pytanie": "Zapis znacznika HTML w postaci<a href='http://egzamin-informatyk.pl/e14/287.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/287.jpg'  /></a>",
 			"odp1": "A. jest niepoprawny, w atrybucie href należy podać adres URL",
 			"odp2": "B. jest niepoprawny, zastosowano błędnie znak # w atrybucie href",
 			"odp3": "C. jest poprawny, po wybraniu odnośnika otworzy się strona internetowa o adresie 'hobby'",
@@ -2289,7 +2289,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W części nagłówkowej kodu HTML zapisano tekst przedstawiony na obrazku. Zapisany tekst zostanie wyświetlony<a href='http://egzamin-informatyk.pl/e14/288.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/288.jpg' /></a>",
+			"pytanie": "W części nagłówkowej kodu HTML zapisano tekst przedstawiony na obrazku. Zapisany tekst zostanie wyświetlony<a href='http://egzamin-informatyk.pl/e14/288.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/288.jpg'  /></a>",
 			"odp1": "A. na pasku tytułu przeglądarki",
 			"odp2": "B. w treści strony, na banerze",
 			"odp3": "C. w polu adresu, za wpisanym adresem URL",
@@ -2297,15 +2297,15 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Przeglądarka internetowa wyświetliła stronę w następujący sposób. Wskaż kod HTML, który poprawnie definiuje przedstawioną hierarchiczną strukturę tekstu:<a href='http://egzamin-informatyk.pl/e14/289.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/289.jpg' /></a>",
-			"odp1": "A. <h1>Rozdział 1<p>tekst <h2>Podrozdział 1.1<p>tekst <h2>Podrozdział 1.2",
-			"odp2": "B. <ul><li>Rozdział 1<li>tekst<li>Podrozdział 1.1<li>tekst<li>Podrozdział 1.2</ul>",
-			"odp3": "C. <big>Rozdział 1</big>tekst<big>Podrozdział 1.1</big>tekst<big>Podrozdział 1.2</big>",
-			"odp4": "D. <h1>Rozdział 1</h1> <p>tekst</p> <h2>Podrozdział 1.1</h2> <p>tekst</p> <h2>Podrozdział 1.2</h2>",
+			"pytanie": "Przeglądarka internetowa wyświetliła stronę w następujący sposób. Wskaż kod HTML, który poprawnie definiuje przedstawioną hierarchiczną strukturę tekstu:<a href='http://egzamin-informatyk.pl/e14/289.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/289.jpg'  /></a>",
+			"odp1": "A. &lt;h1&gt;Rozdział 1&lt;p&gt;tekst &lt;h2&gt;Podrozdział 1.1&lt;p&gt;tekst &lt;h2&gt;Podrozdział 1.2",
+			"odp2": "B. &lt;ul&gt;&lt;li&gt;Rozdział 1&lt;li&gt;tekst&lt;li&gt;Podrozdział 1.1&lt;li&gt;tekst&lt;li&gt;Podrozdział 1.2&lt;/ul&gt;",
+			"odp3": "C. &lt;big&gt;Rozdział 1&lt;/big&gt;tekst&lt;big&gt;Podrozdział 1.1&lt;/big&gt;tekst&lt;big&gt;Podrozdział 1.2&lt;/big&gt;",
+			"odp4": "D. &lt;h1&gt;Rozdział 1&lt;/h1&gt; &lt;p&gt;tekst&lt;/p&gt; &lt;h2&gt;Podrozdział 1.1&lt;/h2&gt; &lt;p&gt;tekst&lt;/p&gt; &lt;h2&gt;Podrozdział 1.2&lt;/h2&gt;",
 			"odp": "D"
 		},
 		{
-			"pytanie": "W języku CSS, przedstawiony zapis sprawi, że plik rysunek.png będzie<a href='http://egzamin-informatyk.pl/e14/290.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/290.jpg' /></a>",
+			"pytanie": "W języku CSS, przedstawiony zapis sprawi, że plik rysunek.png będzie<a href='http://egzamin-informatyk.pl/e14/290.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/290.jpg'  /></a>",
 			"odp1": "A. tłem całej strony",
 			"odp2": "B. tłem każdego paragrafu",
 			"odp3": "C. wyświetlony obok każdego paragrafu",
@@ -2321,7 +2321,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku CSS zdefiniowano następujące formatowanie. Oznacza to, że kolorem niebieskim zostanie zapisany<a href='http://egzamin-informatyk.pl/e14/292.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/292.jpg' /></a>",
+			"pytanie": "W języku CSS zdefiniowano następujące formatowanie. Oznacza to, że kolorem niebieskim zostanie zapisany<a href='http://egzamin-informatyk.pl/e14/292.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/292.jpg'  /></a>",
 			"odp1": "A. cały tekst paragrafu niezależnie od jego formatowania",
 			"odp2": "B. pochylony tekst paragrafu",
 			"odp3": "C. cały tekst nagłówków niezależnie od ich formatowania",
@@ -2329,7 +2329,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie<a href='http://egzamin-informatyk.pl/e14/293.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/293.jpg' /></a>",
+			"pytanie": "W języku CSS, zapis w następującej postaci sprawi, iż koloru czerwonego będzie<a href='http://egzamin-informatyk.pl/e14/293.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/293.jpg'  /></a>",
 			"odp1": "A. pierwsza linia paragrafu",
 			"odp2": "B. tekst nagłówka pierwszego stopnia",
 			"odp3": "C. pierwsza litera nagłówka drugiego stopnia",
@@ -2338,14 +2338,14 @@
 		},
 		{
 			"pytanie": "W języku HTML informacje dotyczące autora, streszczenia i słów kluczowych strony należy umieścić",
-			"odp1": "A. pomiędzy znacznikami <head> i </head>, w znaczniku <meta>",
-			"odp2": "B. pomiędzy znacznikami <head> i </head>, w znaczniku <style>",
-			"odp3": "C. pomiędzy znacznikami <body> i </body>, w znaczniku <meta>",
-			"odp4": "D. pomiędzy znacznikami <body> i </body>, w znaczniku <html>",
+			"odp1": "A. pomiędzy znacznikami &lt;head&gt; i &lt;/head&gt;, w znaczniku &lt;meta&gt;",
+			"odp2": "B. pomiędzy znacznikami &lt;head&gt; i &lt;/head&gt;, w znaczniku &lt;style&gt;",
+			"odp3": "C. pomiędzy znacznikami &lt;body&gt; i &lt;/body&gt;, w znaczniku &lt;meta&gt;",
+			"odp4": "D. pomiędzy znacznikami &lt;body&gt; i &lt;/body&gt;, w znaczniku &lt;html&gt;",
 			"odp": "A"
 		},
 		{
-			"pytanie": "Który z przedstawionych kodów XHTML sformatuje tekst według podanego wzoru?<a href='http://egzamin-informatyk.pl/e14/295.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/295.jpg' /></a>",
+			"pytanie": "Który z przedstawionych kodów XHTML sformatuje tekst według podanego wzoru?<a href='http://egzamin-informatyk.pl/e14/295.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/295.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -2393,7 +2393,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Polecenie języka SQL w postaci<a href='http://egzamin-informatyk.pl/e14/301.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/301.jpg' /></a>",
+			"pytanie": "Polecenie języka SQL w postaci<a href='http://egzamin-informatyk.pl/e14/301.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/301.jpg'  /></a>",
 			"odp1": "A. zamienia nazwę tabeli miasta na nazwę kod",
 			"odp2": "B. dodaje do tabeli kolumnę o nazwie kod typu text",
 			"odp3": "C. dodaje do tabeli dwie kolumny o nazwach: kod i text",
@@ -2402,10 +2402,10 @@
 		},
 		{
 			"pytanie": "W bazie danych hurtowni zdefiniowano tabelę sprzedaz o polach: id, kontrahent, grupa_cenowa, obrot. Aby wyszukać wyłącznie kontrahentów z drugiej grupy cenowej, których obrót jest większy niż 4000zł, należy zastosować polecenie",
-			"odp1": "A. SELECT sprzedaz FROM kontrahent WHERE obrot > 4000;",
-			"odp2": "B. SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 OR obrot > 4000;",
-			"odp3": "C. SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 AND obrot > 4000;",
-			"odp4": "D. SELECT sprzedaz FROM kontrahent WHERE grupa_cenowa = 2 AND obrot > 4000;",
+			"odp1": "A. SELECT sprzedaz FROM kontrahent WHERE obrot &gt; 4000;",
+			"odp2": "B. SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 OR obrot &gt; 4000;",
+			"odp3": "C. SELECT kontrahent FROM sprzedaz WHERE grupa_cenowa = 2 AND obrot &gt; 4000;",
+			"odp4": "D. SELECT sprzedaz FROM kontrahent WHERE grupa_cenowa = 2 AND obrot &gt; 4000;",
 			"odp": "C"
 		},
 		{
@@ -2441,7 +2441,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W tabeli artykuly wykonano następujące polecenia dotyczące praw użytkowania jan. Po wykonaniu poleceń użytkownik jan będzie miał prawa do<a href='http://egzamin-informatyk.pl/e14/307.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/307.jpg' /></a>",
+			"pytanie": "W tabeli artykuly wykonano następujące polecenia dotyczące praw użytkowania jan. Po wykonaniu poleceń użytkownik jan będzie miał prawa do<a href='http://egzamin-informatyk.pl/e14/307.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/307.jpg'  /></a>",
 			"odp1": "A. tworzenia tabeli i aktualizowania w niej danych",
 			"odp2": "B. aktualizowania danych i przeglądania tabeli",
 			"odp3": "C. tworzenia tabeli i wypełniania jej danymi",
@@ -2465,7 +2465,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W formularzu, dane z pola input o typie number zostały zapisane do zmiennej a, a następnie przetworzone w skrypcie JavaScript w następujący sposób. Zmienna x będzie typu<a href='http://egzamin-informatyk.pl/e14/310.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/310.jpg' /></a>",
+			"pytanie": "W formularzu, dane z pola input o typie number zostały zapisane do zmiennej a, a następnie przetworzone w skrypcie JavaScript w następujący sposób. Zmienna x będzie typu<a href='http://egzamin-informatyk.pl/e14/310.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/310.jpg'  /></a>",
 			"odp1": "A. NaN",
 			"odp2": "B. napisowego",
 			"odp3": "C. zmiennoprzecinkowego",
@@ -2481,7 +2481,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W przedstawonym kodzie JavaScript dla ułatwienia ponumerowano linie. W kodzie znajduje się błąd, gdyż po uruchomieniu żaden komunikat nie zostaje wyświetlony. Aby wyeliminować błąd, należy<a href='http://egzamin-informatyk.pl/e14/312.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/312.jpg' /></a>",
+			"pytanie": "W przedstawonym kodzie JavaScript dla ułatwienia ponumerowano linie. W kodzie znajduje się błąd, gdyż po uruchomieniu żaden komunikat nie zostaje wyświetlony. Aby wyeliminować błąd, należy<a href='http://egzamin-informatyk.pl/e14/312.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/312.jpg'  /></a>",
 			"odp1": "A. wstawić znaki $ przed nazwami zmiennych.",
 			"odp2": "B. wstawić nawiasy klamrowe do sekcji if oraz else",
 			"odp3": "C. w liniach 2 i 5 zmienne a i b wstawić w cudzysłów",
@@ -2489,7 +2489,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Ile iteracji będzie miała przedstawiona pętla zapisana w języku PHP, zakładając, że zmienna sterująca nie jest modyfikowana we wnętrzu pętli?<a href='http://egzamin-informatyk.pl/e14/313.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/313.jpg' /></a>",
+			"pytanie": "Ile iteracji będzie miała przedstawiona pętla zapisana w języku PHP, zakładając, że zmienna sterująca nie jest modyfikowana we wnętrzu pętli?<a href='http://egzamin-informatyk.pl/e14/313.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/313.jpg'  /></a>",
 			"odp1": "A. 0",
 			"odp2": "B. 10",
 			"odp3": "C. 11",
@@ -2506,14 +2506,14 @@
 		},
 		{
 			"pytanie": "W instrukcji warunkowej JavaScript należy sprawdzić przypadek, gdy zmienne a oraz b są dodatnie, z czego zmienna b jest mniejsza od 100. Warunek taki powinien być zapisany w następujący sposób:",
-			"odp1": "A. if ( a > 0 || b > 0 || b > 100)",
-			"odp2": "B. if ( a > 0 && b > 0 || b > 100)",
-			"odp3": "C. if ( a > 0 || (b > 0 && b < 100))",
-			"odp4": "D. if ( a > 0 && b > 0 && b < 100)",
+			"odp1": "A. if ( a &gt; 0 || b &gt; 0 || b &gt; 100)",
+			"odp2": "B. if ( a &gt; 0 && b &gt; 0 || b &gt; 100)",
+			"odp3": "C. if ( a &gt; 0 || (b &gt; 0 && b &lt; 100))",
+			"odp4": "D. if ( a &gt; 0 && b &gt; 0 && b &lt; 100)",
 			"odp": "D"
 		},
 		{
-			"pytanie": "Zadaniem przedstawionej funkcji zapisanej w języku JavaScript jest<a href='http://egzamin-informatyk.pl/e14/316.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/316.jpg' /></a>",
+			"pytanie": "Zadaniem przedstawionej funkcji zapisanej w języku JavaScript jest<a href='http://egzamin-informatyk.pl/e14/316.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/316.jpg'  /></a>",
 			"odp1": "A. zwrócenie wartości parzystych liczb od a do b",
 			"odp2": "B. wypisanie liczb parzystych z przedziału od a do b",
 			"odp3": "C. wypisanie wszystkich liczb z przedziału od a do b",
@@ -2521,7 +2521,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Przedstawiony kod został zapisany w języku JavaScript. W podanej definicji obiektu metodą jest element o nazwie<a href='http://egzamin-informatyk.pl/e14/317.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/317.jpg' /></a>",
+			"pytanie": "Przedstawiony kod został zapisany w języku JavaScript. W podanej definicji obiektu metodą jest element o nazwie<a href='http://egzamin-informatyk.pl/e14/317.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/317.jpg'  /></a>",
 			"odp1": "A. obj1",
 			"odp2": "B. oblicz",
 			"odp3": "C. czescCalkowita",
@@ -2537,7 +2537,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Fragment kodu w języku PHP wypisze<a href='http://egzamin-informatyk.pl/e14/319.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/319.jpg' /></a>",
+			"pytanie": "Fragment kodu w języku PHP wypisze<a href='http://egzamin-informatyk.pl/e14/319.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/319.jpg'  /></a>",
 			"odp1": "A. nazwę konta ze znakiem @, czyli 'adres@'",
 			"odp2": "B. cały adres e-mail, czyli 'adres@host.pl'",
 			"odp3": "C. samą nazwę domeny, czyli 'host.pl'",
@@ -2561,7 +2561,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W przedstawionym kodzie PHP, zamiast znaków zapytania powinien pojawić się komunikat:<a href='http://egzamin-informatyk.pl/e14/322.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/322.jpg' /></a>",
+			"pytanie": "W przedstawionym kodzie PHP, zamiast znaków zapytania powinien pojawić się komunikat:<a href='http://egzamin-informatyk.pl/e14/322.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/322.jpg'  /></a>",
 			"odp1": "A. Błąd przetwarzania zapytania",
 			"odp2": "B. Zapytanie przetworzono pomyślnie",
 			"odp3": "C. Nieprawidłowa nazwa bazy danych",
@@ -2577,7 +2577,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Aby prawidłowo udokumentować przedstawioną linię kodu języka JavaScript, należy po znakach // wpisać komentarz<a href='http://egzamin-informatyk.pl/e14/324.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/324.jpg' /></a>",
+			"pytanie": "Aby prawidłowo udokumentować przedstawioną linię kodu języka JavaScript, należy po znakach // wpisać komentarz<a href='http://egzamin-informatyk.pl/e14/324.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/324.jpg'  /></a>",
 			"odp1": "A. nieprawidłowe dane",
 			"odp2": "B. zmiana stylu atrybutu innerHTML",
 			"odp3": "C. wyświetlenie tekstu 'Date()' w znaczniku o id = napis",
@@ -2594,14 +2594,14 @@
 		},
 		{
 			"pytanie": "W języku HTML aby zdefiniować słowa kluczowe strony, należy użyć zapisu",
-			"odp1": "A. <meta keywords='psy, koty, gryzonie'>",
-			"odp2": "B. <meta name='keywords' ='psy, koty, gryzonie'>",
-			"odp3": "C. <meta name='keywords' content='psy, koty, gryzonie'>",
-			"odp4": "D. <meta name='description' content='psy, koty, gryzonie'>",
+			"odp1": "A. &lt;meta keywords='psy, koty, gryzonie'&gt;",
+			"odp2": "B. &lt;meta name='keywords' ='psy, koty, gryzonie'&gt;",
+			"odp3": "C. &lt;meta name='keywords' content='psy, koty, gryzonie'&gt;",
+			"odp4": "D. &lt;meta name='description' content='psy, koty, gryzonie'&gt;",
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku HTML zdefiniowano znacznik a. Wartość nofollow atrybutu rel<a href='http://egzamin-informatyk.pl/e14/327.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/327.jpg' /></a>",
+			"pytanie": "W języku HTML zdefiniowano znacznik a. Wartość nofollow atrybutu rel<a href='http://egzamin-informatyk.pl/e14/327.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/327.jpg'  /></a>",
 			"odp1": "A. oznacza, że kliknięcie na link nie przeniesie do strony website.com",
 			"odp2": "B. oznacza, że kliknięcie na link otworzy go w osobnej karcie przeglądarki",
 			"odp3": "C. jest informacją dla robota wyszukiwarki Google, aby nie podążał za tym linkiem",
@@ -2610,14 +2610,14 @@
 		},
 		{
 			"pytanie": "W języku HTML aby zdefiniować poziomą linię, należy użyć znacznika",
-			"odp1": "A. <line>",
-			"odp2": "B. <br>",
-			"odp3": "C. <hl>",
-			"odp4": "D. <hr>",
+			"odp1": "A. &lt;line&gt;",
+			"odp2": "B. &lt;br&gt;",
+			"odp3": "C. &lt;hl&gt;",
+			"odp4": "D. &lt;hr&gt;",
 			"odp": "D"
 		},
 		{
-			"pytanie": "Zapisano kod HTML wstawiający grafikę na stronę internetową. Jeżeli rysunek.png nie zostanie odnaleziony, przeglądarka<a href='http://egzamin-informatyk.pl/e14/329.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/329.jpg' /></a>",
+			"pytanie": "Zapisano kod HTML wstawiający grafikę na stronę internetową. Jeżeli rysunek.png nie zostanie odnaleziony, przeglądarka<a href='http://egzamin-informatyk.pl/e14/329.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/329.jpg'  /></a>",
 			"odp1": "A. nie wyświetli strony internetowej",
 			"odp2": "B. w miejscu grafiki wypisze tekst 'pejzaż'",
 			"odp3": "C. w miejscu grafiki wypisze tekst 'rysunek.png'",
@@ -2625,15 +2625,15 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Aby w języku HTML uzyskać takie formatowanie paragrafu dla tekstu należy zastosować kod<a href='http://egzamin-informatyk.pl/e14/330.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/330.jpg' /></a>",
-			"odp1": "A. <p>Tekst może być <mark>zaznaczony</mark> albo <em>istotny dla autora</p>",
-			"odp2": "B. <p>Tekst może być <mark>zaznaczony albo <i>istotny</i> dla autora</mark></p>",
-			"odp3": "C. <p>Tekst może być <mark>zaznaczony</mark> albo <em>istotny</em> dla autora</p>",
-			"odp4": "D. <p>Tekst może być <mark>zaznaczony albo <em>istotny</em> dla autora</mark></p>",
+			"pytanie": "Aby w języku HTML uzyskać takie formatowanie paragrafu dla tekstu należy zastosować kod<a href='http://egzamin-informatyk.pl/e14/330.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/330.jpg'  /></a>",
+			"odp1": "A. &lt;p&gt;Tekst może być &lt;mark&gt;zaznaczony&lt;/mark&gt; albo &lt;em&gt;istotny dla autora&lt;/p&gt;",
+			"odp2": "B. &lt;p&gt;Tekst może być &lt;mark&gt;zaznaczony albo &lt;i&gt;istotny&lt;/i&gt; dla autora&lt;/mark&gt;&lt;/p&gt;",
+			"odp3": "C. &lt;p&gt;Tekst może być &lt;mark&gt;zaznaczony&lt;/mark&gt; albo &lt;em&gt;istotny&lt;/em&gt; dla autora&lt;/p&gt;",
+			"odp4": "D. &lt;p&gt;Tekst może być &lt;mark&gt;zaznaczony albo &lt;em&gt;istotny&lt;/em&gt; dla autora&lt;/mark&gt;&lt;/p&gt;",
 			"odp": "C"
 		},
 		{
-			"pytanie": "Zamieszczony kod HTML formularza zostanie wyświetlony przez przeglądarkę w sposób:<a href='http://egzamin-informatyk.pl/e14/331.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/331.jpg' /></a>",
+			"pytanie": "Zamieszczony kod HTML formularza zostanie wyświetlony przez przeglądarkę w sposób:<a href='http://egzamin-informatyk.pl/e14/331.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/331.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -2649,7 +2649,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W języku CSS zdefiniowano następujące formatowanie. Kolorem czerwonym zostanie zapisany<a href='http://egzamin-informatyk.pl/e14/333.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/333.jpg' /></a>",
+			"pytanie": "W języku CSS zdefiniowano następujące formatowanie. Kolorem czerwonym zostanie zapisany<a href='http://egzamin-informatyk.pl/e14/333.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/333.jpg'  /></a>",
 			"odp1": "A. tylko tekst pochylony nagłówka pierwszego stopnia",
 			"odp2": "B. tylko tekst pochylony we wszystkich poziomach nagłówków",
 			"odp3": "C. cały tekst nagłówka pierwszego stopnia oraz pochylony tekst akapitu",
@@ -2665,7 +2665,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Zapis CSS w takiej postaci sprawi, że na stronie internetowej<a href='http://egzamin-informatyk.pl/e14/335.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/335.jpg' /></a>",
+			"pytanie": "Zapis CSS w takiej postaci sprawi, że na stronie internetowej<a href='http://egzamin-informatyk.pl/e14/335.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/335.jpg'  /></a>",
 			"odp1": "A. punktorem listy nienumerowanej będzie rys.gif",
 			"odp2": "B. rys.gif będzie stanowił ramkę dla listy nienumerowanej",
 			"odp3": "C. wyświetli się rys.gif jako tło listy nienumerowanej",
@@ -2681,7 +2681,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W kodzie źródłowym zapisanym w języku HTML wskaż błąd walidacji dotyczący tego fragmentu<a href='http://egzamin-informatyk.pl/e14/337.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/337.jpg' /></a>",
+			"pytanie": "W kodzie źródłowym zapisanym w języku HTML wskaż błąd walidacji dotyczący tego fragmentu<a href='http://egzamin-informatyk.pl/e14/337.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/337.jpg'  /></a>",
 			"odp1": "A. Nieznany znacznik h6",
 			"odp2": "B. Znacznik br nie został poprawnie zamknięty",
 			"odp3": "C. Znacznik br nie może występować wewnątrz znacznika p",
@@ -2689,7 +2689,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W ramce przedstawiono właściwości pliku graficznego. W celu optymalizacji czasu ładowania rysunku na stronę WWW należy<a href='http://egzamin-informatyk.pl/e14/338.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/338.jpg' /></a>",
+			"pytanie": "W ramce przedstawiono właściwości pliku graficznego. W celu optymalizacji czasu ładowania rysunku na stronę WWW należy<a href='http://egzamin-informatyk.pl/e14/338.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/338.jpg'  /></a>",
 			"odp1": "A. zmniejszyć wymiary rysunku",
 			"odp2": "B. zwiększyć rozdzielczość",
 			"odp3": "C. zmienić format grafiki na CDR",
@@ -2697,7 +2697,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W programie INKSCAPE / COREL aby uzyskać przedstawiony efekt napisu, należy<a href='http://egzamin-informatyk.pl/e14/339.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/339.jpg' /></a>",
+			"pytanie": "W programie INKSCAPE / COREL aby uzyskać przedstawiony efekt napisu, należy<a href='http://egzamin-informatyk.pl/e14/339.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/339.jpg'  /></a>",
 			"odp1": "A. skorzystać z funkcji gradientu",
 			"odp2": "B. zastosować funkcję sumy z kołem",
 			"odp3": "C. zastosować funkcję wykluczenia z kołem",
@@ -2729,7 +2729,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W przedstawionym fragmencie kwerendy języka SQL, komenda SELECT ma za zadanie zwrócić<a href='http://egzamin-informatyk.pl/e14/343.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/343.jpg' /></a>",
+			"pytanie": "W przedstawionym fragmencie kwerendy języka SQL, komenda SELECT ma za zadanie zwrócić<a href='http://egzamin-informatyk.pl/e14/343.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/343.jpg'  /></a>",
 			"odp1": "A. średnią tabeli",
 			"odp2": "B. liczbę wierszy",
 			"odp3": "C. sumę w kolumnie wartosc",
@@ -2738,10 +2738,10 @@
 		},
 		{
 			"pytanie": "Dana jest tabela ksiazki z polami: tytul, autor (typu tekstowego), cena (typu liczbowego). Aby kwerenda SELECT zwróciła tylko tytuły, dla których cena jest mniejsza od 50zł, należy zapisać:",
-			"odp1": "A. SELECT * FROM ksiazki WHERE cena < 50;",
-			"odp2": "B. SELECT tytul FROM ksiazki WHERE cena < 50;",
-			"odp3": "C. SELECT tytul FROM ksiazki WHERE cena > '50 zł';",
-			"odp4": "D. SELECT ksiazki FROM tytul WHERE cena < '50 zł';",
+			"odp1": "A. SELECT * FROM ksiazki WHERE cena &lt; 50;",
+			"odp2": "B. SELECT tytul FROM ksiazki WHERE cena &lt; 50;",
+			"odp3": "C. SELECT tytul FROM ksiazki WHERE cena &gt; '50 zł';",
+			"odp4": "D. SELECT ksiazki FROM tytul WHERE cena &lt; '50 zł';",
 			"odp": "B"
 		},
 		{
@@ -2761,7 +2761,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Na rysunku przedstawiono dwie tabele. Aby połączyć je relacją jeden do wielu, jeden po stronie Klienci wiele po stronie Zamowienia, należy<a href='http://egzamin-informatyk.pl/e14/347.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/347.jpg' /></a>",
+			"pytanie": "Na rysunku przedstawiono dwie tabele. Aby połączyć je relacją jeden do wielu, jeden po stronie Klienci wiele po stronie Zamowienia, należy<a href='http://egzamin-informatyk.pl/e14/347.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/347.jpg'  /></a>",
 			"odp1": "A. Połączyć relacją pola ID z obu tabel",
 			"odp2": "B. Dodać pole klucza obcego do tabeli Zamowienia i połączyć je z ID tabeli Klienci",
 			"odp3": "C. Dodać pole klucza obcego do tabeli Klienci i połączyć je z ID tabeli Zamowienia",
@@ -2777,7 +2777,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Przedstawione polecenie MySQL ma za zadanie<a href='http://egzamin-informatyk.pl/e14/349.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/349.jpg' /></a>",
+			"pytanie": "Przedstawione polecenie MySQL ma za zadanie<a href='http://egzamin-informatyk.pl/e14/349.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/349.jpg'  /></a>",
 			"odp1": "A. Usunąć kolumnę tytul z tabeli ksiazki",
 			"odp2": "B. Dodać do tabeli ksiazki kolumnę tytul",
 			"odp3": "C. Zmienić nazwę kolumny w tabeli ksiazki",
@@ -2809,15 +2809,15 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku JavaScript, aby sprawdzić warunek czy liczba znajduje się w przedziale (100;200>, należy zapisać:",
-			"odp1": "A. if (liczba > 100 || liczba <= 200)",
-			"odp2": "B. if (liczba < 100 || liczba >= 200)",
-			"odp3": "C. if (liczba > 100 && liczba <= 200)",
-			"odp4": "D. if (liczba < 100 && liczba <= 200)",
+			"pytanie": "W języku JavaScript, aby sprawdzić warunek czy liczba znajduje się w przedziale (100;200&gt;, należy zapisać:",
+			"odp1": "A. if (liczba &gt; 100 || liczba &lt;= 200)",
+			"odp2": "B. if (liczba &lt; 100 || liczba &gt;= 200)",
+			"odp3": "C. if (liczba &gt; 100 && liczba &lt;= 200)",
+			"odp4": "D. if (liczba &lt; 100 && liczba &lt;= 200)",
 			"odp": "C"
 		},
 		{
-			"pytanie": "W wyniku działania pętli zapisanej w języku PHP zostanie wypisany ciąg liczb<a href='http://egzamin-informatyk.pl/e14/354.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/354.jpg' /></a>",
+			"pytanie": "W wyniku działania pętli zapisanej w języku PHP zostanie wypisany ciąg liczb<a href='http://egzamin-informatyk.pl/e14/354.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/354.jpg'  /></a>",
 			"odp1": "A. 10 15 20 25 30 35 40 45",
 			"odp2": "B. 10 15 20 25 30 35 40 45 50",
 			"odp3": "C. 0 5 10 15 20 25 30 35 40 45",
@@ -2857,7 +2857,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W języku JavaScript zapis w ramce oznacza, że<a href='http://egzamin-informatyk.pl/e14/359.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/359.jpg' /></a>",
+			"pytanie": "W języku JavaScript zapis w ramce oznacza, że<a href='http://egzamin-informatyk.pl/e14/359.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/359.jpg'  /></a>",
 			"odp1": "A. nazwa jest polem klasy przedmiot",
 			"odp2": "B. nazwa jest właściwością obiektu przedmiot",
 			"odp3": "C. zmienna x będzie przechowywać wynik działania metody nazwa",
@@ -2865,7 +2865,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku JavaScript zapisano następującą funkcję. Ma ona za zadanie<a href='http://egzamin-informatyk.pl/e14/360.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/360.jpg' /></a>",
+			"pytanie": "W języku JavaScript zapisano następującą funkcję. Ma ona za zadanie<a href='http://egzamin-informatyk.pl/e14/360.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/360.jpg'  /></a>",
 			"odp1": "A. Wypisać wartość odwrotną do f",
 			"odp2": "B. Zwrócić wartość odwrotną do f",
 			"odp3": "C. Wypisać wartość bezwzględną z f",
@@ -2881,7 +2881,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Działaniem przedstawionego kodu PHP będzie wypełnienie tablicy<a href='http://egzamin-informatyk.pl/e14/362.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/362.jpg' /></a>",
+			"pytanie": "Działaniem przedstawionego kodu PHP będzie wypełnienie tablicy<a href='http://egzamin-informatyk.pl/e14/362.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/362.jpg'  /></a>",
 			"odp1": "A. Kolejnymi liczbami od 0 do 9 i wypisanie ich",
 			"odp2": "B. Kolejnymi liczbami od -100 do 100 i wypisanie wartości ujemnych",
 			"odp3": "C. 10 losowymi wartościami, a następnie wypisanie wartości ujemnych",
@@ -2889,7 +2889,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku JavaScript zapisano fragment kodu. Po wykonaniu skryptu zmienna x<a href='http://egzamin-informatyk.pl/e14/363.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/363.jpg' /></a>",
+			"pytanie": "W języku JavaScript zapisano fragment kodu. Po wykonaniu skryptu zmienna x<a href='http://egzamin-informatyk.pl/e14/363.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/363.jpg'  /></a>",
 			"odp1": "A. Będzie równa 11 i zostanie wypisana w oknie popup",
 			"odp2": "B. Będzie równa 10 i zostanie wypisana w dokumencie HTML",
 			"odp3": "C. Będzie równa 11 i zostanie wypisana w konsoli przeglądarki internetowej",
@@ -2905,7 +2905,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W ramce przedstawiono kod JavaScript z błędem logicznym. Program powinien wypisywać informację, czy liczby są sobie równe czy nie, lecz nie wykonuje tego. Wskaż odpowiedź, która dotyczy błędu<a href='http://egzamin-informatyk.pl/e14/365.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/365.jpg' /></a>",
+			"pytanie": "W ramce przedstawiono kod JavaScript z błędem logicznym. Program powinien wypisywać informację, czy liczby są sobie równe czy nie, lecz nie wykonuje tego. Wskaż odpowiedź, która dotyczy błędu<a href='http://egzamin-informatyk.pl/e14/365.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/365.jpg'  /></a>",
 			"odp1": "A. Nieprawidłowo zadeklarowano zmienne",
 			"odp2": "B. Przed klauzulą else nie powinno być średnika",
 			"odp3": "C. W klauzuli if występuje przypisanie zamiast porównania",
@@ -2913,19 +2913,19 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Która z zasad tworzenia części <head> języka HTML jest poprawna?",
-			"odp1": "A. W części <head> zawiera się część <body>",
-			"odp2": "B. W części <head> mogą wystąpić znaczniki <meta>, <title>, <link>",
-			"odp3": "C. W części <head> można definiować szablon strony znacznikami <div>",
-			"odp4": "D. W części <head> nie można umieszczać kodu CSS, a jedynie odwołanie do pliku CSS",
+			"pytanie": "Która z zasad tworzenia części &lt;head&gt; języka HTML jest poprawna?",
+			"odp1": "A. W części &lt;head&gt; zawiera się część &lt;body&gt;",
+			"odp2": "B. W części &lt;head&gt; mogą wystąpić znaczniki &lt;meta&gt;, &lt;title&gt;, &lt;link&gt;",
+			"odp3": "C. W części &lt;head&gt; można definiować szablon strony znacznikami &lt;div&gt;",
+			"odp4": "D. W części &lt;head&gt; nie można umieszczać kodu CSS, a jedynie odwołanie do pliku CSS",
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku HTML znacznik <strong>tekst</strong> będzie wyświetlany w ten sam sposób przez przeglądarkę co znacznik",
-			"odp1": "A. <b>tekst</b>",
-			"odp2": "B. <h1>tekst</h1>",
-			"odp3": "C. <big>tekst</big>",
-			"odp4": "D. <sub>tekst</sub>",
+			"pytanie": "W języku HTML znacznik &lt;strong&gt;tekst&lt;/strong&gt; będzie wyświetlany w ten sam sposób przez przeglądarkę co znacznik",
+			"odp1": "A. &lt;b&gt;tekst&lt;/b&gt;",
+			"odp2": "B. &lt;h1&gt;tekst&lt;/h1&gt;",
+			"odp3": "C. &lt;big&gt;tekst&lt;/big&gt;",
+			"odp4": "D. &lt;sub&gt;tekst&lt;/sub&gt;",
 			"odp": "A"
 		},
 		{
@@ -2938,10 +2938,10 @@
 		},
 		{
 			"pytanie": "W języku HTML, aby zapisać sekcję cytatu, która może zawierać kilka paragrafów tak, by przeglądarka dodała wspólne wcięcie, należy zastosować znacznik",
-			"odp1": "A. <q>",
-			"odp2": "B. <indent>",
-			"odp3": "C. <blockq>",
-			"odp4": "D. <blockquote>",
+			"odp1": "A. &lt;q&gt;",
+			"odp2": "B. &lt;indent&gt;",
+			"odp3": "C. &lt;blockq&gt;",
+			"odp4": "D. &lt;blockquote&gt;",
 			"odp": "D"
 		},
 		{
@@ -2953,7 +2953,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W przedstawionej definicji stylu CSS, powtarzanie dotyczy<a href='http://egzamin-informatyk.pl/e14/371.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/371.jpg' /></a>",
+			"pytanie": "W przedstawionej definicji stylu CSS, powtarzanie dotyczy<a href='http://egzamin-informatyk.pl/e14/371.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/371.jpg'  /></a>",
 			"odp1": "A. tła każdego ze znaczników akapitu",
 			"odp2": "B. rysunku umieszczonego znacznikiem img",
 			"odp3": "C. rysunku umieszczonego w tle strony w pionie",
@@ -2961,7 +2961,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku CSS zdefiniowano styl. Sformatowana stylem sekcja będzie zawierała obramowanie o szerokości<a href='http://egzamin-informatyk.pl/e14/372.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/372.jpg' /></a>",
+			"pytanie": "W języku CSS zdefiniowano styl. Sformatowana stylem sekcja będzie zawierała obramowanie o szerokości<a href='http://egzamin-informatyk.pl/e14/372.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/372.jpg'  /></a>",
 			"odp1": "A. 2 px oraz marginesy wewnątrz tego obramowania",
 			"odp2": "B. 20 px oraz marginesy wewnątrz tego obramowania",
 			"odp3": "C. 2 px oraz marginesy na zewnątrz tego obramowania",
@@ -2977,7 +2977,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W języku CSS określono formatowanie znacznika h1 według wzoru. Zakładając, że żadne inne formatowanie nie jest dodane do znacznika h1, wskaż sposób formatowania tego znacznika<a href='http://egzamin-informatyk.pl/e14/374.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/374.jpg' /></a>",
+			"pytanie": "W języku CSS określono formatowanie znacznika h1 według wzoru. Zakładając, że żadne inne formatowanie nie jest dodane do znacznika h1, wskaż sposób formatowania tego znacznika<a href='http://egzamin-informatyk.pl/e14/374.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/374.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -2985,7 +2985,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Aby przygotować szablon strony z trzema kolumnami ustawionymi obok siebie, można posłużyć się stylem CSS<a href='http://egzamin-informatyk.pl/e14/375.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/375.jpg' /></a>",
+			"pytanie": "Aby przygotować szablon strony z trzema kolumnami ustawionymi obok siebie, można posłużyć się stylem CSS<a href='http://egzamin-informatyk.pl/e14/375.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/375.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -2993,7 +2993,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Przedstawiono fragment kodu HTML, który się poprawnie. Błąd walidacji tego fragmentu kodu będzie dotyczył<a href='http://egzamin-informatyk.pl/e14/376.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/376.jpg' /></a>",
+			"pytanie": "Przedstawiono fragment kodu HTML, który się poprawnie. Błąd walidacji tego fragmentu kodu będzie dotyczył<a href='http://egzamin-informatyk.pl/e14/376.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/376.jpg'  /></a>",
 			"odp1": "A. Braku cudzysłowu",
 			"odp2": "B. Niedomknięcia znacznika br",
 			"odp3": "C. Niedomknięcia znacznika img",
@@ -3042,10 +3042,10 @@
 		},
 		{
 			"pytanie": "Dana jest tabela o nazwie wycieczki z polami: nazwa, cena, miejsca (jako liczba wolnych miejsc). Aby dla dowolnego zbioru danych tabeli wyświetlić jedynie nazwy tych wycieczek, dla których cena jest niższa niż 2000 zł i mają przynajmniej cztery wolne miejsca, należy posłużyć się zapytaniem",
-			"odp1": "A. SELECT nazwa FROM wycieczki WHERE cena < 2000 AND miejsca > 3;",
-			"odp2": "B. SELECT nazwa FROM wycieczki WHERE cena < 2000 OR miejsca > 4;",
-			"odp3": "C. SELECT * FROM wycieczki WHERE cena < 2000 AND miejsca > 4;",
-			"odp4": "D. SELECT * FROM wycieczki WHERE cena < 2000 OR miejsca > 3;",
+			"odp1": "A. SELECT nazwa FROM wycieczki WHERE cena &lt; 2000 AND miejsca &gt; 3;",
+			"odp2": "B. SELECT nazwa FROM wycieczki WHERE cena &lt; 2000 OR miejsca &gt; 4;",
+			"odp3": "C. SELECT * FROM wycieczki WHERE cena &lt; 2000 AND miejsca &gt; 4;",
+			"odp4": "D. SELECT * FROM wycieczki WHERE cena &lt; 2000 OR miejsca &gt; 3;",
 			"odp": "A"
 		},
 		{
@@ -3074,10 +3074,10 @@
 		},
 		{
 			"pytanie": "W bazie danych sklepu komputerowego istnieje tabela komputery. Aby zdefiniować raport wyświetlający dla dowolnego zbioru danych tabeli, jedynie pola tabeli dla komputerów, w których jest nie mniej niż 8 GB pamięci, a procesor to Intel, można posłużyć sie kwerendą",
-			"odp1": "A. SELECT * FROM komputery WHERE procesor = 'Intel' OR pamiec < 8;",
-			"odp2": "B. SELECT * FROM komputery WHERE procesor = 'Intel' OR pamiec >= 8;",
-			"odp3": "C. SELECT * FROM komputery WHERE procesor = 'Intel' AND pamiec < 8;",
-			"odp4": "D. SELECT * FROM komputery WHERE procesor = 'Intel' AND pamiec >= 8;",
+			"odp1": "A. SELECT * FROM komputery WHERE procesor = 'Intel' OR pamiec &lt; 8;",
+			"odp2": "B. SELECT * FROM komputery WHERE procesor = 'Intel' OR pamiec &gt;= 8;",
+			"odp3": "C. SELECT * FROM komputery WHERE procesor = 'Intel' AND pamiec &lt; 8;",
+			"odp4": "D. SELECT * FROM komputery WHERE procesor = 'Intel' AND pamiec &gt;= 8;",
 			"odp": "D"
 		},
 		{
@@ -3097,7 +3097,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "Przedstawione polecenie SQL, użytkownikowi adam@localhost nadaje prawa<a href='http://egzamin-informatyk.pl/e14/389.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/389.jpg' /></a>",
+			"pytanie": "Przedstawione polecenie SQL, użytkownikowi adam@localhost nadaje prawa<a href='http://egzamin-informatyk.pl/e14/389.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/389.jpg'  /></a>",
 			"odp1": "A. zarządzania strukturą tabeli klienci",
 			"odp2": "B. manipulowania danymi w tabeli klienci",
 			"odp3": "C. zarządzania strukturą bazy danych klienci",
@@ -3105,7 +3105,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku JavaScript przedstawiona definicja jest definicją<a href='http://egzamin-informatyk.pl/e14/390.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/390.jpg' /></a>",
+			"pytanie": "W języku JavaScript przedstawiona definicja jest definicją<a href='http://egzamin-informatyk.pl/e14/390.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/390.jpg'  /></a>",
 			"odp1": "A. klasy",
 			"odp2": "B. tablicy",
 			"odp3": "C. obiektu",
@@ -3122,14 +3122,14 @@
 		},
 		{
 			"pytanie": "Wskaż zapisany w języku JavaScript warunek, który ma sprawdzić spełnienie z przypadków: 1) dowolna naturalna liczba a jest trzycyfrowa, 2) dowolna całkowita liczba b jest ujemna",
-			"odp1": "A. ((a>99) || (a<1000)) || (b<0)",
-			"odp2": "B. ((a>99) && (a<1000)) || (b<0)",
-			"odp3": "C. ((a>99) || (a<1000)) && (b<0)",
-			"odp4": "D. ((a>99) && (a<1000)) && (b<0)",
+			"odp1": "A. ((a&gt;99) || (a&lt;1000)) || (b&lt;0)",
+			"odp2": "B. ((a&gt;99) && (a&lt;1000)) || (b&lt;0)",
+			"odp3": "C. ((a&gt;99) || (a&lt;1000)) && (b&lt;0)",
+			"odp4": "D. ((a&gt;99) && (a&lt;1000)) && (b&lt;0)",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Którą czynność gwarantującą poprawne wykonanie przedstawionego kodu JavaScript, należy wykonać przed pętlą?<a href='http://egzamin-informatyk.pl/e14/393.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/393.jpg' /></a>",
+			"pytanie": "Którą czynność gwarantującą poprawne wykonanie przedstawionego kodu JavaScript, należy wykonać przed pętlą?<a href='http://egzamin-informatyk.pl/e14/393.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/393.jpg'  /></a>",
 			"odp1": "A. Zadeklarować zmienną i",
 			"odp2": "B. Zainicjować zmienną text",
 			"odp3": "C. Sprawdzić rozmiar tabeli tab",
@@ -3145,7 +3145,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Przedstawiono fragment JavaScript. Po jego wykonaniu zmienna str2 będzie przechowywać<a href='http://egzamin-informatyk.pl/e14/395.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/395.jpg' /></a>",
+			"pytanie": "Przedstawiono fragment JavaScript. Po jego wykonaniu zmienna str2 będzie przechowywać<a href='http://egzamin-informatyk.pl/e14/395.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/395.jpg'  /></a>",
 			"odp1": "A. vaSc",
 			"odp2": "B. avaS",
 			"odp3": "C. vaScri",
@@ -3177,7 +3177,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku JavaScript zapisano definicję obiektu. Aby odwołać się do własności nazwisko należy zapisać<a href='http://egzamin-informatyk.pl/e14/399.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/399.jpg' /></a>",
+			"pytanie": "W języku JavaScript zapisano definicję obiektu. Aby odwołać się do własności nazwisko należy zapisać<a href='http://egzamin-informatyk.pl/e14/399.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/399.jpg'  /></a>",
 			"odp1": "A. osoba[1]",
 			"odp2": "B. osoba[2]",
 			"odp3": "C. osoba.nazwisko",
@@ -3185,7 +3185,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku PHP zapisano fragment kodu. Plik cookie stworzony tym poleceniem<a href='http://egzamin-informatyk.pl/e14/400.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/400.jpg' /></a>",
+			"pytanie": "W języku PHP zapisano fragment kodu. Plik cookie stworzony tym poleceniem<a href='http://egzamin-informatyk.pl/e14/400.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/400.jpg'  /></a>",
 			"odp1": "A. zostanie usunięty po jednym dniu od jego utworzenia",
 			"odp2": "B. będzie przechowywany na serwerze przez jeden dzień",
 			"odp3": "C. zostanie usunięty po jednej godzinie od jego utworzenia",
@@ -3193,7 +3193,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W języku PHP zapisano fragment kodu. Po zakończeniu pętli zmienna a przyjmie wartość<a href='http://egzamin-informatyk.pl/e14/401.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/401.jpg' /></a>",
+			"pytanie": "W języku PHP zapisano fragment kodu. Po zakończeniu pętli zmienna a przyjmie wartość<a href='http://egzamin-informatyk.pl/e14/401.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/401.jpg'  /></a>",
 			"odp1": "A. 0",
 			"odp2": "B. 2",
 			"odp3": "C. 10",
@@ -3209,7 +3209,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "W języku JavaScript zapisano kod, którego wynikiem działania jest<a href='http://egzamin-informatyk.pl/e14/403.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/403.jpg' /></a>",
+			"pytanie": "W języku JavaScript zapisano kod, którego wynikiem działania jest<a href='http://egzamin-informatyk.pl/e14/403.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/403.jpg'  /></a>",
 			"odp1": "A. wyświetlenie okna z pustym polem edycyjnym",
 			"odp2": "B. bezpośrednie wpisanie do zmiennej osoba wartości 'Adam'",
 			"odp3": "C. pobranie z formularza wyświetlonego na stronie HTML imienia 'Adam'",
@@ -3217,7 +3217,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W języku PHP zapisano fragment kodu działającego na bazie MySQL. Jego zadaniem jest wypisanie<a href='http://egzamin-informatyk.pl/e14/404.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/404.jpg' /></a>",
+			"pytanie": "W języku PHP zapisano fragment kodu działającego na bazie MySQL. Jego zadaniem jest wypisanie<a href='http://egzamin-informatyk.pl/e14/404.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/404.jpg'  /></a>",
 			"odp1": "A. ulicy i miasta z pierwszego zwróconego rekordu",
 			"odp2": "B. ulicy i miasta ze wszystkich zwróconych rekordów",
 			"odp3": "C. miasta i kodu pocztowego z pierwszego zwróconego rekordu",
@@ -3229,11 +3229,11 @@
 			"odp1": "A. !",
 			"odp2": "B. #",
 			"odp3": "C. //",
-			"odp4": "D. <!",
+			"odp4": "D. &lt;!",
 			"odp": "C"
 		},
 		{
-			"pytanie": "Znaczniki <header>, <article>, <section>, <footer> są charakterystyczne dla języka",
+			"pytanie": "Znaczniki &lt;header&gt;, &lt;article&gt;, &lt;section&gt;, &lt;footer&gt; są charakterystyczne dla języka",
 			"odp1": "A. HTML 5",
 			"odp2": "B. XHTML 1.1",
 			"odp3": "C. HTML 4.01 Strict",
@@ -3242,18 +3242,18 @@
 		},
 		{
 			"pytanie": "Przy użyciu którego znacznika w języku HTML nie można umieścić na stronie grafiki dynamicznej?",
-			"odp1": "A. <img>",
-			"odp2": "B. <strike>",
-			"odp3": "C. <embed>",
-			"odp4": "D. <object>",
+			"odp1": "A. <img&gt;",
+			"odp2": "B. &lt;strike&gt;",
+			"odp3": "C. &lt;embed&gt;",
+			"odp4": "D. &lt;object&gt;",
 			"odp": "B"
 		},
 		{
-			"pytanie": "Które ze znaczników HTML umożliwią wyświetlenie na stronie tekstu w jednym wierszu, jeżeli żadne formatowanie CSS nie zostało zdefiniowane?<a href='http://egzamin-informatyk.pl/e14/408.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/408.jpg' /></a>",
-			"odp1": "A. <p>Dobre strony </p><p style='letter-spacing:3px'>mojej strony</p>",
-			"odp2": "B. <h3>Dobre strony </h3><h3 style='letter-spacing:3px'>mojej strony</h3>",
-			"odp3": "C. <div>Dobre strony </div><div style='letter-spacing:3px'>mojej strony</div>",
-			"odp4": "D. <span>Dobre strony </span><span style='letter-spacing:3px'>mojej strony</span>",
+			"pytanie": "Które ze znaczników HTML umożliwią wyświetlenie na stronie tekstu w jednym wierszu, jeżeli żadne formatowanie CSS nie zostało zdefiniowane?<a href='http://egzamin-informatyk.pl/e14/408.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/408.jpg'  /></a>",
+			"odp1": "A. &lt;p&gt;Dobre strony &lt;/p&gt;&lt;p style='letter-spacing:3px'&gt;mojej strony&lt;/p&gt;",
+			"odp2": "B. &lt;h3&gt;Dobre strony &lt;/h3&gt;&lt;h3 style='letter-spacing:3px'&gt;mojej strony&lt;/h3&gt;",
+			"odp3": "C. &lt;div&gt;Dobre strony &lt;/div&gt;&lt;div style='letter-spacing:3px'&gt;mojej strony&lt;/div&gt;",
+			"odp4": "D. &lt;span&gt;Dobre strony &lt;/span&gt;&lt;span style='letter-spacing:3px'&gt;mojej strony&lt;/span&gt;",
 			"odp": "D"
 		},
 		{
@@ -3274,10 +3274,10 @@
 		},
 		{
 			"pytanie": "W folderze www znajdują się podfoldery html i style, w których zapisane są odpowiednio pliki z rozszerzeniem html i pliki z rozszerzeniem css. Chcąc dołączyć styl.css do pliku HTML należy użyć",
-			"odp1": "A. <link rel='Stylesheet' type='text/css' href='/styl.css' />",
-			"odp2": "B. <link rel='Stylesheet' type='text/css' href='/style/styl.css' />",
-			"odp3": "C. <link rel='Stylesheet' type='text/css' href='/www/style/styl.css' />",
-			"odp4": "D. <link rel='Stylesheet' type='text/css' href='/../style/styl.css' />",
+			"odp1": "A. &lt;link rel='Stylesheet' type='text/css' href='/styl.css' /&gt;",
+			"odp2": "B. &lt;link rel='Stylesheet' type='text/css' href='/style/styl.css' /&gt;",
+			"odp3": "C. &lt;link rel='Stylesheet' type='text/css' href='/www/style/styl.css' /&gt;",
+			"odp4": "D. &lt;link rel='Stylesheet' type='text/css' href='/../style/styl.css' /&gt;",
 			"odp": "D"
 		},
 		{
@@ -3337,7 +3337,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "Aby stworzyć przycisk na stronę internetową według wzoru, należy w programie do grafiki rastrowej użyć opcji<a href='http://egzamin-informatyk.pl/e14/419.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/419.jpg' /></a>",
+			"pytanie": "Aby stworzyć przycisk na stronę internetową według wzoru, należy w programie do grafiki rastrowej użyć opcji<a href='http://egzamin-informatyk.pl/e14/419.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/419.jpg'  /></a>",
 			"odp1": "A. propagacja wartości",
 			"odp2": "B. zaznaczenie eliptyczne",
 			"odp3": "C. zniekształcenia i deformowanie",
@@ -3378,14 +3378,14 @@
 		},
 		{
 			"pytanie": "W języku SQL dla dowolnych zestawów danych w tabeli Uczniowie, aby wybrać rekordy, które zawierają wyłącznie uczennice o imieniu 'Aleksandra', urodzone po roku '1998', należy zapisać zapytanie",
-			"odp1": "A. SELECT * FROM Uczniowie WHERE imie='Aleksandra' AND rok_urodzenia > '1998';",
-			"odp2": "B. SELECT * FROM Uczniowie WHERE imie ='Aleksandra' OR rok_urodzenia < '1998';",
-			"odp3": "C. SELECT * FROM Uczniowie WHERE imie='Aleksandra' OR rok_urodzenia > '1998';",
-			"odp4": "D. SELECT * FROM Uczniowie WHERE imie='Aleksandra' AND rok_urodzenia < '1998';",
+			"odp1": "A. SELECT * FROM Uczniowie WHERE imie='Aleksandra' AND rok_urodzenia &gt; '1998';",
+			"odp2": "B. SELECT * FROM Uczniowie WHERE imie ='Aleksandra' OR rok_urodzenia &lt; '1998';",
+			"odp3": "C. SELECT * FROM Uczniowie WHERE imie='Aleksandra' OR rok_urodzenia &gt; '1998';",
+			"odp4": "D. SELECT * FROM Uczniowie WHERE imie='Aleksandra' AND rok_urodzenia &lt; '1998';",
 			"odp": "A"
 		},
 		{
-			"pytanie": "Którą relację w projekcie bazy danych należy ustalić między tabelami widocznymi na rysunku zakładając, że każdy klient sklepu internetowego dokona przynajmniej dwóch zamówień?<a href='http://egzamin-informatyk.pl/e14/425.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/425.jpg' /></a>",
+			"pytanie": "Którą relację w projekcie bazy danych należy ustalić między tabelami widocznymi na rysunku zakładając, że każdy klient sklepu internetowego dokona przynajmniej dwóch zamówień?<a href='http://egzamin-informatyk.pl/e14/425.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/425.jpg'  /></a>",
 			"odp1": "A. 1:1",
 			"odp2": "B. 1:n, gdzie 1 jest po stronie Klienta, a wiele po stronie Zamówienia",
 			"odp3": "C. 1:n, gdzie 1 jest po stronie Zamówienia, a wiele po stronie Klienta",
@@ -3465,7 +3465,7 @@
 			"odp": "C"
 		},
 		{
-			"pytanie": "Podaj wynik działania programu zapisanego w języku JavaScript, znajdującego się w ramce, po podaniu na wejściu wartości 5<a href='http://egzamin-informatyk.pl/e14/435.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/435.jpg' /></a>",
+			"pytanie": "Podaj wynik działania programu zapisanego w języku JavaScript, znajdującego się w ramce, po podaniu na wejściu wartości 5<a href='http://egzamin-informatyk.pl/e14/435.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/435.jpg'  /></a>",
 			"odp1": "A. 60",
 			"odp2": "B. 120",
 			"odp3": "C. 125",
@@ -3473,7 +3473,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji<a href='http://egzamin-informatyk.pl/e14/436.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/436.jpg' /></a>",
+			"pytanie": "W języku PHP chcąc wyświetlić ciąg n znaków @, należy użyć funkcji<a href='http://egzamin-informatyk.pl/e14/436.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/436.jpg'  /></a>",
 			"odp1": "A. A",
 			"odp2": "B. B",
 			"odp3": "C. C",
@@ -3489,7 +3489,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Instrukcja przypisania elementu do tablicy w języku JavaScript dotyczy tablicy<a href='http://egzamin-informatyk.pl/e14/438.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/438.jpg' /></a>",
+			"pytanie": "Instrukcja przypisania elementu do tablicy w języku JavaScript dotyczy tablicy<a href='http://egzamin-informatyk.pl/e14/438.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/438.jpg'  /></a>",
 			"odp1": "A. statycznej",
 			"odp2": "B. asocjacyjnej",
 			"odp3": "C. numerycznej",
@@ -3497,7 +3497,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Jakie elementy wypisze funkcja wypisz(2) stworzona w języku JavaScript?<a href='http://egzamin-informatyk.pl/e14/439.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/439.jpg' /></a>",
+			"pytanie": "Jakie elementy wypisze funkcja wypisz(2) stworzona w języku JavaScript?<a href='http://egzamin-informatyk.pl/e14/439.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/439.jpg'  /></a>",
 			"odp1": "A. 6",
 			"odp2": "B. 2 3 4 6",
 			"odp3": "C. 3 4 6 8",
@@ -3505,7 +3505,7 @@
 			"odp": "D"
 		},
 		{
-			"pytanie": "W formularzu dokumentu PHP istnieje pole <input name='im' />. Po wprowadzeniu przez użytkownika ciągu znaków 'Janek', w celu dodania zawartości pola do bazy danych, w tablicy $_POST zawarty jest element",
+			"pytanie": "W formularzu dokumentu PHP istnieje pole &lt;input name='im' /&gt;. Po wprowadzeniu przez użytkownika ciągu znaków 'Janek', w celu dodania zawartości pola do bazy danych, w tablicy $_POST zawarty jest element",
 			"odp1": "A. im o indeksie Janek",
 			"odp2": "B. Janek o indeksie im",
 			"odp3": "C. im z kolejnym numerem indeksu",
@@ -3521,7 +3521,7 @@
 			"odp": "A"
 		},
 		{
-			"pytanie": "W kodzie JavaScript pętla zostanie wykonana<a href='http://egzamin-informatyk.pl/e14/442.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/442.jpg' /></a>",
+			"pytanie": "W kodzie JavaScript pętla zostanie wykonana<a href='http://egzamin-informatyk.pl/e14/442.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/442.jpg'  /></a>",
 			"odp1": "A. 2 razy",
 			"odp2": "B. 3 razy",
 			"odp3": "C. 26 razy",
@@ -3529,7 +3529,7 @@
 			"odp": "B"
 		},
 		{
-			"pytanie": "Poprawne udokumentowanie wzorca weryfikacji pola nazwa w części kodu aplikacji JavaScript to<a href='http://egzamin-informatyk.pl/e14/443.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/443.jpg' /></a>",
+			"pytanie": "Poprawne udokumentowanie wzorca weryfikacji pola nazwa w części kodu aplikacji JavaScript to<a href='http://egzamin-informatyk.pl/e14/443.jpg'  data-fancybox='gallery'><img src='http://egzamin-informatyk.pl/e14/443.jpg'  /></a>",
 			"odp1": "A. /* Pole nazwa może składać się z dowolnego ciągu cyfr (z wyłączeniem 0), małych i dużych liter. */",
 			"odp2": "B. /* Pole nazwa powinno składać się w kolejności: z ciągu cyfr (z wyłączeniem 0), następnie dużej litery i ciągu małych liter. */",
 			"odp3": "C. /* Pole nazwa musi składać się w kolejności: z ciągu cyfr (z wyłączeniem 0), następnie dużej litery i dwóch małych liter. */",
