@@ -52,7 +52,7 @@ function getJSONFile(dataFile) {
 
     // wysyłamy połączenie
     xmlhttp.send();
-
+// zaciaganie odpowiedzi json
 }
 
 window.onload = initObjects;
@@ -74,7 +74,7 @@ function ocena(uczen) {
 }
 function closeModal() {
     dialog.close();
-    losowanie();
+   // losowanie();
 }
 function levelUp(uczen, level, punkty) {
 
@@ -160,7 +160,7 @@ function odpowiadanie(object) {
         levelUp(randNumber, level[randNumber], punkty[randNumber]);
         if (level_status == true) {
             level[randNumber] = level[randNumber] + 1;
-            if (level[randNumber] % 6 == 0) {
+            if (level[randNumber] % 10 == 0) {
                 ocena(randNumber);
             }
         } else {

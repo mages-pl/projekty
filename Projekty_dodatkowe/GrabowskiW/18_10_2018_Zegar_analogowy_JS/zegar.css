@@ -1,0 +1,57 @@
+body {
+	margin: 50px auto;
+	padding: 0;
+	display: table;
+	font-family: Tahoma;
+}
+
+#zegar > div {
+	display: inline-block;
+}
+
+#zegar {
+	width: 300px;
+	height: 300px;
+	background-image: url("zegar.png");
+	background-size: 300px 300px;
+	border-radius: 100%;
+	position: relative;
+	z-index: 0;
+}
+
+#wskazowkaSekund, #wskazowkaGodzin, #wskazowkaMinut {
+	width: 100%;
+	height: 100%;
+}
+
+/* Autor: Wojtek Grabowski */
+
+#wskazowkaGodzin {
+	z-index: -1;
+}
+
+#wskazowkaMinut {
+	z-index: -2;
+}
+
+#wskazowkaSekund {
+	z-index: -3;
+}
+
+#zegar > img {
+	position: absolute;
+}
+
+#digital {
+	margin: 50px 0;
+	font-size: 14px;
+	color: #aaa;
+	width: 300px;
+	position: relative;
+	top: 170px;
+	text-align: center;
+}
+
+#digital > #h, #digital > #m, #digital > #s {
+	display: inline;
+}
