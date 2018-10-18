@@ -1,0 +1,36 @@
+body {
+	display: table;
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.left {
+	float: left;
+	width: 200px;
+}
+
+.right {
+	float: right;
+	width: 600px;
+}
+
+b {
+	color: #4bb5e7;
+	font-size: 24px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #4bb5e7;
+	padding: 3px 6px;
+}
+
+input[type=submit], input[type=button] {
+	border: 1px solid #4bb5e7;
+	padding: 3px 5px;
+	margin-right: 5px;
+}
+
+*:focus {
+	outline: 2px solid #4bb5e7;
+}

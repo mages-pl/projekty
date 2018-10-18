@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="846.02287"
+     inkscape:cy="347.72377"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.88926315px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cd5c00;fill-opacity:1;stroke:none;stroke-width:0.29723155"
+       id="text4498"
+       inkscape:export-xdpi="90.760002"
+       inkscape:export-ydpi="90.760002"><textPath
+         xlink:href="#path4500"
+         id="textPath4538"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:15.85235023px;font-family:Arial;-inkscape-font-specification:'Arial Heavy';fill:#cd5c00;fill-opacity:1;stroke-width:0.29723155"
+   id="tspan4496">USŁUGI REMONTOWE</tspan></textPath></text>
+    <path
+       style="fill:none;stroke:none;stroke-width:0.31241208px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.04538,189.80567 c 0,0 17.81373,-43.67764 60.61609,-4.05405 3.07521,2.84684 16.86466,14.06739 25.90544,-0.17215 7.81211,-12.30435 19.62704,-11.73696 19.05325,-12.17665 1.67231,0.1334 8.12993,3.38984 14.18536,10.0954 9.00977,9.97711 28.03582,8.37992 38.73174,-5.01939"
+       id="path4500"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscsc"
+       inkscape:export-xdpi="90.760002"
+       inkscape:export-ydpi="90.760002" />
+  </g>
+</svg>

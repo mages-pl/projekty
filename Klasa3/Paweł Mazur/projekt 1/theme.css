@@ -1,0 +1,20 @@
+@media(max-width:999px){
+	.lewe_wideo{
+		float:left;
+		width:100%;
+	}
+	.prawe_wideo{
+		float:left;
+		width:100%;
+	}
+}
+@media(min-width:1000px){
+	.lewe_wideo{
+		float:left;
+		width:50%;
+	}
+	.prawe_wideo{
+		float:right;
+		width:50%;
+	}
+}

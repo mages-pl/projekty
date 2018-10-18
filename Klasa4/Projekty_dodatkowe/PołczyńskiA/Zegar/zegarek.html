@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    
+    
+    <head>
+        <meta charset="utf-8">
+        
+       <style>
+        
+           #zegar{
+               
+               position: relative;
+           }
+           
+           #s{
+               
+              position: absolute;
+               top: 0;
+               z-index: 1;
+               
+           }
+           
+           #m{
+               
+               position: absolute;
+               top: 0;
+               z-index: 2;
+               
+           }
+        
+           
+           #h{
+               
+               position: absolute;
+               top: 0;
+               z-index: 3;
+               
+           }
+        </style>
+        <title>
+        ZEGAREK  
+        </title>
+        
+        
+    </head>
+    
+    
+    <body>
+        <div id="zegar"><img src="tarcza.png">
+           
+     <div> <img id="h" src="godzina.png"> </div>
+            
+     <div> <img id="m" src="minuta.png"> </div>
+            
+     <div> <img id="s" src="sekunda.png"> </div>
+            
+        </div>
+        
+        <script type="text/javascript">
+        
+            
+            function czas(x,y,z){
+                
+                
+                
+                
+            
+             var currentDate = new Date;
+            
+            var sekunda = currentDate.getSeconds();
+             var minuta = currentDate.getMinutes();
+            var godzina = currentDate.getHours();
+            var angleSecond = sekunda * 6;
+            var angleMinutes = minuta * 6;
+            var angleHours = godzina * 15;
+            
+          
+        
+        console.log("s: s"+sekunda+" "+minuta);
+       //         console.log(x+" "+y+" "+z);
+                var sekundaobj = document.querySelector("#s")
+                sekundaobj.style.transform="rotate("+angleSecond+"deg)";
+                
+                 var minutaobj = document.querySelector("#m")
+               minutaobj.style.transform="rotate("+angleMinutes+"deg)";
+                
+                var godzinaobj = document.querySelector("#h");
+                
+                if(godzina <= 12) { 
+                       godzinaobj.style.transform="rotate("+angleHours*2+"deg)";
+                } else {
+                var korekta = godzina-12;
+                    angleHours = korekta * 30;
+                    godzinaobj.style.transform="rotate("+angleHours+"deg)";
+                }
+            }
+            
+            setInterval("czas()",1000)
+           // czas();
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+    
+</html>

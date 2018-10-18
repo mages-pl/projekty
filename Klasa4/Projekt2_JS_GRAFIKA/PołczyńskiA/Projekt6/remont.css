@@ -1,0 +1,53 @@
+#baner{
+    
+    background-color: rgb(255,213,162);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+#menu{
+    
+    background-color: rgb(191,112,17);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    width: 25%;
+    float: left;
+}
+
+
+#content{
+    
+    height: 400px;
+    
+    
+}
+
+
+a{
+    color: white;
+    
+}
+
+
+#stopka{
+    
+    background-color: rgb(191,112,17);
+    color: white;
+    text-align: right;
+    font-size: 150%;
+      
+    
+}
+
+
+.button{
+    
+    background-color: brown;
+    border: 2px brown;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}

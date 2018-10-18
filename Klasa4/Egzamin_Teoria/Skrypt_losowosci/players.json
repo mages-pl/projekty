@@ -1,0 +1,102 @@
+{
+    "uczniowie": [
+        {
+            "nr_dziennika": "1",
+            "imie": "Ł. Augustyniak",
+            "level": "1",
+            "punkty": "20",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "2",
+            "imie": "E. Cierniak",
+            "level": "2",
+            "punkty": "30",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "3",
+            "imie": "W. Grabowski",
+            "level": "2",
+            "punkty": "50",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "4",
+            "imie": "Kłonowski",
+            "level": "2",
+            "punkty": "25",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "5",
+            "imie": "J. Knapiński",
+            "level": "4",
+            "punkty": "50",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "6",
+            "imie": "P. Korylak",
+            "level": "1",
+            "punkty": "0",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "7",
+            "imie": "F. Kowalczyk",
+            "level": "2",
+            "punkty": "35",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "8",
+            "imie": "J.  Kowalczyk",
+            "level": "2",
+            "punkty": "-5",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "9",
+            "imie": "P. Latoszewski",
+            "level": "2",
+            "punkty": "20",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "10",
+            "imie": "J. Muskała",
+            "level": "3",
+            "punkty": "35",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "11",
+            "imie": "B. Niewiadomski",
+            "level": "2",
+            "punkty": "20",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "12",
+            "imie": "N. Panasiuk",
+            "level": "1",
+            "punkty": "10",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "13",
+            "imie": "A. Połczyński",
+            "level": "4",
+            "punkty": "45",
+            "oceny": ""
+        },
+        {
+            "nr_dziennika": "14",
+            "imie": "T. Socha",
+            "level": "7",
+            "punkty": "95",
+            "oceny": ""
+        }
+    ]
+}

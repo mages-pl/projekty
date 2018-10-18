@@ -1,0 +1,59 @@
+<h1>Formularz</h1>
+
+<input type="text" name="x" />
+
+<input type="text" name="y" />
+
+<input type="button" onclick="qwerty()" name="wynik" 
+value="Oblicz" />
+
+<div id="wynik" style="border:1px dashed red;display:block;max-width:200px;"></div>
+
+<script type="text/javascript">
+    window.onload=qwerty;
+
+
+ function  qwerty(){
+    
+    alert("qwerty");
+     
+    var x = document.querySelector("input[name=x]"); // liczba 1
+
+var y = document.querySelector("input[name=y]"); // liczba 2 (ktora jest wykladnikiem )
+var wynik_f = document.querySelector("#wynik"); // wynik
+
+
+// funkcja poteguj
+
+function poteguj() {
+     alert("qwerty");
+   //przechwyc wartosc licznika z podanej wartosci
+   var licznik = y.value.slice(0, y.value.indexOf("/"));
+   //przechwyc wartosc mianownika z podanej wartosci
+   var mianownik = y.value.slice(y.value.indexOf("/") + 1, y.length);
+
+   // jezeli w wykladniku znalezono slash (ulamek)
+   if (y.value.indexOf("/") > 0) {
+       //alert("y");
+
+       var wynik = (Math.pow(parseFloat(x.value), (licznik / mianownik))); // funkcja potegowania (parameter 1 podstawa, paramter2 wykladnik)
+       // to licz to jako ulamek czyli wykladnik dziel
+
+   } else {
+// Math.sqrt(x);
+       var wynik = (Math.pow(parseFloat(x.value), (y.value))); // funkcja potegowania (parameter 1 podstawa, paramter2 wykladnik)
+
+     //  alert("n");
+       // jesli nie to licz standradowo
+
+   }
+
+   //alert(licznik + " oraz " + mianownik);
+wynik_f.className = "new";
+   wynik_f.innerHTML = wynik.toFixed(2);
+}
+      poteguj()
+}
+
+
+        </script>

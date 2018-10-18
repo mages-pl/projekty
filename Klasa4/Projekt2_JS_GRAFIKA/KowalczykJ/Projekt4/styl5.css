@@ -1,0 +1,99 @@
+#baner{
+    background-color:#009999;
+    color:white;
+    text-align:center;
+    height:80px;
+}
+
+
+#pierwszy{
+    background-color:#009999;
+    font-style:Arial;
+    color:white;
+    text-align:center;
+    width:25%;
+    height:180px;
+    float:left;
+}
+
+
+
+#drugi{
+    
+     background-color:#009999;
+    font-style:Arial;
+    color:white;
+    text-align:center;
+    width:25%;
+    height:180px;
+    float:left;
+    
+}
+
+
+#trzeci{
+     background-color:#009999;
+    font-style:Arial;
+    color:white;
+    text-align:center;
+    width:25%;
+    height:180px;
+    float:left;
+}
+
+#czwarty{
+     background-color:#009999;
+    font-style:Arial;
+    color:white;
+    text-align:center;
+    width:25%;
+    height:180px;
+    float:left;
+    
+}
+
+#panel_lewy{
+    background-color:  #669999;
+    height:600px;
+    width:30%;
+    float:left;
+    
+}
+
+#panel_srodkowy{
+    background-color:#99CCCC;
+    width:40%;
+    height:600px;
+    float:left;
+    text-align:center;
+}
+
+#panel_prawy{
+     background-color:  #669999;
+    height:600px;
+    width:30%;
+    float:left;
+}
+
+#stopka{
+    
+    background-color:#009999;
+    text-align:right;
+    color:white;
+}
+
+table td {
+    border:  1px solid green;
+    text-align: center;
+}
+
+.przycisk{
+    color:white;
+    background-color:green;
+    margin:10px;
+    border:0;
+}
+
+#wynik{
+    display: inline;
+}

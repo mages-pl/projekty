@@ -1,0 +1,45 @@
+#lewa {
+   float:left;
+   width: 19%;
+   text-shadow:3px 1px 4px white;
+   border-style: double solid;
+   height: 1000px;
+   background-color: #FFCCCC;
+}
+.all {
+width: 1000px;
+position: middle;
+margin: 0 auto;
+text-align: center;
+}
+#srodek {
+   /* margin-left: 15%; */
+   /* margin-right: 15%; */
+   float: right;
+   border-style: double solid;
+   width: 79%;
+   height: 1000px;
+   background-color: #ffe4e991;
+}
+#nazwa {
+	margin: auto;
+}
+.clear {
+   clear: both;
+}
+.box {
+	background-color:#3ede9c;
+	width: 33.33%;
+	 float: left; 
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/* */
+.list, .item  {
+	width: 100%;
+	float:left;
+	}
+	
+ 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styl5.css">
+        <title>Portal ogłoszeniowy</title>
+    </head>
+    
+    <body>
+        <div id="baner"><h1>Portal ogłoszeniowy</h1> </div>
+        <div id="pierwszy"><img src="logo-male.png" alt="foto" /></div>
+        <div id="drugi"><h3>Adres:</h3>
+        <p>ul.Morska 45 Gdynia</p></div>
+        <div id="trzeci"><h3>telefon:</h3>
+        <p>601601601</p></div>
+        <div id="czwarty"><h3>e-mail:</h3>
+        <p>ogloszenia@poczta.pl</p></div>
+           
+        <div id="panel_lewy">
+            <h2>Ceny ogłoszeń:</h2>
+        <table>
+<tr>
+<td>Lista ogłoszeń</td>	<td>Cena ogloszenia</td> <td>Bonus</td>
+</tr>
+<tr>
+	<td>1-50</td>	<td><span id="cena_zwykla">2PLN</span></td> <td rowspan="2">Subskrypcja newslettera to upust <span id="rabat">0,20PLN</span> na ogłoszenie</td>
+</tr>
+<tr>
+	<td>51-więcej</td>	<td><span id="cena2">1PLN</span></td> 
+</tr>
+
+</table>
+        </div>
+        <div id="panel_srodkowy">
+            <h2>Witamy na stronie naszego portalu</h2>
+            <img src="logo-duze.png" alt="foto" />
+        </div>
+        <div id="panel_prawy"><h2>Ile kosztuje ogłoszenie:</h2>
+        <label>Podaj liczbę ogłoszeń</label>
+            <br>
+            <input type="number" name="input_var" />
+            <br>
+            <input type="checkbox" onchange="checkbox()" name="nazwa" checked="checked" />
+            Policz upust na newsletter
+            <br>
+           <input  type="button" onClick="licz()" class="przycisk" value="Oblicz" />
+            <br>
+            <br>
+            Koszt ogłoszeń:
+            <div id="wynik"></div>
+            
+           <script type="text/javascript">
+             
+   var x=document.querySelector("input[name=nazwa]")
+             
+             function licz(){
+                 
+              //   alert("cokolwiek");
+                 
+                 var podana_wartosc=document.querySelector("input[name=input_var]").value; //alert("cokolwiek3"+podana_wartosc);
+                
+                 if(parseInt(podana_wartosc)<50){
+                     
+                   //  alert("tak");
+                     
+                     var cena_ogloszenia=document.querySelector("#cena_zwykla").innerHTML;
+                     var wynik;
+                    
+
+                      // checkbox();
+                     if(x.checked==true){
+                          
+                         var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                         //wynikporabacie=(wynik-wynik*parseFloat(rabat)));
+                         wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                  
+
+                     }
+                     else{
+                         
+                      //   alert("bez rabatu");
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     }
+                 }
+             else {
+                 
+                  var cena_ogloszenia=document.querySelector("#cena2").innerHTML;
+                     var wynik;
+                 
+                  if(x.checked==true){ 
+                      
+                      var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                      
+                      wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                       //  alert("> 50 z rab");
+                             
+                             
+                }
+                 else {
+                      
+                        
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     // alert("mniej niz  50 bez rab");
+            
+                 }
+                 
+             }
+                       //alert(wynik.toFixed(2)); 
+                 var wynik2=document.querySelector("#wynik");
+                 wynik2.innerHTML=wynik.toFixed(2);
+                 
+                 
+             }
+          
+     
+    function checkbox(){
+        
+     //   alert("cokolwiek2"+x.checked);
+        
+        
+  
+        
+        
+    }
+             
+             </script>
+           
+        </div>
+        <div id="stopka"><p>Portal ogłoszeniowy opracował:PESEL</p></div>
+        
+    </body>
+    
+</html>
