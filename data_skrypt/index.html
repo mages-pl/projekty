@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+<div id="zegar">
+    <div id="h"></div>
+    <div id="m"></div>
+    <div id="s"></div>
+</div>
+
+<script type="text/javascript">
+var currentDate = new Date;
+
+var sekunda = currentDate.getSeconds();
+
+var angleSecond = sekunda * 6;
+
+var minuta = currentDate.getMinutes();
+
+/*
+1) Pobieramy aktualna date oraz odpowiednio godziny minut etc.
+2) Przeliczamy kat nachylenia obiektu 
+3) interwałem powtarzamy takt interwal ustawiamy na 1 sec = 1000 
+4) @up do tego setInterval("nazwaFunc()",1000)
+5) obiekt.style.transform = "rotate('10deg')"
+
+
+*/
+
+
+
+
+console.log("minuta"+minuta+"sekunda"+sekunda+"st. kat  sekunda: "+angleSecond);
+</script>
+    </body>
+</html>
