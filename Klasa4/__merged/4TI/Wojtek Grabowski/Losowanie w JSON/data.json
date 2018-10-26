@@ -1,0 +1,84 @@
+{
+	"pytania": [
+		{
+			"pytanie": "<b>1.</b> W skład typowego frameworka wchodzą",
+			"odp1": "domena i obsługa błędów",
+			"odp2": "obsługa formularzy i wbudowany serwer",
+			"odp3": "zarządzanie komunikacją z bazą danych, mechanizm uruchamiania i przetwarzania akcji",
+			"odp4": "mechanizm uruchamiania i przetwarzania akcji, oraz certyfikat http",
+			"//": "poprawna: odp 3"
+		},
+		{
+			"pytanie": "<b>2.</b> Wskaż prawidłową kolejność tworzenia aplikacji",
+			"odp1": "Tworzenie, analiza wymagań klienta, specyfikacja wymagań, wdrażanie, testy",
+			"odp2": "Analiza wymagań klienta, specyfikacja wymagań tworzenie, testy, wdrażanie",
+			"odp3": "Specyfikacja wymagań, analiza wymagań klienta, tworzenie, wdrażanie,testy",
+			"odp4": "Analiza wymagań klienta, specyfikacja wymagań, tworzenie, wdrażanie, testy",
+			"//": "poprawna: odp 2"
+		},
+		{
+			"pytanie": "<b>3.</b> W bazie danych, w celu uporządkowania listy uczniów według roku urodzenia, należy użyć polecenia",
+			"odp1": "SELECT imie,nazwisko,klasa from uczniowie order by rok_urodzenia",
+			"odp2": "SELECT imie,nazwisko,klasa from uczniowie group by rok_urodzenia",
+			"odp3": "SELECT imie,nazwisko,klasa from uczniowie where rok_urodzenia = 1994",
+			"odp4": "SELECT imie,nazwisko,klasa from uczniowie order by nazwisko",
+			"//": "poprawna: odp 1"
+		},
+		{
+			"pytanie": "<b>4.</b> Jakiego formatu należy użyć do zapisu obrazu z kompresją stratną?",
+			"odp1": "JPEG",
+			"odp2": "PNG",
+			"odp3": "GIF",
+			"odp4": "PCX",
+			"//": "poprawna: PNG"
+		},
+		{
+			"pytanie": "<b>5.</b> Relacja w bazach danych jest",
+			"odp1": "logicznym połączeniem tabel",
+			"odp2": "algebraicznym połączeniem tabel",
+			"odp3": "połączeniem dwóch pól jednej tabeli",
+			"odp4": "kluczem głównym w relacji tabel",
+			"//": "poprawna: odp 1"
+		},
+		{
+			"pytanie": "<b>6.</b> Relacja w bazach danych jest",
+			"odp1": "atrybutów grafiki, takich jak rozmiar, obramowanie, wyrównanie",
+			"odp2": "podpisu, który zostanie wyświetlony pod grafiką",
+			"odp3": "ścieżki i nazwy pliku źródłowego grafiki",
+			"odp4": "tekstu, który będzie wyświetlony, jeśli nie może być wyświetlona grafika",
+			"//": "poprawna: odp 4"
+		},
+		{
+			"pytanie": "<b>7.</b> CMYK to zestaw czterech podstawowych kolorów farb drukarskich:",
+			"odp1": "turkusowego, purpurowego, żółtego, czarnego",
+			"odp2": "turkusowego, purpurowego, białego, czarnego",
+			"odp3": "turkusowego, błękitnego, białego, różowego",
+			"odp4": "czerwonego, purpurowego, żółtego, szarego",
+			"//": "poprawna: odp 1"
+		},
+		{
+			"pytanie": "<b>8.</b> W załączonym fragmencie kodu CSS kolor jest zapisany w postaci: #008000",
+			"odp1": "CMYK",
+			"odp2": "szesnastkowej",
+			"odp3": "dziesiętnej",
+			"odp4": "HSL",
+			"//": "poprawna: odp 2"
+		},
+		{
+			"pytanie": "<b>9.</b> W celu określenia wysokości obrazka wyświetlonego na stronie WWW należy wykorzystać właściwość CSS o nazwie",
+			"odp1": "width",
+			"odp2": "padding",
+			"odp3": "height",
+			"odp4": "margin",
+			"//": "poprawna: odp 3"
+		},
+		{
+			"pytanie": "<b>10.</b> Model opisu przestrzeni barw o parametrach: odcień, nasycenie i jasność, to",
+			"odp1": "HSV",
+			"odp2": "RGB",
+			"odp3": "CMYK",
+			"odp4": "CMY",
+			"//": "poprawna: odp 1"
+		}
+	]
+}

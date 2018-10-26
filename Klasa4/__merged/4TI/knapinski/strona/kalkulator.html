@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Dzialania Matematyczne</title>
+	<link rel="stylesheet" type="text/css" href="styl.css"/>
+</head>
+<body>
+	<div class="baner">
+	<a href="index.html"><img src="baner.jpg" alt="baner"></a>
+	</div>
+	<div class="panel_lewy">
+		<h3>Menu</h3>
+		<ul>
+<li> <a href="kalkulator.html">proste dzialania</a> </li>
+<li> <a href="potega.html">potegowanie</a> </li>
+</ul>
+</div>
+		<div class="panel_prawy">
+		<h3>Tresc strony</h3>
+		<script language="JavaScript">
+ 
+  function dodawanie()
+{
+ var dod1=document.getElementById("pole1").value;
+ var dod2=document.getElementById("pole2").value;
+ var dodawanie=0;
+dodawanie=Number(dod1)+Number(dod2);
+document.getElementById("koniec").innerHTML="Wynik:"+dodawanie;
+}
+ 
+ function odejmowanie()
+{
+var od1=document.getElementById("pole1").value;
+var od2=document.getElementById("pole2").value;
+var odejmowanie=0;
+odejmowanie=od1-od2;
+document.getElementById("koniec").innerHTML="Wynik:"+odejmowanie;
+}
+  
+ function mnozenie()
+{
+var mno1=document.getElementById("pole1").value;
+var mno2=document.getElementById("pole2").value;
+var mnozenies=0;
+var mnozenie=mno1*mno2;
+ 
+document.getElementById("koniec").innerHTML=mnozenie;
+}
+  
+ function dzielenie()
+{
+var dz1=document.getElementById("pole1").value;
+var dz2=document.getElementById("pole2").value;
+var dzielenie=0;
+  
+if (dz2==0)
+{
+document.getElementById("koniec").innerHTML="Nie dzieli się przez 0!";
+}
+else
+{
+dzielenie=dz1/dz2;
+document.getElementById("koniec").innerHTML=dzielenie;
+}
+}
+  
+</script>
+
+
+</head>
+ 
+<body>
+<input type="text" id="pole1" />
+<input type="text" id="pole2"/>
+<br></br>
+<input type="submit" value="DODAWANIE" onclick="dodawanie()" />
+<input type="submit" value="ODEJMOWANIE" onclick="odejmowanie()" />
+<input type="submit" value="MNOZENIE" onclick="mnozenie()"  />
+<input type="submit" value="DZIELENIE" onclick="dzielenie()" />
+<br></br>
+Wynik
+<br></br>
+<div id="koniec"></div>
+</body>
+</html>
+		</div>
+	
+</body>
+</html>
+
+

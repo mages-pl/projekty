@@ -1,0 +1,15 @@
+@import url("https://static.home.pl/static/assets/font-azosans/stylesheet.css");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+body{display:table;margin:auto auto;color:#1b1b1b;width:190px;background-color:#f1f1f1;}
+*{font-family:Azo Sans;font-size:16px;font-weight:400;-webkit-font-smoothing:antialiased;}
+h1{font-size:24px;font-weight:800;border-bottom:3px solid #c30e0e;padding-bottom:6px;display:inline-block;padding-right:20px;}
+input{display:block;margin:10px 0;border:2px solid #d6d6d6;padding:5px 8px;width:300px;}
+input:focus,button:focus{outline:3px solid #c30e0e;}
+input[type=checkbox]{display:inline;margin-right:5px;width:20px;}
+button[type=submit]{padding:8px 8px;width:100%;border:0;background:#d6d6d6;color:#1b1b1b;font-weight:600;margin-top:5px;}
+button[type=submit]:hover{color:#c30e0e;background:#e0e0e0;}
+.danger{background:#ecb4b4;outline:3px solid #c30e0e;border-color:transparent;}
+.ok{background:#bdffbd;outline:3px solid #00af00;border-color:transparent;}
+.warning{background:#ffe68d;padding:5px 10px;margin-top:15px;border:2px solid #ffcd1d;}
+.fa{font-size:11px;padding-right:5px;position:absolute;margin-left:-20px;margin-top:5px;color:#848484;}
+button[type=submit]:hover .fa{color:#d27c7c;}

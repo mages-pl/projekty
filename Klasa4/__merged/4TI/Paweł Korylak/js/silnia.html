@@ -1,0 +1,39 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="kalkulator.css">
+ <script language=javascript>
+ function silnia(n)
+ {
+if(n==0)
+{
+return 1;
+}
+else
+{
+return n*silnia(n-1);
+}
+}
+ }
+ function oblicz()
+ {
+ var n = eval(document.formularz.n.value);
+ document.formularz.wynik.value = silnia(n);
+ }
+ </script>
+ </head>
+ <body>
+ <div id="baner"><h1><a href="kalkulator.html">Działania Matematyczne</h1><a/></div>
+<div id="silnia">
+ <h1>Silnia</h1>
+ <form name=formularz>
+ Podaj liczbę: <br>
+ <input type=text name=n> <br><br>
+ <input type=button
+ value=Wykonaj onClick=oblicz()> <br><br>
+ Silnia: <br>
+ <input type=text name=wynik> <br>
+ </div>
+ </center>
+ </form>
+ </body>
+</html> 

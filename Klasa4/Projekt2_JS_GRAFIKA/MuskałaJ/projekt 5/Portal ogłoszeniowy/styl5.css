@@ -1,0 +1,141 @@
+#baner{
+    
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    height: 80px;
+  
+   
+    
+}
+
+
+
+#pierwszy-panel{
+    
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    width:  25%;
+    height: 150px;
+    float: left;
+    
+    
+}
+
+#drugi-panel{
+    
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+   width:  25%;
+    height: 150px;
+    float: left;
+  
+    
+    
+    
+}
+#trzeci-panel{
+    
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    width:  25%;
+    height: 150px;
+    float: left;
+  
+    
+    
+}
+#czwarty-panel{
+    
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    width:  25%;
+    height: 150px;
+    float: left;
+    
+    
+    
+}
+
+
+
+#lewy-panel{
+    
+    background-color: #669999;
+    width: 30%;
+    height: 600px;
+    float: left;
+    
+    
+   
+    
+    
+}
+
+#prawy-panel{
+    
+    background-color: #669999;
+    width: 30%;
+    height: 600px;
+    float: left;
+    
+   
+    
+      
+}
+
+
+#srodkowy-panel{
+    
+    background-color: #99CCCC;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    float: left;
+   
+    
+}
+
+
+#stopka{
+    
+    background-color: #009999;
+    color: white;
+    text-align: right;
+    
+    
+}
+
+
+table td{
+    
+    border: 1px solid green;
+    text-align: center;
+    
+}
+
+table{
+    
+   border: 1px solid green;
+}
+
+.button{
+    
+    background-color: green;
+    color: white;
+   margin: 10px;
+    border: 0;
+}
+
+#wynik{
+    
+    display: inline;
+}

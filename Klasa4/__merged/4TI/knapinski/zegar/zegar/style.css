@@ -1,0 +1,16 @@
+﻿#tarcza {
+  position: absolute;
+}
+#godzina {
+  position: absolute;
+  z-index: 2;
+}
+#sekunda {
+  position: absolute;
+  z-index: 3;
+  
+}
+#minuta {
+  position: absolute;
+  z-index: 1;
+}

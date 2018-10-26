@@ -1,4 +1,0 @@
-Zapytanie1: SELECT `id`,`tytul`,`tresc` FROM `ogloszenie` WHERE `kategoria`='1'
-Zapytanie2: SELECT `telefon` FROM uzytkownik LEFT JOIN ogloszenie ON uzytkownik.id=ogloszenie.uzytkownik_id WHERE ogloszenie.id='1'
-Zapytanie3: CREATE USER 'moderator'@'localhost' IDENTIFIED BY 'qwerty';
-Zapytanie4: GRANT SELECT, DELETE ON `ogloszenia`.* TO 'moderator'@'localhost';

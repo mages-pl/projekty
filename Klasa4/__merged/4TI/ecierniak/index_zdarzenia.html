@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        label {
+            display: block;
+        }
+        .itemRemove {
+            float:right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="formularz_zdarzen">
+        <h1>Dodaj zdarzenie</h1>
+        <label>Data dodania zdarzenia</label>
+        <input type="date" name="data_zdarzenia" />
+        <br />
+        <label>Tresc</label>
+        <textarea name="tresc_zdarzenia">
+</textarea>
+        <br />
+        <input type="button" onclick="EventAdd()" name="dodaj_zdarzenie" value="Dodaj">
+
+    </div>
+    <hr />
+    <h1>Lista zdarzeń</h1>
+    <div id="zdarzenia_lista">
+
+    </div>
+    <script type="text/javascript">
+ var pobierzListe = document.querySelector("#zdarzenia_lista");
+
+    function EventAdd()  {
+var pobierzDate = document.querySelector("input[name=data_zdarzenia]").value;
+
+
+var pobierzTresc = document.querySelector("textarea[name=tresc_zdarzenia]").value;
+
+
+
+var contentEvent = '';
+
+if((pobierzTresc != '') && (pobierzDate != ''))  {
+    //alert("tresc"+pobierzTresc);
+
+    contentEvent = "<div class='zdarzenie'>Data dodania:<br/> "+pobierzDate+"<br/>Treść:<br/>"+pobierzTresc+"<input type='button' name=\"removeEvent\"  class=\"itemRemove\" onclick=\"removeEvent(this)\" value=\"x\"/></div>";
+//pobierzListe = 
+
+pobierzListe.innerHTML += contentEvent;
+alert(contentEvent); //c
+ } else { 
+     alert("Uzupełnij pola");
+ }
+         
+    }
+    function removeEvent(event)  { 
+	console.log("hgfh");
+ 
+        //alert("costam");
+        //var pobierzEventContent = document.querySelector*
+      //  var listaZdarzen = document.g
+        var pobranyEvent = event.parentElement;
+        //alert(pobranyEvent.getAttribute("class"))
+  //  alert(event.parentElement);
+  pobierzListe.removeChild(pobranyEvent);
+ 
+    }
+    </script>
+</body>

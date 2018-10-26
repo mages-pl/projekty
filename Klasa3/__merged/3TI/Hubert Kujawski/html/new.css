@@ -1,0 +1,33 @@
+#Naglowek
+{
+  width:1250px;
+  height:100px;
+  background:url(new.jpg);
+}
+#Menu
+{
+  width:314px;
+  height:700px;
+  float:left;
+  background:url(new.jpg);
+}
+#Zawartosc
+{
+   width:620px;
+   height:700px;
+   float:left;
+   background:url(new.jpg);
+}
+#Opis
+{
+   width:312px;
+   height:700px;
+   float:left;
+   background:url(new.jpg);
+}
+#Stopka
+{  width:1250px;
+   height:99px;
+   clear:both;
+   background:url(new.jpg);
+}

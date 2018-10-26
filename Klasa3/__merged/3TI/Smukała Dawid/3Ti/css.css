@@ -1,0 +1,52 @@
+html {
+ 
+	color: #333;
+ 
+}
+body {
+        margin: 0;
+        display: block;	 
+        overflow: auto;
+		font-family:arial;
+}
+a {
+	color:#333;
+}
+#header {
+        width: 100%;
+        float: left;
+	background-color: red;
+}
+#nav {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	background-color: black;
+}
+#content {
+	width: 60%;
+	float: left;
+	overflow: hidden;
+	background-color: yellow;
+}
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: blue;
+}
+.navbar { 
+    background-color: #f8f9fa!important;
+	padding: 15px 10px;
+	    float: left;
+    width: 100%;
+}
+.nav-link { 
+    color: rgba(0,0,0,.5);
+}
+
+.navbar-brand, .navbar-toggler, #navbarNavAltMarkup  { 
+float:left;
+}
+. top{background-color: blue;
+font: 16px Arial;
+

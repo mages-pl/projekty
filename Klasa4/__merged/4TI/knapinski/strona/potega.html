@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Dzialania Matematyczne</title>
+	<link rel="stylesheet" type="text/css" href="styl.css"/>
+</head>
+<body>
+	<div class="baner">
+		<a href="index.html"><img src="baner.jpg" alt="baner"></a>
+	</div>
+	<div class="panel_lewy">
+		<h3>Menu</h3>
+		<ul>
+<li> <a href="kalkulator.html">proste dzialania</a> </li>
+<li> <a href="potega.html">potegowanie</a> </li>
+</ul>
+</div>
+		<div class="panel_prawy">
+		<h3>Tresc strony</h3>
+		<script type="text/javascript">
+ 
+function potega(p,w) {
+var p = document.forms['formularz'].p.value; //Pobieramy podstawe
+var w = document.forms['formularz'].w.value; //Pobieramy wykładnik
+var wynik = 1;
+ 
+for (i = w; i > 0; i--) {
+wynik *= p;
+}
+ 
+alert(p + "^" + w + " = " + wynik); //Wyświetlamy wynik
+}
+ 
+</script>
+ 
+<form id="formularz" action="">
+<br />Podaj podstawę: <input type="text" name="p" />
+<br />Podaj wykładnik: <input type="text" name="w" />
+<br /><button onclick="potega()">Oblicz</button>
+</form>
+		</div>
+	
+</body>
+</html>
+
+ 

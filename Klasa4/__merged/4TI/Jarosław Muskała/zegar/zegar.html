@@ -1,0 +1,67 @@
+﻿<!doctype html> 
+<html>
+<head> 
+         <meta charset=utf-8>
+		 <link href="style.css" rel="stylesheet" type="text/css">
+		 <title>Zegar</title>
+</head>
+      
+<body>
+     
+    <div>
+			
+            <div id="minuta">
+            <img src="minuta.png" >
+            </div>
+			
+            <div id="godzina">
+            <img src="godzina.png" >
+            </div>
+			
+            <div id="sekunda">
+            <img src="sekunda.png">
+            </div>
+			
+            <div id="tarcza">
+            <img src='tarcza.png'>
+			</div>
+		
+  </div> 
+
+<script>
+
+    function Czas(){
+    var data = new Date();
+    var sekunda = data.getSeconds();  
+    var minuta = data.getMinutes();
+    var godzina = data.getHours();
+    
+    var s = sekunda*6;
+    var m = minuta*6;
+    var Hm = minuta*0.5;
+    if (godzina > 12) {
+        h = (godzina - 12 )* 30;
+      }
+    else {
+        h = godzina * 30;
+      }
+    
+    var S = document.getElementById("sekunda");
+      S.style.transform = "rotate("+ s +"deg)";
+ 
+    var M = document.getElementById("minuta");
+      M.style.transform = "rotate("+ m +"deg)";
+      
+    var H = document.getElementById("godzina");
+      H.style.transform = "rotate("+ (h+Hm) +"deg)";
+      
+    
+    setTimeout(Czas, 1000);
+  }  
+     window.onload = Czas;
+
+    </script>
+ 
+</body>
+
+</html>

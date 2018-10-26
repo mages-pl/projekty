@@ -1,0 +1,18 @@
+@media(max-widht:767px) {
+.block {
+float:left;
+widht:100%;
+background:purple;
+}
+}
+
+@media(min-widht:768px) {
+.block {
+float:right;
+widht:50%;
+}
+}
+
+.block:nth-child(1):{background:red;}
+.block:nth-child(1):hover{background:yellow;}
+.block:nth-child(2){background:orange;}

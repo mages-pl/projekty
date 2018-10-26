@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title> Zdarzenia</title>
+        
+        <style type="text/css">
+        
+            
+            #content{
+                
+                
+                width: 400px;
+                border: 1px solid sandybrown;
+                border-radius: 10px;
+                background-color: antiquewhite;
+            
+                
+                
+            }
+            
+            #formularz_zdarzen{
+                
+             
+            
+                border-radius: 10px;
+                
+            }
+            
+           
+            
+            
+             
+           
+            
+           
+            label{
+                display: block; 
+            }
+        
+            
+            .itemRemove{
+                
+               
+               background-color: sandybrown;
+                border: 1px solid black;
+                font-weight: bold;
+                
+                
+              
+                
+            }
+            .button{
+                
+               
+                background-color: sandybrown;
+               border: 1px solid black;
+               height: 30px;
+                width: 200px;
+                
+                font-weight: bold;
+                border-radius: 2px;
+            }
+            
+            .input{
+                
+                border: 1px solid sandybrown;
+                border-radius: 2px;
+                width: 200px;
+                background-color: antiquewhite;
+                
+            
+    
+}
+            
+            
+            
+          
+        </style>
+        
+        
+        
+    </head>    
+    
+    <body>
+       
+
+        
+        <div id="content">
+            
+            
+        
+        <div id="formularz_zdarzen">
+            
+        
+        <h1>Dodaj zdarzenie</h1>
+        <label>Data dodania zdarzenia</label>
+        <input type="date" name="data_zdarzenia" class="input"/>
+        <br>
+        <br>
+        
+        
+        <label>Treść</label>
+        <textarea name="tresc_zdarzenia" class="input"> </textarea>
+        
+        <br>
+        <br>
+        
+       <input type="button" class="button" onclick="EventAdd()" name="dodaj_zdarzenie" value="Dodaj">
+       
+        </div>
+        
+        
+        <h1>Lista zdarzeń</h1>
+        <div id="zdarzenia_lista">
+            
+            
+        </div>
+        <script type="text/javascript">
+        
+            var pobierzListe = document.querySelector("#zdarzenia_lista");
+            
+        function EventAdd(){
+            
+            var pobierzDate = document.querySelector("input[name=data_zdarzenia]").value;
+            var pobierzTresc = document.querySelector("textarea[name=tresc_zdarzenia]").value;
+            
+            var contentEvent = '';
+            
+            if ((pobierzTresc !='')&&(pobierzDate !='')){
+                
+                //alert("tresc"+pobierzTresc);
+                
+              contentEvent= "<div class='zdarzenie'>Data dodania: "+pobierzDate+"<br>Treść:"+pobierzTresc+"<br>Usuń zdarzenie: <input type='button' name\"removeEvent\" class=\'itemRemove'\" onclick=\" removeEvent(this) \" value=\" usuń\"/></div>";
+                
+                pobierzListe.innerHTML += contentEvent;
+              //  alert (contentEvent);
+                
+                
+            }else{
+                alert ("Uzupełnij pola");
+                
+            }
+            
+        }
+            
+            function removeEvent(event){
+                
+                //alert ("cos_tam");
+                //var pobierzEventContent=document.querySelector
+                
+                var listaZdarzen = document.g
+                var pobranyEvent = event.parentElement;
+                
+                pobierzListe.removeChild(pobranyEvent);
+                
+                
+            }
+       
+        
+        
+        
+        </script>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

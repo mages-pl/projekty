@@ -1,0 +1,315 @@
+	<html>
+	<head>
+	<style type="text/css">
+@font-face {
+    font-family: 'font';
+    src: url(./CalcFONT.TTF);
+}
+	
+	.ekran{
+	 font-family: 'font';
+	height:50px;
+	font-size: 40px;
+
+	float: right;
+	}
+	
+	.ramka{
+	height:400px;
+	width:350px;
+background-image: url("txt2.jpg");
+	padding:10px;
+	border-radius: 40px;
+	}
+	
+		
+
+	
+	.logo{ margin:20px;
+	float: left;
+	margin-bottom: 40px;}
+	
+		.flash{
+	float: right;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	}
+	
+	
+.przycisk {background-image: url("txt.jpg");
+ border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family: arial;
+	font-weight: 900;
+	}
+	
+	.tabela{background-image: url("txt.jpg");
+	border-color: gray;
+	
+	
+	
+	}
+	</style>
+	</head>
+	<body>
+	<div class="ramka">
+	<div class="logo"><img src="logo.png" height="30px" width="150px"></div> 
+	<div class="flash"><img src="txt3.jpg" height="30px" width="150px"></div>
+	<div class="calc"><center>
+	<table class="tabela" border=1 >
+		<tr>
+<td>
+					<input class="przycisk" type="button" onclick="potega()" value="x&prime;"> 
+			</td>
+			<td colspan=3 >
+			<font color="white"> <div class="ekran "id="ekran"></div></font>
+			</td>
+		</tr>
+		<tr>
+			<td>
+					<input class="przycisk" type="button" onclick="liczba(9)" value="9"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(8)" value="8"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(7)" value="7"> 
+			</td>
+			<td>
+					<input class="przycisk" type="button"  name="mnozenie" onclick="pomnoz()" value="*" /> 
+			</td>
+		
+			</td>
+		</tr>
+			<tr>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(4)" value="4"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(5)" value="5"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(6)" value="6"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button"  name="minus" onclick="odejmij()" value="-" /> 
+			</td>
+		
+			</td>
+		</tr>
+			<tr>
+			<td>
+				<input class="przycisk"  type="button" onclick="liczba(1)" value="1"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button" onclick="liczba(2)" value="2"> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button"  name="3" onclick="liczba(3)" value="3" /> 
+			</td>
+			<td>
+					<input class="przycisk"  type="button"  name="plus" onclick="dodaj()" value="+" /> 
+			</td>
+		
+			</td>
+		</tr>
+			<tr>
+			<td>
+					<input class="przycisk"  type="button"  name="C" onclick="zeruj()" value="C" /> 
+			</td>
+				<td>
+					<input class="przycisk"  type="button" name="zero" onclick="liczba(0)"   value="0"> 
+				
+			</td>
+				<td>
+			<input class="przycisk"  type="button" name="rownanie" onclick="rownanie()"   value="="> 
+			</td>
+		
+			<td>
+					<input class="przycisk"  type="button"  name="slesz" onclick="podziel()" value="/" /> 
+			</td>
+		
+			</td>
+		</tr>
+	</table>
+			
+
+
+
+<script type="text/javascript">
+
+
+
+
+var wlacznik = '0';
+var wynik = '';
+var liczba1 = '';
+var liczba2 = '';
+var corobic = '';
+var wynik = '';
+var pamiec = '';
+var komunikat = 'ERROR';
+function liczba(arg) { 
+
+
+wynik = arg;
+kontenerwynik = ekran.innerHTML;
+ekran.innerHTML = kontenerwynik + wynik;
+kontenerwynik = ekran.innerHTML;
+console.log(ekran.innerHTML); 
+}
+
+function zeruj2(){ekran.innerHTML = '';}
+function error(){ekran.innerHTML = komunikat;}
+
+function zeruj(){
+ekran.innerHTML = '';
+
+
+if(wlacznik == 0){ 
+  ekran.innerHTML = '0000000000000000'
+     setTimeout(function(){zeruj2()}, 300);
+
+
+
+wlacznik = '1';
+
+   }
+}
+
+
+function dodaj() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba1 = (getValueFromdiv.innerHTML); 
+
+ zeruj();
+ corobic = '1';}
+
+function odejmij() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba1 = (getValueFromdiv.innerHTML);
+
+ zeruj();
+ corobic = '2';}
+
+function podziel() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba1 = (getValueFromdiv.innerHTML); 
+
+ zeruj();
+ corobic = '3';}
+
+function pomnoz() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba1 = (getValueFromdiv.innerHTML); 
+
+ zeruj();
+ corobic = '4';}
+ 
+ function potega() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba1 = (getValueFromdiv.innerHTML); 
+
+ zeruj();
+ corobic = '4';}
+
+function rownanie() {
+var getValueFromdiv = document.querySelector("#ekran");
+liczba2 = (getValueFromdiv.innerHTML); 
+
+ zeruj();
+
+
+if(corobic=='1') { 
+wynik = parseInt(liczba1)+parseInt(liczba2) ;
+ ekran.innerHTML = wynik;
+ }
+if(corobic=='2') { 
+wynik = parseInt(liczba1)-parseInt(liczba2) ;
+ ekran.innerHTML = wynik;
+ }
+if(corobic=='3') { 
+wynik = parseInt(liczba1)/parseInt(liczba2) ;
+ ekran.innerHTML = wynik;
+ }
+if(corobic=='4') { 
+wynik = parseInt(liczba1)*parseInt(liczba2) ;
+ ekran.innerHTML = wynik;
+ }
+ if(corobic=='5') { 
+
+ 
+var x = liczba1;
+
+var y = liczba2;
+var wynik_f = wynik;
+
+
+// funkcja poteguj
+
+function poteguj() {
+   //przechwyc wartosc licznika z podanej wartosci
+   var licznik = y.value.slice(0, y.value.indexOf("/"));
+   //przechwyc wartosc mianownika z podanej wartosci
+   var mianownik = y.value.slice(y.value.indexOf("/") + 1, y.length);
+
+   // jezeli w wykladniku znalezono slash (ulamek)
+   if (y.value.indexOf("/") > 0) {
+       //alert("y");
+
+       var wynik = (Math.pow(parseFloat(x.value), (licznik / mianownik))); // funkcja potegowania (parameter 1 podstawa, paramter2 wykladnik)
+       // to licz to jako ulamek czyli wykladnik dziel
+
+   } else {
+// Math.sqrt(x);
+       var wynik = (Math.pow(parseFloat(x.value), (y.value))); // funkcja potegowania (parameter 1 podstawa, paramter2 wykladnik)
+
+     //  alert("n");
+       // jesli nie to licz standradowo
+
+   }
+
+   //alert(licznik + " oraz " + mianownik);
+wynik_f.className = "new";
+   wynik_f.innerHTML = wynik.toFixed(2);
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ekran.innerHTML = wynik;
+ }
+if((corobic!='1') && (corobic!='2') && (corobic!='3') && (corobic!='4') && (corobic!='5')) {
+ ekran.innerHTML = komunikat;
+ setTimeout(function(){zeruj()}, 300);
+ }
+}
+
+
+
+
+
+
+
+
+</script>
+</div>
+</div>
+</body>
+</html>

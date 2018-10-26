@@ -1,0 +1,18 @@
+﻿#tarcza {
+  position: relative;
+}
+#godzina {
+  position: absolute;
+  z-index: 2;
+}
+#sekunda {
+  position: absolute;
+  z-index: 3;
+  
+}
+#minuta {
+  position: absolute;
+  z-index: 1;
+}
+
+//z-index określa kolejność elementów wzdłuż osi z. Kiedy elementy nachodzą na siebie, kolejność osi z decyduje, który element przykrywa inny. Element z większym indeksem z zazwyczaj przykrywa element z mniejszym. 

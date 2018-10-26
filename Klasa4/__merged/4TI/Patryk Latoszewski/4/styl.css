@@ -1,0 +1,26 @@
+html {
+height: auto;
+width: 800px;    
+}
+
+#baner {
+height: 100px;
+width: 800px;
+}
+
+#menu {
+height: 10%;
+width: 40%;
+float: left;
+}
+
+#srodek {
+height: 10%;
+width: 60%;
+float: right;   
+}
+
+
+
+
+

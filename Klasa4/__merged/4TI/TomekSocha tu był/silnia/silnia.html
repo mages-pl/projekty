@@ -1,0 +1,30 @@
+<html>
+ <head>
+ <title>Silnia</title>
+ </head>
+ <body>
+<h1>Silnia</h1>
+ <form name=silnia>
+
+ Podaj liczbę naturalną: 
+ <input type=text  name=y> <br>
+ <input type=button value=Oblicz onClick=oblicz()> <br><br>
+ Silnia: <br>
+ <input type=text  name=wynik> <br>
+
+ </form>
+     
+     <script language=javascript>
+ function silnia(y)
+ {
+ if(y==0) return 1;
+ return y * silnia(y-1);
+ }
+ function oblicz()
+ {
+ var y = eval(document.silnia.y.value);
+ document.silnia.wynik.value = silnia(y);
+ }
+ </script>
+ </body>
+</html> 

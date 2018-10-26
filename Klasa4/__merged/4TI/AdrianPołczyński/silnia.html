@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+<script language=javascript> 
+function silnia(a) 
+{ 
+if(a==0) return 1; 
+return a * silnia(a-1); 
+} 
+function oblicz() 
+{ 
+var a = eval(document.silnia.a.value);   
+document.silnia.wynik.value = silnia(a); 
+} 
+</script> 
+    
+</head> 
+<body>
+    
+<form name=silnia> 
+ 
+Podaj liczbę: <br> 
+    
+<input type=text size=17 name=a> 
+    
+<input type=button value=Oblicz onclick=oblicz()> 
+
+<br>
+<br>
+    
+Wynik:<br>
+    
+<input type=text size=17 name=wynik> <br> 
+
+</form> 
+</body> 
+</html>

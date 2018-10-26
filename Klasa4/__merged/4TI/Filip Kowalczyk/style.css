@@ -1,0 +1,15 @@
+.sekundnik{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
+
+
+
+.tarcza{
+	position: absolute;
+	z-index: 3;
+	
+	
+}

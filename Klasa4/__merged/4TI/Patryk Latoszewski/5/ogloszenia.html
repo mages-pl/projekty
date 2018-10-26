@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title> Portal ogłoszeniowy</title>
+
+<link rel="stylesheet" href="styl5.css">
+    
+</head>
+    
+<body>
+    
+<div id="baner">
+<h1>Portal ogłoszeniowy</h1>
+</div>  
+    
+<div id="pierwszy">
+<img src="logo-male.png" alt="logo">    
+</div>   
+    
+<div id="drugi">
+<h3>Adres</h3>
+<p>ul. Morska 45 Gdynia</p>    
+</div>
+    
+<div id="trzeci">
+<h3>telefon</h3>
+<p>601601601</p>    
+</div>
+    
+<div id="czwarty"> 
+<h3>e-mail</h3>
+<p>ogloszenia@poczta.pl</p>    
+</div>    
+    
+<div id="panel_lewy">   
+<h2>Ceny ogłoszeń</h2>    
+    
+<table>
+<tr>
+<td>Lista ogłoszeń</td>	
+<td>Cena ogłoszenia</td>
+<td>Bonus</td>
+</tr>
+<tr>
+<td>1-10</td>
+<td><span id="cena">2</span></td>
+    <td rowspan="2">Subskrypcja newslettera to upust<span id="rabat"> 0,20</span> na ogłosznie</td>
+</tr>   
+<tr>
+<td>51 i więcej</td>	
+<td><span id="cena wiecej">1</span></td> 
+</table>    
+</div>    
+         
+<div id="panel_srodkowy">  
+<h2>Witamy na stronie naszego portalu!</h2>  
+<img src="logo-duze.png" alt="ogloszenia">     
+</div>     
+    
+<div id="panel_prawy">
+<h2> Ile kosztuje ogłoszenie?</h2>
+
+
+<div id="form-line">
+<label for="liczba">Podaj liczbę ogłoszeń:</label>
+<input type="number" name="liczba">
+</div>
+<div id="form-line">
+<input type="checkbox" onchange="checkbox()" name="upust">
+<label for="upust">Policz upust na newsletter</label>
+</div>
+<div id="form-line">
+<input type="button" onclick="licz()" value="Oblicz">
+    
+<script type="text/javascript">
+var xyz=document.querySelector("input[name=upust]")    
+function licz(){
+alert("cokolwiek")
+var podana_wartosc= document.querySelector("input[name=liczba]").value; alert("cokolwiek"+podana_wartosc);  
+    
+if (parseInt(podana_wartosc)<50){
+alert("tak masz racje")
+
+var cenaogloszenia=document.querySelector("#cena").innerHTML;
+var wynik; 
+
+wynik=cenaogloszenia*podana_wartosc;    
+
+//checkbox();
+if (xyz.checked==true) {
+    
+var rabat=document.querySelector("#rabat").innerHTML.replace(",",",");
+//wynikporabacie=(wynik=wynik+parseFloat(rabat));    
+wynik=(podana_wartosc)*(parseInt(cenaogloszenia)=parseFloat(rabat));
+    alert("rabat"+rabat)   
+}
+    
+else {
+alert("bez rabatu")  
+alert(wynik);    
+}  
+    
+}    
+else {
+alert("nie masz racji")
+}    
+    
+}
+function checkbox() {
+
+alert("cokolwiek"+xyz.checked);  
+    
+}
+    
+
+
+</script>  
+    
+
+</div>
+<div id="miejsce">
+</div>
+    
+    
+<div id="stopka">
+Portal ogłoszeniowy opracował: Patryk
+</div>    
+            
+        

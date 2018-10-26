@@ -1,0 +1,81 @@
+#baner {
+background-color:#009999;
+color: white;
+height: 80px;
+text-align: center;    
+}
+
+#pierwszy {
+background-color:#009999;
+font: Arial;    
+color: white;    
+width: 25%;
+height: 150px;
+text-align: center;
+    float: left;
+}
+
+#drugi {
+background-color:#009999;
+font: Arial;    
+color: white;    
+width: 25%;
+height: 150px;
+text-align: center;
+float: left;
+}
+
+#trzeci {
+background-color:#009999;
+font: Arial;    
+color: white;    
+width: 25%;
+height: 150px;
+text-align: center;
+float: left;
+}
+
+#czwarty {
+background-color:#009999;
+font: Arial;    
+color: white;    
+width: 25%;
+height: 150px;
+text-align: center;
+float: left;
+}
+
+#panel_lewy {
+background-color: #669999;
+width: 30%;
+height: 600px;   
+float: left;    
+}
+
+#panel_srodkowy{
+background-color: #99CCCC;
+width: 40%;
+height: 600px;
+text-align: center;
+    float: left;
+}
+
+#panel_prawy {
+background-color: #669999;
+width: 30%;
+height: 600px;   
+float: left;
+}
+
+#stopka {
+background-color: #009999;
+color: white;
+text-align: right;
+}
+
+
+table td {
+border: 1px dashed green;
+width: 500px;
+text-align: center;
+}

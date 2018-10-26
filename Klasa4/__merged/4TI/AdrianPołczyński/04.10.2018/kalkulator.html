@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <title>Wyremontuj mieszkanie</title>
+    <link rel="stylesheet" href="remont.css">
+    
+    </head>
+
+    
+    
+    <body>
+    
+    
+    <div id="baner">
+        
+        <img src="images/logo.png">
+        </div>
+    
+        <div id="menu">
+            
+            <a href="index.html">O NAS</a>
+        </div>
+        
+        <div id="menu">
+            <a href="kontakt.html">KONTAKT</a>
+        </div>
+        
+        <div id="menu">
+            <a href="kalkulator.html">KALKULATOR</a>
+        </div>
+        
+        <div id="menu">
+            
+            <a href="http://www.jakremontowac.pl/">POLECANE STRONY</a>
+        </div>
+        
+        <div id="content">
+        
+            <h1>Malowanie pokoju: 8 zł na m<sup>2</sup></h1>
+        
+          
+            
+            <p>Wymiary pokoju w metrach:
+         
+                
+              
+             <input type="number" name="wymiar_pierwszy"/> <!-- pierwszy wymiar -->
+            
+            <input type="number" name="wymiar_drugi"/> <!-- drugi wymiar -->
+            </p>
+            
+<input type="button" class="button" onclick="licz()" value="OBLICZ KOSZT"> <!-- przycisk oblicz koszt -->
+            
+    
+            
+            
+<p>Powierzchnia całkowita ścian: <span id="powierzchnia"></span></p>
+    <p>Koszt malowania:<span id="koszt"></span> </p>
+            
+            
+<script type="text/javascript">
+    
+    
+   
+   
+   
+   function licz(){
+       
+            
+       
+var podana_wartosc=document.querySelector("input[name=wymiar_pierwszy]").value; 
+       
+    var podana_wartosc2=document.querySelector("input[name=wymiar_drugi]").value;       
+       
+       
+var wysokosc = 2.7;
+var cena = 8;
+var powierzchnia = 2 * podana_wartosc * wysokosc + 2 * podana_wartosc2* wysokosc;
+var koszt = cena * powierzchnia;
+       
+       
+
+ document.getElementById("powierzchnia").innerHTML = powierzchnia + " m<sup>2</sup>";
+document.getElementById("koszt").innerHTML = koszt + " zł";
+       
+       
+   }
+
+    
+    
+ 
+                
+                    </script>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        <div id="stopka">
+        Autor strony: 8383838
+        </div>
+        
+        
+        
+    
+    
+    
+    </body>
+    
+</html>

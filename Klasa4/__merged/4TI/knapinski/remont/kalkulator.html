@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Wyremontuj mieszkanie</title>
+		<link rel="stylesheet" type="text/css" href="styl.css">
+	</head>
+	<body>
+		<section class="baner">
+			<img src="logo.png">
+		</section>
+		<section class="menu">
+			<div>
+				<a href="index.html">O NAS</a>
+			</div>
+			<div>
+				<a href="kontakt.html">KONTAKT</a>
+			</div>
+			<div>
+				<a href="kalkulator.html">KALKULATOR</a>
+			</div>
+			<div>
+				<a href="http://www.niemamstrony.pl/" target="_blank">POLECANE STRONY</a>
+			</div>
+		</section>
+		<section class="blok-glowny">
+			<h1>Malowanie pokoju: 8 zł za m2</h1>
+			<span>Wymiary pokoju w metrach: </span>
+			<input type="number" name="wymiar1">
+			<input type="number" name="wymiar2">
+			<input type="button" onclick="liczenie()" value="OBLICZ KOSZT" />
+			<div id="obliczenia"></div>
+		</section>
+		<section class="stopka">
+			<p>Autor strony: 00000000000</p>
+		</section>
+	  <!--<script src="kalkulator.js"></script> -->
+		
+	</body>
+	<script type="text/javascript">  
+		 
+		function liczenie() {
+		var pobierzWymiar1 = document.querySelector("input[name=wymiar1]");
+		var pobierzWymiar2 = document.querySelector("input[name=wymiar2]");
+		
+		alert("pobralem wymiary"+pobierzWymiar1.value+" "+pobierzWymiar2.value+"");
+		
+		var wmiary_sciany = (2*(parseFloat(pobierzWymiar1.value*2.7))+(2*(parseFloat(pobierzWymiar2.value*2.7))));
+alert("pobralem wymiary wszystkich scian: "+wmiary_sciany);
+
+var koszt_malowania = wmiary_sciany*8;
+
+alert("Kosz malowania"+koszt_malowania);
+
+document.querySelector("#obliczenia").innerHTML = "sdfsdfsdf<br/>"+koszt_malowania;
+}		
+ 
+		</script>
+</html>

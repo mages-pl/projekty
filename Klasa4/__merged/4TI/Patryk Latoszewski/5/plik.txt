@@ -1,0 +1,82 @@
+<script type="text/javascript">
+             
+   var x=document.querySelector("input[name=nazwa]")
+             
+             function licz(){
+                 
+              //   alert("cokolwiek");
+                 
+                 var podana_wartosc=document.querySelector("input[name=input_var]").value; //alert("cokolwiek3"+podana_wartosc);
+                
+                 if(parseInt(podana_wartosc)<50){
+                     
+                   //  alert("tak");
+                     
+                     var cena_ogloszenia=document.querySelector("#cena_zwykla").innerHTML;
+                     var wynik;
+                    
+
+                     
+                  // checkbox();
+                     if(x.checked==true){
+                          
+                         
+                         var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                         //wynikporabacie=(wynik-wynik*parseFloat(rabat)));
+                         wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                  
+
+                     }
+                     else{
+                         
+                      //   alert("bez rabatu");
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     }
+                 }
+             else {
+                 
+                  var cena_ogloszenia=document.querySelector("#cena_wiecej").innerHTML;
+                     var wynik;
+                 
+                  if(x.checked==true){ 
+                      
+                      var rabat=document.querySelector("#rabat").innerHTML.replace(",", ".");
+                      
+                      wynik=(podana_wartosc*(parseInt(cena_ogloszenia)-parseFloat(rabat)));
+                       //  alert("> 50 z rab");
+                             
+                             
+                             
+                         
+                      
+                      
+                  }
+                 else {
+                      
+                        
+                        wynik=(podana_wartosc*(parseInt(cena_ogloszenia)));
+                     // alert("mniej niz  50 bez rab");
+            
+                 }
+                 
+             }
+                       //alert(wynik.toFixed(2)); 
+                 var wynik2=document.querySelector("#wynik");
+                 wynik2.innerHTML=wynik.toFixed(2);
+                 
+                 
+             }
+          
+     
+    function checkbox(){
+        
+     //   alert("cokolwiek2"+x.checked);
+        
+        
+  
+        
+        
+    }
+             
+             
+             </script>

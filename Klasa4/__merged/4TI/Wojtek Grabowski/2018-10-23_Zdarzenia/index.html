@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./2018-10-23.css">
+	<link rel="stylesheet" type="text/css" href="./bootstrap-material-design.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-4">
+			<div class="form-group col-sm-12">
+				<h3>Dodaj zdarzenie</h3>
+				<input type="text" class="form-control mb-3" name="tytul_zdarzenia" placeholder="Tytuł zdarzenia" value="Lorem Ipsum">
+				<input type="date" value="2018-10-23" class="form-control mb-3" name="data_zdarzenia" placeholder="Data dodania zdarzenia">
+				<textarea name="tresc_zdarzenia" class="form-control mb-3" placeholder="Treść zdarzenia"></textarea>
+				<select class="form-control mb-3" name="kolor_zdarzenia" id="wybor">
+					<option value="">bez koloru</option>
+					<option value="bg-success text-white">zielony</option>
+					<option value="bg-info text-white">jasno-niebieski</option>
+					<option value="bg-primary text-white">morski</option>
+					<option value="bg-secondary text-white">szary</option>
+					<option value="bg-danger text-white">czerwony</option>
+					<option value="bg-warning text-white">pomarańczowy</option>
+					<option value="bg-dark text-white">ciemny</option>
+				</select>
+				<input type="button" onclick="EventAdd();" name="dodaj_zdarzenie" class="btn btn-primary btn-outline" value="Dodaj">
+			</div>
+		</div>
+		<div class="row mt-4 col-sm-12">
+			<h3 class="w-100">Lista zdarzeń</h3>
+			<p><small>Żeby usunąć obiekt kliknij na niego</small></p>
+		</div>
+		<div class="row">
+			<div id="zdarzenia_lista">
+				<div class="list-group col-sm-12">
+					<!-- elementy -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./2018-10-23.js"></script>
+	<script src="./jquery-3.2.1.min.js"></script>
+	<script src="./popper.js"></script>
+	<script src="./bootstrap-material-design.js"></script>
+	<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>
