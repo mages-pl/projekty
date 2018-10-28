@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Czas generowania: 26 Paź 2018, 15:04
--- Wersja serwera: 10.1.16-MariaDB
--- Wersja PHP: 5.5.38
+-- Host: localhost
+-- Czas generowania: 23 Paź 2018, 02:17
+-- Wersja serwera: 10.1.28-MariaDB
+-- Wersja PHP: 7.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -57,7 +59,7 @@ CREATE TABLE `listanauczycieli` (
 --
 
 INSERT INTO `listanauczycieli` (`idlistaNauczycieli`, `imie`, `nazwisko`) VALUES
-(0, 'MichaÅ‚', 'J');
+(1, 'MichaÅ‚', 'J');
 
 -- --------------------------------------------------------
 
@@ -77,10 +79,11 @@ CREATE TABLE `listauczniow` (
 --
 
 INSERT INTO `listauczniow` (`listaUczniow`, `imie`, `nazwisko`, `Klasa_idKlasa`) VALUES
-(1, 'Adam', 'ABC', 1),
-(2, 'test', '123', 1),
-(3, 'TEst', 'test1234', 1),
-(4, 'MichaÅ‚', 'J', 2);
+(43, 'Michal', 'J', 1),
+(64, 'Maciej', 'Baran', 1),
+(65, 'Tomasz', 'Wojaczka', 2),
+(66, 'Stefan', 'Jakistam', 2),
+(67, 'Anna', 'GÅ‚Ä…b', 1);
 
 -- --------------------------------------------------------
 
@@ -103,9 +106,7 @@ CREATE TABLE `obecnosc` (
   `idObecnosc` int(11) NOT NULL,
   `stan` enum('O','N') COLLATE utf8_polish_ci NOT NULL,
   `listaUczniow_idlistaUczniow` int(11) NOT NULL,
-  `listaUczniow_Klasa_idKlasa` int(11) NOT NULL,
-  `Zajecia_idZajecia` int(11) NOT NULL,
-  `Zajecia_listaNauczycieli_idlistaNauczycieli` int(11) NOT NULL
+  `Zajecia_idZajecia` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
 -- --------------------------------------------------------
@@ -130,7 +131,6 @@ CREATE TABLE `opinie` (
   `idOpinie` int(20) NOT NULL,
   `status` enum('P','N','','') COLLATE utf8_polish_ci NOT NULL,
   `listaUczniow_idlistaUczniow` int(11) NOT NULL,
-  `listaUczniow_Klasa_idKlasa` int(11) NOT NULL,
   `listaNauczycieli_idlistaNauczycieli` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
@@ -195,9 +195,7 @@ ALTER TABLE `nr_lekcji`
 --
 ALTER TABLE `obecnosc`
   ADD PRIMARY KEY (`idObecnosc`),
-  ADD KEY `Zajecia_listaNauczycieli_idlistaNauczycieli` (`Zajecia_listaNauczycieli_idlistaNauczycieli`),
   ADD KEY `Zajecia_idZajecia` (`Zajecia_idZajecia`),
-  ADD KEY `listaUczniow_Klasa_idKlasa` (`listaUczniow_Klasa_idKlasa`),
   ADD KEY `listaUczniow_idlistaUczniow` (`listaUczniow_idlistaUczniow`);
 
 --
@@ -213,7 +211,6 @@ ALTER TABLE `oceny`
 ALTER TABLE `opinie`
   ADD PRIMARY KEY (`idOpinie`),
   ADD KEY `listaNauczycieli_idlistaNauczycieli` (`listaNauczycieli_idlistaNauczycieli`),
-  ADD KEY `listaUczniow_Klasa_idKlasa` (`listaUczniow_Klasa_idKlasa`),
   ADD KEY `listaUczniow_idlistaUczniow` (`listaUczniow_idlistaUczniow`);
 
 --
@@ -241,41 +238,55 @@ ALTER TABLE `zajecia`
 --
 ALTER TABLE `klasa`
   MODIFY `idKlasa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT dla tabeli `listanauczycieli`
+--
+ALTER TABLE `listanauczycieli`
+  MODIFY `idlistaNauczycieli` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT dla tabeli `listauczniow`
 --
 ALTER TABLE `listauczniow`
-  MODIFY `listaUczniow` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `listaUczniow` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+
 --
 -- AUTO_INCREMENT dla tabeli `nr_lekcji`
 --
 ALTER TABLE `nr_lekcji`
   MODIFY `id_lekcji` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT dla tabeli `obecnosc`
 --
 ALTER TABLE `obecnosc`
   MODIFY `idObecnosc` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT dla tabeli `oceny`
 --
 ALTER TABLE `oceny`
   MODIFY `idOceny` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT dla tabeli `opinie`
 --
 ALTER TABLE `opinie`
   MODIFY `idOpinie` int(20) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT dla tabeli `przedmioty`
 --
 ALTER TABLE `przedmioty`
   MODIFY `idPrzedmioty` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT dla tabeli `zajecia`
 --
 ALTER TABLE `zajecia`
   MODIFY `idZajecia` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- Ograniczenia dla zrzutów tabel
 --
@@ -291,7 +302,6 @@ ALTER TABLE `listauczniow`
 --
 ALTER TABLE `obecnosc`
   ADD CONSTRAINT `obecnosc_ibfk_1` FOREIGN KEY (`Zajecia_idZajecia`) REFERENCES `zajecia` (`idZajecia`),
-  ADD CONSTRAINT `obecnosc_ibfk_2` FOREIGN KEY (`Zajecia_listaNauczycieli_idlistaNauczycieli`) REFERENCES `listanauczycieli` (`idlistaNauczycieli`),
   ADD CONSTRAINT `obecnosc_ibfk_3` FOREIGN KEY (`listaUczniow_idlistaUczniow`) REFERENCES `listauczniow` (`listaUczniow`);
 
 --
@@ -304,17 +314,18 @@ ALTER TABLE `oceny`
 -- Ograniczenia dla tabeli `opinie`
 --
 ALTER TABLE `opinie`
-  ADD CONSTRAINT `opinie_ibfk_1` FOREIGN KEY (`listaNauczycieli_idlistaNauczycieli`) REFERENCES `listanauczycieli` (`idlistaNauczycieli`),
-  ADD CONSTRAINT `opinie_ibfk_2` FOREIGN KEY (`listaUczniow_idlistaUczniow`) REFERENCES `listauczniow` (`listaUczniow`);
+  ADD CONSTRAINT `opinie_ibfk_2` FOREIGN KEY (`listaUczniow_idlistaUczniow`) REFERENCES `listauczniow` (`listaUczniow`),
+  ADD CONSTRAINT `opinie_ibfk_3` FOREIGN KEY (`listaNauczycieli_idlistaNauczycieli`) REFERENCES `listanauczycieli` (`idlistaNauczycieli`);
 
 --
 -- Ograniczenia dla tabeli `zajecia`
 --
 ALTER TABLE `zajecia`
-  ADD CONSTRAINT `zajecia_ibfk_1` FOREIGN KEY (`listaNauczycieli_idlistaNauczycieli`) REFERENCES `listanauczycieli` (`idlistaNauczycieli`),
   ADD CONSTRAINT `zajecia_ibfk_2` FOREIGN KEY (`Przedmioty_idPrzedmioty`) REFERENCES `przedmioty` (`idPrzedmioty`),
   ADD CONSTRAINT `zajecia_ibfk_3` FOREIGN KEY (`Klasa_idKlasa`) REFERENCES `klasa` (`idKlasa`),
-  ADD CONSTRAINT `zajecia_ibfk_4` FOREIGN KEY (`nr_lekcji`) REFERENCES `nr_lekcji` (`id_lekcji`);
+  ADD CONSTRAINT `zajecia_ibfk_4` FOREIGN KEY (`nr_lekcji`) REFERENCES `nr_lekcji` (`id_lekcji`),
+  ADD CONSTRAINT `zajecia_ibfk_5` FOREIGN KEY (`listaNauczycieli_idlistaNauczycieli`) REFERENCES `listanauczycieli` (`idlistaNauczycieli`);
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
