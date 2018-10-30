@@ -22,7 +22,7 @@ class Database
 
     public function __construct()
     {
-        $this->host = '192.168.64.2';
+        $this->host = 'localhost';
         $this->user = 'root';
         $this->password = '';
         $this->database = 'dziennik';

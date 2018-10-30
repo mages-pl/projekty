@@ -1,6 +1,7 @@
 <?php
 require_once '../../controllers/UczniowieController.php';
 
+include('../main/header.php');
 ?>
 <h3>Ucznowie</h3>
 <table>
@@ -18,6 +19,7 @@ foreach ((new UczniowieController())->index() as $uczen) {
 <form method="POST">
 <input type="hidden" name="ID_DeleteUczen" value="<?php echo $uczen['listaUczniow']; ?>" />
 <button name="usunUczniaSubmit">Usun</button>
+<a href="./edit.php?idUczen=<?php echo $uczen['listaUczniow']; ?>">Edytuj</a>
 </form>
 </td>
 </tr>
@@ -27,3 +29,7 @@ foreach ((new UczniowieController())->index() as $uczen) {
 ?>
 </table>
 <a href="./add.php">Dodaj ucznia</a>
+
+<?php 
+include('../main/footer.php');
+?>
