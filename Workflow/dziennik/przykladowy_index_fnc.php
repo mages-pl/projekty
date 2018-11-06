@@ -3,15 +3,20 @@
 <html> 
 
 <head> 
-<meta charset="utf8"/>
+	<meta charset="utf-8"/>
+	<style>
+		body{font-family: Tahoma; font-size: 12px; line-height: 1.6;}
+	</style>
+</head>
+<body>
 <?php
 
 // Dane do bazy
 
-$host = '192.168.64.2';
+$host = 'localhost';
 $user = 'root';
-$haslo = '';
-$baza = 'dziennik';
+$haslo = 'vertrigo';
+$baza = 'szkola_dziennik';
 
 // Polaczenie z baza
 
@@ -22,6 +27,7 @@ function polaczenie($host, $user, $haslo, $baza)
     return $connect;
 }
 $connect = polaczenie($host, $user, $haslo, $baza);
+$connect->set_charset("utf8");
 
 // Wyswietlenie danych
 
@@ -78,8 +84,8 @@ if (isset($_POST['dodawanie_uzytkownika'])) {
 }
 
 ?>
-</head>
-<body>
+
+
 <h1>Dodaj ucznia</h1>
 <form method="POST">
 <br/>
@@ -113,11 +119,13 @@ while ($row = mysqli_fetch_array($result)) {
 </form>
 
 <h1>Lista uczniow</h1>
-<h3>nuczyciele</h3>
-<?php
-foreach (showTable($connect, 'listauczniow', '*', joinTable('listauczniow', 'klasa', 'Klasa_idKlasa', 'idKlasa'), '', '', '', 2) as $row) {
-    echo $row['imie'].' '.$row['nazwa'].'<br/>';
-}
-?>
+<!-- <h3>nuczyciele</h3> -->
+<ol>
+	<?php
+	foreach (showTable($connect, 'listauczniow', '*', joinTable('listauczniow', 'klasa', 'Klasa_idKlasa', 'idKlasa'), '', '', '', 2) as $row) {
+		echo '<li>'.$row['nazwisko'].' '.$row['imie'].' ('.$row['nazwa'].')</li>';
+	}
+	?>
+</ol>
 </body>
 </html>

@@ -6,7 +6,10 @@ require_once './classes/Database.php';
 <head>
 <meta charset="UTF-8"/>
 
-<?php 
+<?php
+ini_set("error_reporting", 0);
+
+
 if (isset($_POST['update'])) {
     echo 'aktualizuje<br/>';
     $updateUczen = new Database();

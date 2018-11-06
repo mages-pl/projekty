@@ -17,6 +17,7 @@ class Database
 
     public $order;
     public $limit;
+    public $join;
 
     public $result;
 
@@ -24,10 +25,21 @@ class Database
     {
         $this->host = '192.168.64.2';
         $this->user = 'root';
-        $this->password = '';
+        $this->password = 'tyreus';
         $this->database = 'dziennik';
 
         $this->polaczenie = mysqli_connect($this->host, $this->user, $this->password, $this->database) or die('Nie udalo sie nawiazac polaczenia');
+
+        $this->polaczenie->set_charset('UTF8');
+    }
+
+    public function orWhere($pole, $operator, $warunek)
+    {
+        $this->where .= ' OR ';
+
+        $this->where .= ' '.$pole.'  '.$operator.' "'.$warunek.'" ';
+
+        return $this;
     }
 
     public function where($pole, $operator, $warunek)
@@ -36,7 +48,13 @@ class Database
             $operator = '=';
         }
 
-        $this->where = ' WHERE '.$pole.'  '.$operator.' "'.$warunek.'" ';
+        if ($this->where == '') {
+            $this->where .= ' WHERE ';
+        } else {
+            $this->where .= ' AND ';
+        }
+
+        $this->where .= ' '.$pole.'  '.$operator.' "'.$warunek.'" ';
 
         return $this;
     }
@@ -44,6 +62,13 @@ class Database
     public function limit($limit)
     {
         $this->limit = ' LIMIT '.$limit;
+
+        return $this;
+    }
+
+    public function join($Tabela2, $poleTabela1, $poleTabela2)
+    {
+        $this->join = 'LEFT JOIN '.$Tabela2.' ON '.$poleTabela1.' = '.$poleTabela2;
 
         return $this;
     }
@@ -100,7 +125,7 @@ class Database
 
     public function get()
     {
-        $this->result = mysqli_query($this->polaczenie, 'SELECT * FROM '.$this->table.' '.$this->where);
+        $this->result = mysqli_query($this->polaczenie, 'SELECT * FROM '.$this->table.' '.$this->join.' '.$this->where);
 
         return mysqli_fetch_all($this->result, MYSQLI_ASSOC);
     }
