@@ -10,7 +10,7 @@
 	</div>
 	<?php
         foreach ((new UczniowieController())->editUczen($_GET['idUczen']) as $uczen) {
-            //echo "<b>Imię</b>: ".$uczen['imie']; ?>
+            //echo "<b>Imię</b>: ".$uczen['imie'];?>
 	<div class="row">
 		<form method="POST">
 			<div class="form-group">
