@@ -30,3 +30,8 @@ https://egzamin-e14.blogspot.com/2018/10/arkusz-e14-06-1806.html
 http://egzamin-e14.blogspot.com/2016/12/arkusz-e14-02-1608.html
 7.12.18
 http://www.odidz.zsp2.edu.pl/wp-content/uploads/2018/12/e_14_2018_06_02_kolor.pdf
+
+
+
+// API url
+http://api.openweathermap.org/data/2.5/weather?q=Pyrzyce&appid=549d97fcd6f4c67a7d24b80e677b4879
