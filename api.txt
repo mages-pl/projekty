@@ -1,0 +1,1 @@
+http://api.openweathermap.org/data/2.5/weather?q=Pyrzyce&appid=549d97fcd6f4c67a7d24b80e677b4879
